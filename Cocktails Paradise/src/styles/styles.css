@@ -6,4 +6,10 @@
 
 body {
   background-color: rgb(186, 218, 85);
+}
+
+.footer-Texte {
+  background-color: #000;
+  color: yellowgreen;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
