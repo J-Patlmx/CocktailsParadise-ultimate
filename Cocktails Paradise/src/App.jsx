@@ -1,7 +1,5 @@
 import { useState } from 'react'
 import Cocktail from './components/Cocktail'
-import Footer from './components/Footer'
-import Header from './components/Header'
 import './styles/styles.css'
 
 function App() {
@@ -9,7 +7,7 @@ function App() {
 
   return (
     <>
-   <Header />
+
       <h1>Cocktails Paradise</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
@@ -22,7 +20,6 @@ function App() {
         </p>
         </div>
       </div>
-    <Footer />
     </>
   )
 }

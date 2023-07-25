@@ -8,6 +8,17 @@ body {
   background-color: rgb(186, 218, 85);
 }
 
+.Page-not-found {
+  color: red;
+  text-align: center;
+}
+.Page-not-found h1 {
+  font-size: 300px;
+}
+.Page-not-found p {
+  font-size: 64px;
+}
+
 .footer-Texte {
   background-color: #000;
   color: yellowgreen;
