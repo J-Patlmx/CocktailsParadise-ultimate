@@ -6,6 +6,35 @@
 body{
     background-color: rgb(186, 218, 85);
 }
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background: #000;
+    color: greenyellow;
+    padding-left: 16px;
+    padding-right: 128px;
+                .App-logo{
+                    height: 250px;
+                }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            font-size: 24px;
+         list-style: none;
+            gap: 16px;
+        }
+        .App-header-link{
+            color: yellowgreen;
+
+          &:hover{
+                color: orange;
+                font-style: oblique;
+            }
+        }
+}
 .Page-not-found{
    h1{ font-size: 300px;}
    p{
