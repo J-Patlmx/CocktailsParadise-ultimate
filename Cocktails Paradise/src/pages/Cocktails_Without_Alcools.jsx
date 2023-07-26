@@ -2,7 +2,22 @@
 
 function Cocktails_Without_Alcools() {
   return (
-    <div>Cocktails_Without_Alcools</div>
+    <>
+    <h1>Cocktails_Without_Alcools</h1>
+    <nav>
+      <ol>
+        <li>COCKTAILS</li>
+        <li>COCKTAILS</li>
+        <li>COCKTAILS</li>
+        <li>COCKTAILS</li>
+        <li>COCKTAILS</li>
+        <li>COCKTAILS</li>
+        <li>COCKTAILS</li>
+        <li>COCKTAILS</li>
+        <li>COCKTAILS</li>
+        <li>COCKTAILS</li>
+      </ol>
+    </nav></>
   )
 }
 
