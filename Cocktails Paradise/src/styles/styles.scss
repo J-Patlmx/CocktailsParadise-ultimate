@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(186, 218, 85);
+    background-color: bisque;
+   
 }
 .Header{
     display: flex;
@@ -16,6 +17,10 @@ body{
     color: greenyellow;
     padding-left: 16px;
     padding-right: 128px;
+    &:hover{
+        background-color: hsl(0, 28%, 10%);
+     
+    }
                 .App-logo{
                     height: 250px;
                 }
@@ -32,6 +37,7 @@ body{
           &:hover{
                 color: orange;
                 font-style: oblique;
+
             }
         }
 }
@@ -48,5 +54,15 @@ body{
     background-color: #000;
     color: yellowgreen;
     text-align: center;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    &:hover{
+        color: orange;
+        background-color: hsl(0, 28%, 10%);
+    }
 }
