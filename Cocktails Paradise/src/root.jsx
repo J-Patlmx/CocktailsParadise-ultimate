@@ -5,7 +5,7 @@ import Page404 from './pages/PageNotFound';
 import CocktailAA from "./pages/Cocktails_With_Alcools";
 import CocktailSA from "./pages/Cocktails_Without_Alcools";
 import Cocktail from "./pages/Nos_Cocktails";
-import This_Cocktails from "./pages/This_Cocktail";
+import ThisCocktail from "./pages/This_Cocktail";
 
 
 
@@ -29,8 +29,8 @@ function AppRoutes() {
                     <Route path="/cocktailSA" element={<CocktailSA />} />
                     <Route path="/cocktailAA" element={<CocktailAA />} />
                   
-                   <Route path="/this_cocktail" element={<This_Cocktails />} />
-                    <Route path="/this_cocktail" element={<This_Cocktails />} />  
+                    <Route path="/this_cocktail" element={<ThisCocktail />} />
+                    <Route path="/this_cocktail" element={<ThisCocktail />} /> 
 
 
                     {/* Tout les root non disponible */}

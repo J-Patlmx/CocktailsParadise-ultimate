@@ -1,4 +1,4 @@
-// import React from 'react'
+import { NavLink } from "react-router-dom"
 
 function Cocktail() {
   return (
@@ -32,6 +32,13 @@ function Cocktail() {
       Consectetur dicta ipsa minus deleniti, cupiditate reiciendis, dignissimos, maxime tenetur ex praesentium harum laborum modi obcaecati aperiam libero velit in esse ratione autem doloribus corporis odit amet. Incidunt, eius fugiat.</p>
       {/* il faut la methodologie
       une video demonstrativenote sur 5*/}
+      <nav className="into_Cocktail_Selection">
+        
+             <NavLink className="App-Cocktail-link" to={"/cocktailSA"}>revenir à la liste Sans alcools</NavLink>
+              <NavLink className="App-Cocktail-link" to={"/cocktailAA"}>revenir à la liste Avec alcools</NavLink>
+              <NavLink className="App-Cocktail-link" to={"/"}>revenir à L Accueil </NavLink>
+      </nav>
+
   </div>
 
    </>

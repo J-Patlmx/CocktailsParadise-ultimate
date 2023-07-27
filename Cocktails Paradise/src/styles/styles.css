@@ -40,6 +40,26 @@ body {
   font-style: oblique;
 }
 
+.nosCocktails {
+  text-align: center;
+}
+
+.Cocktail-link-general nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  list-style: none;
+  gap: 16px;
+}
+.Cocktail-link-general .App-Cocktail-link {
+  color: hsl(0, 28%, 10%);
+  text-decoration: none;
+}
+.Cocktail-link-general .App-Cocktail-link:hover {
+  color: hsl(39, 93%, 42%);
+  font-style: oblique;
+}
+
 .h1-HomePage {
   text-align: center;
   color: hsl(0, 28%, 10%);
@@ -98,4 +118,14 @@ body {
   position: right;
   height: 200px;
   width: auto;
+}
+.testmegawrap .into_Cocktail_Selection {
+  display: flex;
+  color: green;
+}
+
+.nav-CAA {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }/*# sourceMappingURL=styles.css.map */
