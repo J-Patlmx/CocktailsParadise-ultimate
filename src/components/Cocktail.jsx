@@ -16,7 +16,7 @@ function Cocktail() {
   
     </div>
         <div className="testwrap">
-        <img className="imgtest" src="/assets/test.jpg" alt="random image from unsplash"/>
+        <img className="imgtest" src="src/assets/test.jpg" alt="random image from unsplash"/>
     
             <ul>
                 <li>Ingredients1</li>
