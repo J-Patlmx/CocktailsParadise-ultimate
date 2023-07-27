@@ -7,11 +7,11 @@ function App() {
   return (
     <>
 
-      <h1>Cocktails Paradise</h1>
+      <h1 className='h1-HomePage'>Cocktails Paradise</h1>
       <div className="card">
 
         <div>
-          <Cocktail />
+         <Cocktail /> 
         <p>
          {/* texte a remplir Bienvenue sur Cocktails Paradise, ici, on peut apprendre a réalisé des cocktails grâce à des petits
                 tutos vidéo,<br /> alors on n'hésite pas à tips le barman.
