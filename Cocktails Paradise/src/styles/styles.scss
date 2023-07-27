@@ -44,6 +44,7 @@ body{
 .h1-HomePage{
     text-align: center;
     color:  hsl(0, 28%, 10%);
+    margin-bottom: 32px;
 
 }
 
@@ -67,7 +68,7 @@ body{
     height: 100px;
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: 0 auto;
     &:hover{
         color: orange;
         background-color: hsl(0, 28%, 10%);
@@ -75,8 +76,10 @@ body{
 }
 
 .testmegawrap{
+    border: 2px solid crimson;
    padding-left: 64px;
    padding-right: 64px;
+   margin-bottom: 32px;
 
 .titlewrap{
     text-align: center;
@@ -90,6 +93,7 @@ body{
                     display: flex;
                     justify-content: space-around;
                     align-items: center;
+                   margin-bottom: 32px;
 
                                 .imgtest{
                                 border: 2px solid crimson;

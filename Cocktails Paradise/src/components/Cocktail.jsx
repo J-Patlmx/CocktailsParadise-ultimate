@@ -6,7 +6,7 @@ function Cocktail() {
   <div className="testmegawrap">
     <div className="titlewrap">
       
-      <h1 className="h1CocktailPattern" >title of cocktails</h1>
+      <h1 className="h1CocktailPattern" >Title of cocktails</h1>
     
        <i className="fa-regular fa-star"></i>
        <i className="fa-regular fa-star"></i>
