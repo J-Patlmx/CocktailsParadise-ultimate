@@ -2,9 +2,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import About from './pages/Contact';
 import Page404 from './pages/PageNotFound';
-import Cocktail from "./components/Cocktail";
 import CocktailAA from "./pages/Cocktails_With_Alcools";
 import CocktailSA from "./pages/Cocktails_Without_Alcools";
+import Cocktail from "./pages/Nos_Cocktails";
+import This_Cocktails from "./pages/This_Cocktail";
+
+
 
 
 import Footer from './components/Footer';
@@ -25,9 +28,9 @@ function AppRoutes() {
                     <Route path="/cocktail" element={<Cocktail />} />
                     <Route path="/cocktailSA" element={<CocktailSA />} />
                     <Route path="/cocktailAA" element={<CocktailAA />} />
-
-                    <Route path="/cocktailSA/:id" element={<CocktailSA />} />
-                    <Route path="/cocktailAA/:id" element={<CocktailAA />} />
+                  
+                   <Route path="/this_cocktail" element={<This_Cocktails />} />
+                    <Route path="/this_cocktail" element={<This_Cocktails />} />  
 
 
                     {/* Tout les root non disponible */}
