@@ -1,5 +1,3 @@
-
-
 function PageNotFound() {
   return (
     <div className="Page-not-found">

@@ -13,9 +13,9 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 200px;
+  height: 150px;
   background: #000;
-  color: greenyellow;
+  color: rgb(27, 164, 27);
   padding-left: 16px;
   padding-right: 128px;
 }
@@ -33,10 +33,10 @@ body {
   gap: 16px;
 }
 .Header .App-header-link {
-  color: yellowgreen;
+  color: rgb(27, 164, 27);
 }
 .Header .App-header-link:hover {
-  color: orange;
+  color: hsl(39, 93%, 42%);
   font-style: oblique;
 }
 
@@ -52,7 +52,7 @@ body {
   gap: 16px;
 }
 .Cocktail-link-general .App-Cocktail-link {
-  color: hsl(0, 28%, 10%);
+  color: rgb(27, 164, 27);
   text-decoration: none;
 }
 .Cocktail-link-general .App-Cocktail-link:hover {
@@ -67,7 +67,7 @@ body {
 }
 
 .Page-not-found {
-  color: red;
+  color: rgb(27, 164, 27);
   text-align: center;
 }
 .Page-not-found h1 {
@@ -75,23 +75,7 @@ body {
 }
 .Page-not-found p {
   font-size: 64px;
-}
-
-.footer-Texte {
-  background-color: #000;
-  color: yellowgreen;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  width: 100%;
-  position: absolute;
-  bottom: 0 auto;
-}
-.footer-Texte:hover {
-  color: orange;
-  background-color: hsl(0, 28%, 10%);
+  color: hsl(39, 93%, 42%);
 }
 
 .testmegawrap {
@@ -105,7 +89,7 @@ body {
   margin-bottom: 32px;
 }
 .testmegawrap .titlewrap .h1CocktailPattern {
-  color: green;
+  color: rgb(27, 164, 27);
 }
 .testmegawrap .testwrap {
   display: flex;
@@ -119,13 +103,34 @@ body {
   height: 200px;
   width: auto;
 }
-.testmegawrap .into_Cocktail_Selection {
+.testmegawrap .into_Cocktail_Selection .App-Cocktail-link {
   display: flex;
-  color: green;
+  justify-content: center;
+  color: rgb(27, 164, 27);
+}
+.testmegawrap .into_Cocktail_Selection .App-Cocktail-link:hover {
+  color: hsl(39, 93%, 42%);
 }
 
 .nav-CAA {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.footer-Texte {
+  background-color: #000;
+  color: rgb(27, 164, 27);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.footer-Texte:hover {
+  color: hsl(39, 93%, 42%);
+  background-color: hsl(0, 28%, 10%);
 }/*# sourceMappingURL=styles.css.map */

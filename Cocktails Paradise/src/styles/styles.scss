@@ -1,3 +1,4 @@
+@import "./variables";
 *{
     margin: 0;
     padding: 0;
@@ -7,19 +8,20 @@ body{
     background-color: bisque;
 
 }
+//HEADER
+
 .Header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 200px;
+    height: 150px;
     background: #000;
-    color: greenyellow;
+    color: $color-gitano;
     padding-left: 16px;
     padding-right: 128px;
     &:hover{
-        background-color: hsl(0, 28%, 10%);
-     
+        background-color: $bg-hover;
     }
                 .App-logo{
                     height: 250px;
@@ -28,22 +30,22 @@ body{
             display: flex;
             justify-content: space-between;
             font-size: 24px;
-         list-style: none;
+        list-style: none;
             gap: 16px;
         }
         .App-header-link{
-            color: yellowgreen;
+            color: $color-gitano;
 
-          &:hover{
-                color: orange;
+        &:hover{
+                color: $color-gitano-Hover;
                 font-style: oblique;
 
             }
         }
 }
 .nosCocktails{
-   text-align: center;
-     }
+    text-align: center;
+        }
 .Cocktail-link-general{
 
 
@@ -55,12 +57,11 @@ body{
             gap: 16px;
         }
         .App-Cocktail-link{
-            color:  hsl(0, 28%, 10%);
+            color:  $color-gitano;
             text-decoration: none;
-      
 
-          &:hover{
-                color: hsl(39, 93%, 42%);
+        &:hover{
+                color: $color-gitano-Hover;
                 font-style: oblique;
 
             }
@@ -71,57 +72,46 @@ body{
 
 .h1-HomePage{
     text-align: center;
-    color:  hsl(0, 28%, 10%);
+    color:  $bg-hover;
     margin-bottom: 32px;
 
 }
 
 
 .Page-not-found{
-   h1{ font-size: 300px;}
-   p{
-    font-size:64px;
-   }
-    color: red;
+    color: $color-gitano;
     text-align: center;
+    h1{ 
+    font-size: 300px;
+        }
+
+    p{
+    font-size:64px;
+    color: $color-gitano-Hover; 
+        }
+
 }
 
-.footer-Texte{
-    background-color: #000;
-    color: yellowgreen;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    width: 100%;
-    position: absolute;
-    bottom: 0 auto;
-    &:hover{
-        color: orange;
-        background-color: hsl(0, 28%, 10%);
-    }
-}
+
 
 .testmegawrap{
     border: 2px solid crimson;
-   padding-left: 64px;
-   padding-right: 64px;
-   margin-bottom: 32px;
+    padding-left: 64px;
+    padding-right: 64px;
+    margin-bottom: 32px;
 
 .titlewrap{
     text-align: center;
     margin-bottom: 32px;
     .h1CocktailPattern{
-
-        color: green;
+        color: $color-gitano;
         }}
                 .testwrap{
 
                     display: flex;
                     justify-content: space-around;
                     align-items: center;
-                   margin-bottom: 32px;
+                    margin-bottom: 32px;
 
                                 .imgtest{
                                 border: 2px solid crimson;
@@ -131,9 +121,16 @@ body{
                             }
                 }
                 .into_Cocktail_Selection{
-                    display: flex;
-                      color: green;
-                  }
+
+                .App-Cocktail-link{
+                        display: flex;
+                        justify-content: center;
+                        color: $color-gitano;
+                        &:hover{
+                            color: $color-gitano-Hover;
+                        }
+                    }
+                }
 }
 
 .nav-CAA{
@@ -142,4 +139,20 @@ flex-direction: column;
 gap: 16px;
 }
 
-
+//FOOTER STYLE
+.footer-Texte{
+    background-color: #000;
+    color: $color-gitano;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0 ;
+    &:hover{
+        color: $color-gitano-Hover;
+        background-color: $bg-hover;
+    }
+}

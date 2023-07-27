@@ -34,9 +34,9 @@ function Cocktail() {
       une video demonstrativenote sur 5*/}
       <nav className="into_Cocktail_Selection">
         
-             <NavLink className="App-Cocktail-link" to={"/cocktailSA"}>revenir à la liste Sans alcools</NavLink>
+              <NavLink className="App-Cocktail-link" to={"/cocktailSA"}>revenir à la liste Sans alcools</NavLink>
+              <NavLink className="App-Cocktail-link" to={"/"}>revenir à l`Accueil </NavLink>
               <NavLink className="App-Cocktail-link" to={"/cocktailAA"}>revenir à la liste Avec alcools</NavLink>
-              <NavLink className="App-Cocktail-link" to={"/"}>revenir à L Accueil </NavLink>
       </nav>
 
   </div>

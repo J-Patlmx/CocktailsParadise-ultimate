@@ -1,0 +1,174 @@
+{
+    "cocktails": [
+      {
+        "id": "DDCSA123456",
+        "name": "Margarita",
+        "ingredients": [
+          "4,5 cl de tequila",
+          "3 cl de jus de citron vert frais",
+          "1,5 cl de sirop d'agave",
+          "Glaçons",
+          "Tranches de citron vert pour la décoration",
+          "Sel pour le bord du verre"
+        ],
+        "instructions": "Frottez le bord du verre avec une tranche de citron vert, puis trempez-le dans du sel pour créer un bord salé. Dans un shaker, mélangez la tequila, le jus de citron vert et le sirop d'agave avec des glaçons. Secouez vigoureusement. Versez le mélange dans le verre préparé avec des glaçons. Décorez avec une tranche de citron vert."
+      },
+      {
+        "id": "DDCSA654321",
+        "name": "Piña Colada",
+        "ingredients": [
+          "4 cl de rhum blanc",
+          "12 cl de lait de coco",
+          "12 cl de jus d'ananas",
+          "Glaçons",
+          "Tranches d'ananas et cerises au marasquin pour la décoration"
+        ],
+        "instructions": "Dans un mixeur, mélangez le rhum blanc, le lait de coco et le jus d'ananas avec des glaçons jusqu'à obtenir un mélange crémeux. Versez le mélange dans un verre garni de glaçons. Décorez avec des tranches d'ananas et des cerises au marasquin."
+      },
+      {
+        "id": "DDCSA789012",
+        "name": "Daiquiri",
+        "ingredients": [
+          "6 cl de rhum blanc",
+          "2 cl de jus de citron vert frais",
+          "1 cl de sirop de sucre de canne",
+          "Glaçons",
+          "Tranches de citron vert pour la décoration"
+        ],
+        "instructions": "Dans un shaker, mélangez le rhum blanc, le jus de citron vert et le sirop de sucre de canne avec des glaçons. Secouez vigoureusement. Versez le mélange dans un verre préparé avec des glaçons. Décorez avec des tranches de citron vert."
+      },
+      {
+        "id": "DDCSA345678",
+        "name": "Cosmopolitan",
+        "ingredients": [
+          "4 cl de vodka",
+          "2 cl de Cointreau",
+          "1,5 cl de jus de citron",
+          "3 cl de jus de canneberge",
+          "Glaçons",
+          "Zeste d'orange pour la décoration"
+        ],
+        "instructions": "Dans un shaker, mélangez la vodka, le Cointreau, le jus de citron et le jus de canneberge avec des glaçons. Secouez vigoureusement. Versez le mélange dans un verre à cocktail. Décorez avec un zeste d'orange."
+      },
+      {
+        "id": "DDCSA456789",
+        "name": "Mojito",
+        "ingredients": [
+          "6 cl de rhum blanc",
+          "3 cl de jus de citron vert frais",
+          "2 cuillères à café de sucre",
+          "6-8 feuilles de menthe fraîche",
+          "Eau gazeuse",
+          "Glaçons",
+          "Tranches de citron vert et brins de menthe pour la décoration"
+        ],
+        "instructions": "Dans un verre, écrasez les feuilles de menthe avec le jus de citron vert et le sucre. Ajoutez des glaçons, puis versez le rhum blanc par-dessus. Remplissez le verre avec de l'eau gazeuse. Remuez délicatement. Décorez avec des tranches de citron vert et des brins de menthe."
+      },
+      {
+        "id": "DDCSA234567",
+        "name": "Old Fashioned",
+        "ingredients": [
+          "6 cl de bourbon",
+          "1 morceau de sucre",
+          "2 traits d'Angostura Bitter",
+          "1 trait d'eau",
+          "Glaçons",
+          "Tranches d'orange et cerises pour la décoration"
+        ],
+        "instructions": "Dans un verre, mettez le morceau de sucre et ajoutez les traits d'Angostura Bitter et d'eau. Écrasez le sucre avec une cuillère. Ajoutez des glaçons et versez le bourbon par-dessus. Remuez délicatement. Décorez avec des tranches d'orange et des cerises."
+      },
+      {
+        "id": "DDCSA890123",
+        "name": "Whiskey Sour",
+        "ingredients": [
+          "6 cl de bourbon",
+          "3 cl de jus de citron",
+          "2 cl de sirop de sucre de canne",
+          "Glaçons",
+          "Tranches de citron pour la décoration",
+          "Cerise au marasquin pour la décoration"
+        ],
+        "instructions": "Dans un shaker, mélangez le bourbon, le jus de citron et le sirop de sucre de canne avec des glaçons. Secouez vigoureusement. Versez le mélange dans un verre préparé avec des glaçons. Décorez avec des tranches de citron et une cerise au marasquin."
+      },
+      {
+        "id": "DDCSA567890",
+        "name": "Pina Colada",
+        "ingredients": [
+          "4 cl de rhum blanc",
+          "12 cl de lait de coco",
+          "12 cl de jus d'ananas",
+          "Glaçons",
+          "Tranches d'ananas et cerises au marasquin pour la décoration"
+        ],
+        "instructions": "Dans un mixeur, mélangez le rhum blanc, le lait de coco et le jus d'ananas avec des glaçons jusqu'à obtenir un mélange crémeux. Versez le mélange dans un verre garni de glaçons. Décorez avec des tranches d'ananas et des cerises au marasquin."
+      },
+     {
+        "id": "DDCSA678901",
+        "name": "Negroni",
+        "ingredients": [
+          "3 cl de gin",
+          "3 cl de Campari",
+          "3 cl de vermouth rouge",
+          "Glaçons",
+          "Tranches d'orange pour la décoration"
+        ],
+        "instructions": "Dans un verre à mélange rempli de glaçons, versez le gin, le Campari et le vermouth rouge. Remuez délicatement à l'aide d'une cuillère. Versez le mélange dans un verre à cocktail rempli de glaçons. Décorez avec des tranches d'orange."
+      },
+      {
+        "id": "DDCSA789012",
+        "name": "Sangria",
+        "ingredients": [
+          "1 bouteille de vin rouge",
+          "6 cl de brandy",
+          "2 cuillères à soupe de sucre",
+          "1 orange coupée en rondelles",
+          "1 citron coupé en rondelles",
+          "1 pomme coupée en dés",
+          "6-8 fraises",
+          "6-8 glaçons",
+          "Eau gazeuse"
+        ],
+        "instructions": "Dans une carafe, mélangez le vin rouge, le brandy et le sucre jusqu'à ce que le sucre soit dissout. Ajoutez les rondelles d'orange et de citron, les dés de pomme et les fraises. Réfrigérez pendant au moins 2 heures pour permettre aux saveurs de se mélanger. Servez dans des verres avec des glaçons et complétez avec de l'eau gazeuse."
+      },
+      {
+        "id": "DDCSA234567",
+        "name": "Moscow Mule",
+        "ingredients": [
+          "4,5 cl de vodka",
+          "12 cl de ginger beer",
+          "1,5 cl de jus de citron vert frais",
+          "Glaçons",
+          "Tranches de citron vert pour la décoration"
+        ],
+        "instructions": "Dans un verre à mule en cuivre rempli de glaçons, versez la vodka et le jus de citron vert. Complétez avec de la ginger beer. Remuez délicatement. Décorez avec des tranches de citron vert."
+      },
+      {
+        "id": "DDCSA345678",
+        "name": "Sex on the Beach",
+        "ingredients": [
+          "4 cl de vodka",
+          "2 cl de crème de pêche",
+          "6 cl de jus d'orange",
+          "6 cl de jus de canneberge",
+          "Glaçons",
+          "Tranches d'orange et cerises pour la décoration"
+        ],
+        "instructions": "Dans un shaker, mélangez la vodka, la crème de pêche, le jus d'orange et le jus de canneberge avec des glaçons. Secouez vigoureusement. Versez le mélange dans un verre préparé avec des glaçons. Décorez avec des tranches d'orange et des cerises."
+      },
+      {
+        "id": "DDCSA456789",
+        "name": "Mai Tai",
+        "ingredients": [
+          "4 cl de rhum blanc",
+          "2 cl de rhum ambré",
+          "1,5 cl de triple sec",
+          "1,5 cl de sirop d'orgeat",
+          "1 cl de jus de citron vert frais",
+          "Glaçons",
+          "Morceau d'ananas et cerise au marasquin pour la décoration"
+        ],
+        "instructions": "Dans un shaker, mélangez le rhum blanc, le rhum ambré, le triple sec, le sirop d'orgeat et le jus de citron vert avec des glaçons. Secouez vigoureusement. Versez le mélange dans un verre préparé avec des glaçons. Décorez avec un morceau d'ananas et une cerise au marasquin."
+      }
+    ]
+  }
+  

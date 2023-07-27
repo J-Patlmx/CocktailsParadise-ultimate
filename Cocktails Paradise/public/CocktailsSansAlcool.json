@@ -1,0 +1,147 @@
+{
+    "cocktailsSansAlcools": [
+      {
+        "id": "DDCSA123456",
+        "name": "Virgin Mojito",
+        "ingredients": [
+          "6-8 feuilles de menthe fraîche",
+          "3 cl de jus de citron vert",
+          "3 cl de sirop de sucre de canne",
+          "6 cl d'eau gazeuse",
+          "Glaçons",
+          "Tranches de citron vert et brins de menthe pour la décoration"
+        ],
+        "instructions": "Dans un verre, écrasez les feuilles de menthe avec le jus de citron vert et le sirop de sucre de canne. Ajoutez des glaçons, puis versez l'eau gazeuse par-dessus. Remuez délicatement. Décorez avec des tranches de citron vert et des brins de menthe.",
+        "photo": "https://exemple.com/virgin_mojito.jpg"
+      },
+      {
+        "id": "DDCSA654321",
+        "name": "Smoothie Piña Colada",
+        "ingredients": [
+          "1 tasse de morceaux d'ananas congelés",
+          "12,5 cl de lait de coco",
+          "12,5 cl de yaourt nature",
+          "1 cuillère à soupe de miel",
+          "Glaçons",
+          "Tranche d'ananas et cerise au marasquin pour la décoration"
+        ],
+        "instructions": "Mélangez les morceaux d'ananas congelés, le lait de coco, le yaourt et le miel jusqu'à obtenir un mélange lisse. Ajoutez des glaçons et mixez à nouveau jusqu'à obtenir une consistance glacée. Versez dans un verre et décorez avec une tranche d'ananas et une cerise au marasquin.",
+        "photo": "https://exemple.com/pina_colada_smoothie.jpg"
+      },
+      {
+        "id": "DDCSA789012",
+        "name": "Citronnade aux Fraises",
+        "ingredients": [
+          "1 tasse de fraises fraîches",
+          "6 cl de jus de citron fraîchement pressé",
+          "3 cuillères à soupe de sucre",
+          "25 cl d'eau",
+          "Glaçons",
+          "Tranches de citron et fraises pour la décoration"
+        ],
+        "instructions": "Dans un mixeur, réduisez en purée les fraises fraîches, le jus de citron, le sucre et l'eau jusqu'à obtenir une consistance lisse. Passez le mélange au tamis dans une carafe. Servez sur des glaçons et décorez avec des tranches de citron et des fraises.",
+        "photo": "https://exemple.com/citronnade_fraises.jpg"
+      },
+      {
+        "id": "DDCSA345678",
+        "name": "Cocktail Concombre Menthe",
+        "ingredients": [
+          "1 tasse de concombre, pelé et coupé en morceaux",
+          "12,5 cl de jus de citron vert frais",
+          "2 cuillères à soupe de miel",
+          "25 cl de feuilles de menthe fraîche",
+          "25 cl d'eau gazeuse",
+          "Glaçons",
+          "Tranches de concombre et brins de menthe pour la décoration"
+        ],
+        "instructions": "Dans un mixeur, réduisez en purée le concombre, le jus de citron vert, le miel et les feuilles de menthe jusqu'à obtenir une consistance lisse. Passez le mélange au tamis dans un verre rempli de glaçons. Ajoutez l'eau gazeuse par-dessus et remuez délicatement. Décorez avec des tranches de concombre et des brins de menthe.",
+        "photo": "https://exemple.com/cocktail_concombre_menthe.jpg"
+      },
+      {
+        "id": "DDCSA456789",
+        "name": "Cocktail Pastèque Basilic",
+        "ingredients": [
+          "2 tasses de pastèque coupée en dés",
+          "25 cl de jus de citron vert frais",
+          "2 cuillères à soupe de miel",
+          "4 à 6 feuilles de basilic frais",
+          "25 cl d'eau gazeuse",
+          "Glaçons",
+          "Morceaux de pastèque et feuilles de basilic pour la décoration"
+        ],
+        "instructions": "Dans un mixeur, réduisez en purée la pastèque, le jus de citron vert, le miel et les feuilles de basilic jusqu'à obtenir une consistance lisse. Passez le mélange au tamis dans un verre rempli de glaçons. Ajoutez l'eau gazeuse par-dessus et remuez délicatement. Décorez avec des morceaux de pastèque et des feuilles de basilic.",
+        "photo": "https://exemple.com/pasteque_basilic.jpg"
+      },
+      {
+        "id": "DDCSA234567",
+        "name": "Citronnade aux Myrtilles et Menthe",
+        "ingredients": [
+          "1 tasse de myrtilles fraîches",
+          "6 cl de jus de citron frais",
+          "3 cuillères à soupe de sucre",
+          "25 cl d'eau",
+          "6-8 feuilles de menthe fraîche",
+          "Glaçons",
+          "Myrtilles et brins de menthe pour la décoration"
+        ],
+        "instructions": "Dans un mixeur, réduisez en purée les myrtilles fraîches, le jus de citron, le sucre et l'eau jusqu'à obtenir une consistance lisse. Passez le mélange dans une carafe. Ajoutez les feuilles de menthe fraîche et remuez. Servez sur des glaçons et décorez avec des myrtilles et des brins de menthe.",
+        "photo": "https://exemple.com/citronnade_myrtilles_menthe.jpg"
+      },
+      {
+      "id": "DDCSA890123",
+      "name": "Mangue Tango",
+      "ingredients": [
+        "1 tasse de mangue mûre coupée en dés",
+        "12,5 cl de jus d'orange",
+        "6,25 cl de lait de coco",
+        "1 cuillère à soupe de miel",
+        "Glaçons",
+        "Tranches de mangue et brins de menthe pour la décoration"
+      ],
+      "instructions": "Dans un mixeur, réduisez en purée la mangue coupée en dés, le jus d'orange, le lait de coco et le miel jusqu'à obtenir une consistance lisse. Passez le mélange au tamis dans un verre rempli de glaçons. Décorez avec des tranches de mangue et des brins de menthe.",
+      "photo": "https://exemple.com/mangue_tango.jpg"
+    },
+    {
+      "id": "DDCSA567890",
+      "name": "Gingembre Lime Pétillant",
+      "ingredients": [
+        "6,25 cl de gingembre frais, pelé et râpé",
+        "6,25 cl de jus de citron vert frais",
+        "3 cuillères à soupe de miel",
+        "25 cl d'eau gazeuse",
+        "Glaçons",
+        "Tranches de citron vert et de gingembre pour la décoration"
+      ],
+      "instructions": "Dans un verre, mélangez le gingembre râpé, le jus de citron vert et le miel jusqu'à obtenir un mélange homogène. Ajoutez des glaçons et versez l'eau gazeuse par-dessus. Remuez délicatement. Décorez avec des tranches de citron vert et de gingembre.",
+      "photo": "https://exemple.com/gingembre_lime_petillant.jpg"
+    },
+    {
+      "id": "DDCSA678901",
+      "name": "Tropical Paradise",
+      "ingredients": [
+        "12,5 cl de jus d'ananas",
+        "6,25 cl de lait de coco",
+        "6,25 cl de jus d'orange",
+        "6,25 cl de jus de canneberge",
+        "Glaçons",
+        "Tranche d'ananas et cerise au marasquin pour la décoration"
+      ],
+      "instructions": "Dans un shaker, mélangez le jus d'ananas, le lait de coco, le jus d'orange et le jus de canneberge. Agitez bien. Servez sur des glaçons et décorez avec une tranche d'ananas et une cerise au marasquin.",
+      "photo": "https://exemple.com/tropical_paradise.jpg"
+    },
+    {
+      "id": "DDCSA789012",
+      "name": "Raspberry Lime Rickey",
+      "ingredients": [
+        "12,5 cl de framboises fraîches",
+        "6,25 cl de jus de citron frais",
+        "3 cuillères à soupe de sucre",
+        "25 cl d'eau gazeuse",
+        "Glaçons",
+        "Framboises et tranches de citron pour la décoration"
+      ],
+      "instructions": "Dans un verre, écrasez les framboises avec le jus de citron et le sucre. Ajoutez des glaçons, puis versez l'eau gazeuse par-dessus. Remuez délicatement. Décorez avec des framboises et des tranches de citron.",
+      "photo": "https://exemple.com/raspberry_lime_rickey.jpg"
+    }
+  ]
+}
