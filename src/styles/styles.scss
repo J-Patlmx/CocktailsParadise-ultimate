@@ -58,6 +58,8 @@ body{
     text-align: center;
 }
 }
+
+
 .nosCocktails{
     text-align: center;
     margin-bottom: 32px;
@@ -177,15 +179,28 @@ gap: 16px;
     }
         p{
             padding-left: 32px;
-            padding-right: 32px;
-         
+            padding-right: 32px; 
             color: crimson;
             display: flex;
             font-size: 20px;
 
-
         }
-      
+      .into-Cocktail-Selection{
+      border: 2px solid crimson;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .App-Cocktail-link-TC{
+        color:  $color-gitano;
+        text-decoration: none;
+                &:hover{
+                        color: $color-gitano-Hover;
+                        font-style: oblique;
+                    }
+        }
+
+      }
         
 }
 

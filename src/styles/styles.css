@@ -156,4 +156,18 @@ body {
   color: crimson;
   display: flex;
   font-size: 20px;
+}
+.This-Cocktail-Card .into-Cocktail-Selection {
+  border: 2px solid crimson;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC {
+  color: rgb(27, 164, 27);
+  text-decoration: none;
+}
+.This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC:hover {
+  color: hsl(39, 93%, 42%);
+  font-style: oblique;
 }/*# sourceMappingURL=styles.css.map */

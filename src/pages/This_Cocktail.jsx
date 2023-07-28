@@ -34,20 +34,20 @@ function ThisCocktail() {
           </ul></div>
         </div>
         <p>{cocktail.instructions}</p>
-      </div>
-
        {/* Navigations */}
        <nav className="into-Cocktail-Selection">
-              <NavLink className="App-Cocktail-link" to={"/cocktailSA"}>
+              <NavLink className="App-Cocktail-link-TC" to={"/cocktailSA"}>
                 Revenir à la liste Sans alcools
               </NavLink>
-              <NavLink className="App-Cocktail-link" to={"/"}>
+              <NavLink className="App-Cocktail-link-TC" to={"/"}>
                 Revenir à l&#39;Accueil
               </NavLink>
-              <NavLink className="App-Cocktail-link" to={"/cocktailAA"}>
+              <NavLink className="App-Cocktail-link-TC" to={"/cocktailAA"}>
                 Revenir à la liste Avec alcools
               </NavLink>
-            </nav>
+       </nav>
+      </div>
+
     </>
   );
 }
