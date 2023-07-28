@@ -37,7 +37,7 @@ function ThisCocktail() {
       </div>
 
        {/* Navigations */}
-       <nav className="into_Cocktail_Selection">
+       <nav className="into-Cocktail-Selection">
               <NavLink className="App-Cocktail-link" to={"/cocktailSA"}>
                 Revenir à la liste Sans alcools
               </NavLink>

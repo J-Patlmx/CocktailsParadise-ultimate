@@ -10,8 +10,8 @@ function App() {
       <div className="card">
 
         <div>
-        <p>
- Bienvenue sur Cocktails Paradise, ici, on peut apprendre a réalisé des cocktails grâce à des petits
+        <p className="Home-P">
+              Bienvenue sur Cocktails Paradise, ici, on peut apprendre a réalisé des cocktails grâce à des petits
                 tutos vidéo,<br /> alors on n&#39;hésite pas à tips le barman.
                 L&#39;alcool se consomme avec modération. Même sil y a des fruits ! <br />
 

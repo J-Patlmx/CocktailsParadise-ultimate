@@ -9,7 +9,6 @@ body{
 
 }
 //HEADER
-
 .Header{
     display: flex;
     justify-content: space-between;
@@ -43,6 +42,21 @@ body{
 
             }
         }
+}
+//Home
+.h1-HomePage{
+    text-align: center;
+    color:  $color-gitano-Hover;
+    margin-bottom: 32px;
+    font-size: 64px;
+
+}
+.card{
+.Home-P{
+    font-size: 22px;
+    color: $color-black;
+    text-align: center;
+}
 }
 .nosCocktails{
     text-align: center;
@@ -82,12 +96,7 @@ body{
 }
 
 
-.h1-HomePage{
-    text-align: center;
-    color:  $bg-hover;
-    margin-bottom: 32px;
 
-}
 
 //404
 .Page-not-found{
