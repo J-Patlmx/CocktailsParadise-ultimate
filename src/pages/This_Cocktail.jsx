@@ -20,14 +20,18 @@ function ThisCocktail() {
 
   return (
     <>
-      <div>
+      <div className="This-Cocktail-Card">
         <h1>{cocktail.name}</h1>
-        <img src={cocktail.image} alt={cocktail.name} />
-        <ul>
-          {cocktail.ingredients.map((ingredient, index) => (
-            <li key={index}>{ingredient}</li>
-          ))}
-        </ul>
+        <div className="Ingredients-et-Img">
+          <img src={cocktail.image} alt={cocktail.name} />
+          <div className="list-ingredients">
+          <h2>Ingrédients :</h2>
+          <ul>
+            {cocktail.ingredients.map((ingredient, index) => (
+              <li key={index}>{ingredient}</li>
+            ))}
+          </ul></div>
+        </div>
         <p>{cocktail.instructions}</p>
       </div>
     </>

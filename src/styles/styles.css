@@ -18,6 +18,7 @@ body {
   color: rgb(27, 164, 27);
   padding-left: 16px;
   padding-right: 128px;
+  margin-bottom: 32px;
 }
 .Header:hover {
   background-color: hsl(0, 28%, 10%);
@@ -141,4 +142,42 @@ body {
 .footer-Texte:hover {
   color: hsl(39, 93%, 42%);
   background-color: hsl(0, 28%, 10%);
+}
+
+.This-Cocktail-Card {
+  color: rgb(27, 164, 27);
+  line-height: 32px;
+}
+.This-Cocktail-Card h1 {
+  color: hsl(0, 28%, 10%);
+}
+.This-Cocktail-Card .Ingredients-et-Img {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.This-Cocktail-Card .Ingredients-et-Img img {
+  height: 225px;
+  max-width: 300px;
+}
+.This-Cocktail-Card .Ingredients-et-Img .list-ingredients {
+  display: flex;
+  flex-direction: column;
+}
+.This-Cocktail-Card .Ingredients-et-Img ul {
+  display: flex;
+  flex-direction: column;
+  list-style: circle;
+  line-height: 33px;
+}
+.This-Cocktail-Card .Ingredients-et-Img li {
+  color: hsl(0, 28%, 10%);
+}
+.This-Cocktail-Card p {
+  padding-left: 32px;
+  padding-right: 32px;
+  color: crimson;
+  display: flex;
+  font-size: 20px;
 }/*# sourceMappingURL=styles.css.map */

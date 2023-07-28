@@ -20,6 +20,7 @@ body{
     color: $color-gitano;
     padding-left: 16px;
     padding-right: 128px;
+    margin-bottom: 32px;
     &:hover{
         background-color: $bg-hover;
     }
@@ -161,4 +162,48 @@ gap: 16px;
         color: $color-gitano-Hover;
         background-color: $bg-hover;
     }
+}
+// COCKTAIL CARD
+
+.This-Cocktail-Card{
+            color: $color-gitano;
+            line-height: 32px;
+        h1{
+           color: $color-black;
+        }
+        .Ingredients-et-Img {
+                        display: flex;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        margin-bottom: 32px;
+            img{
+            height: 225px;
+            max-width: 300px ;
+        }
+        .list-ingredients{
+            display: flex;
+            flex-direction: column;
+        }
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            list-style: circle;
+            line-height: 33px;
+
+        }
+            li{
+            color: $color-black;
+            }
+    }
+        p{
+            padding-left: 32px;
+            padding-right: 32px;
+         
+            color: crimson;
+            display: flex;
+            font-size: 20px;
+
+
+        }
 }
