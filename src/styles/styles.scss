@@ -204,3 +204,8 @@ gap: 16px;
         
 }
 
+@media (max-width: 850px) {
+    body{
+        background: $bg-hover;
+    }
+}

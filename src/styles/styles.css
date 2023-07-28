@@ -170,4 +170,10 @@ body {
 .This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC:hover {
   color: hsl(39, 93%, 42%);
   font-style: oblique;
+}
+
+@media (max-width: 850px) {
+  body {
+    background: hsl(0, 28%, 10%);
+  }
 }/*# sourceMappingURL=styles.css.map */
