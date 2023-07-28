@@ -1,8 +1,8 @@
 import {NavLink} from "react-router-dom"
-import logo from '../assets/logo.png'
+import logo from "../assets/logo.png"
 function Header() {
   return (
-<div className='Header'>
+<div className="Header">
 <img src={logo} className="App-logo" alt="logo" />
 <nav className="Header-link">
          {/* Utiliser l'attribut "to" pour spécifier l'URL de destination */}

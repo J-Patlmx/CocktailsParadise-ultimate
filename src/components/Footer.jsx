@@ -1,7 +1,7 @@
 
 function Footer() {
   return (
-    <div className='footer-Texte'> ©Cocktails Paradise par DevDread</div>
+    <div className="footer-Texte"> ©Cocktails Paradise par DevDread</div>
   )
 }
 

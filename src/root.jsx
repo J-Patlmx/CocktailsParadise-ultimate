@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import About from './pages/Contact';
-import Page404 from './pages/PageNotFound';
+import About from "./pages/Contact";
+import Page404 from "./pages/PageNotFound";
 import CocktailAA from "./pages/Cocktails_With_Alcools";
 import CocktailSA from "./pages/Cocktails_Without_Alcools";
 import Cocktail from "./pages/Nos_Cocktails";
@@ -10,8 +10,8 @@ import ThisCocktail from "./pages/This_Cocktail";
 
 
 
-import Footer from './components/Footer';
-import Header from './components/Header';
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 import App from "./App";
 
 
