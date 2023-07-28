@@ -79,48 +79,6 @@ body {
   color: hsl(39, 93%, 42%);
 }
 
-.testmegawrap {
-  border: 2px solid green;
-  padding-left: 64px;
-  padding-right: 64px;
-  margin-bottom: 32px;
-}
-.testmegawrap .titlewrap {
-  background-color: hsl(0, 28%, 10%);
-  text-align: center;
-  margin-bottom: 32px;
-}
-.testmegawrap .titlewrap .h1CocktailPattern {
-  color: red;
-}
-.testmegawrap .testwrap {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 32px;
-}
-.testmegawrap .testwrap .imgtest {
-  border: 2px solid crimson;
-  position: right;
-  height: 200px;
-  width: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
-}
-.testmegawrap .into_Cocktail_Selection .App-Cocktail-link {
-  display: flex;
-  justify-content: center;
-  color: rgb(27, 164, 27);
-}
-.testmegawrap .into_Cocktail_Selection .App-Cocktail-link:hover {
-  color: hsl(39, 93%, 42%);
-}
-.testmegawrap .instructions {
-  color: aqua;
-}
-
 .nav-CAA {
   display: flex;
   flex-direction: column;

@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import cocktailsDataAvecAlcool from "../assets/temporaireData/CocktailsAvecAlcool.json";
 import cocktailsDataSansAlcool from "../assets/temporaireData/CocktailsSansAlcool.json"; // Remplacez le chemin par le chemin correct vers votre fichier JSON pour les cocktails sans alcool
 
@@ -34,6 +35,19 @@ function ThisCocktail() {
         </div>
         <p>{cocktail.instructions}</p>
       </div>
+
+       {/* Navigations */}
+       <nav className="into_Cocktail_Selection">
+              <NavLink className="App-Cocktail-link" to={"/cocktailSA"}>
+                Revenir à la liste Sans alcools
+              </NavLink>
+              <NavLink className="App-Cocktail-link" to={"/"}>
+                Revenir à lAccueil
+              </NavLink>
+              <NavLink className="App-Cocktail-link" to={"/cocktailAA"}>
+                Revenir à la liste Avec alcools
+              </NavLink>
+            </nav>
     </>
   );
 }
