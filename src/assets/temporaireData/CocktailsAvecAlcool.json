@@ -26,7 +26,7 @@
         "instructions": "Dans un mixeur, mélangez le rhum blanc, le lait de coco et le jus d'ananas avec des glaçons jusqu'à obtenir un mélange crémeux. Versez le mélange dans un verre garni de glaçons. Décorez avec des tranches d'ananas et des cerises au marasquin."
       },
       {
-        "id": "DDCAA789012",
+        "id": "DDCAA789012D",
         "name": "Daiquiri",
         "ingredients": [
           "6 cl de rhum blanc",
@@ -51,7 +51,7 @@
         "instructions": "Dans un shaker, mélangez la vodka, le Cointreau, le jus de citron et le jus de canneberge avec des glaçons. Secouez vigoureusement. Versez le mélange dans un verre à cocktail. Décorez avec un zeste d'orange."
       },
       {
-        "id": "DDCAA456789",
+        "id": "DDCAA456789MD",
         "name": "Mojito",
         "ingredients": [
           "6 cl de rhum blanc",
@@ -65,7 +65,7 @@
         "instructions": "Dans un verre, écrasez les feuilles de menthe avec le jus de citron vert et le sucre. Ajoutez des glaçons, puis versez le rhum blanc par-dessus. Remplissez le verre avec de l'eau gazeuse. Remuez délicatement. Décorez avec des tranches de citron vert et des brins de menthe."
       },
       {
-        "id": "DDCAA234567",
+        "id": "DDCAA234567MO",
         "name": "Old Fashioned",
         "ingredients": [
           "6 cl de bourbon",
@@ -143,7 +143,7 @@
         "instructions": "Dans un verre à mule en cuivre rempli de glaçons, versez la vodka et le jus de citron vert. Complétez avec de la ginger beer. Remuez délicatement. Décorez avec des tranches de citron vert."
       },
       {
-        "id": "DDCAA345678",
+        "id": "DDCAA345678M",
         "name": "Sex on the Beach",
         "ingredients": [
           "4 cl de vodka",

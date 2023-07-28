@@ -95,16 +95,17 @@ body{
 
 
 .testmegawrap{
-    border: 2px solid crimson;
+    border: 2px solid crimson !important;
     padding-left: 64px;
     padding-right: 64px;
     margin-bottom: 32px;
 
 .titlewrap{
+    background-color: $bg-hover;
     text-align: center;
     margin-bottom: 32px;
     .h1CocktailPattern{
-        color: $color-gitano;
+        color: red;
         }}
                 .testwrap{
 
@@ -134,8 +135,10 @@ body{
                         }
                     }
                 }
+                .instructions{
+                    color:aqua;
+                }
 }
-
 .nav-CAA{
     display: flex;
 flex-direction: column;

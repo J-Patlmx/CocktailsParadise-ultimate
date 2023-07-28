@@ -59,7 +59,7 @@ function Cocktail() {
               ))}
             </ul>
 
-            <p>{cocktail.instructions}</p>
+            <p className="instructions">{cocktail.instructions}</p>
 
             {/* Navigations */}
             <nav className="into_Cocktail_Selection">
