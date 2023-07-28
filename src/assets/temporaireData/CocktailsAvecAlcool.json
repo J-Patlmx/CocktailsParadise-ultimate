@@ -1,7 +1,7 @@
 {
     "cocktails": [
       {
-        "id": "DDCSA123456",
+        "id": "DDCAA123456",
         "name": "Margarita",
         "ingredients": [
           "4,5 cl de tequila",
@@ -14,7 +14,7 @@
         "instructions": "Frottez le bord du verre avec une tranche de citron vert, puis trempez-le dans du sel pour créer un bord salé. Dans un shaker, mélangez la tequila, le jus de citron vert et le sirop d'agave avec des glaçons. Secouez vigoureusement. Versez le mélange dans le verre préparé avec des glaçons. Décorez avec une tranche de citron vert."
       },
       {
-        "id": "DDCSA654321",
+        "id": "DDCAA654321",
         "name": "Piña Colada",
         "ingredients": [
           "4 cl de rhum blanc",
@@ -26,7 +26,7 @@
         "instructions": "Dans un mixeur, mélangez le rhum blanc, le lait de coco et le jus d'ananas avec des glaçons jusqu'à obtenir un mélange crémeux. Versez le mélange dans un verre garni de glaçons. Décorez avec des tranches d'ananas et des cerises au marasquin."
       },
       {
-        "id": "DDCSA789012",
+        "id": "DDCAA789012",
         "name": "Daiquiri",
         "ingredients": [
           "6 cl de rhum blanc",
@@ -38,7 +38,7 @@
         "instructions": "Dans un shaker, mélangez le rhum blanc, le jus de citron vert et le sirop de sucre de canne avec des glaçons. Secouez vigoureusement. Versez le mélange dans un verre préparé avec des glaçons. Décorez avec des tranches de citron vert."
       },
       {
-        "id": "DDCSA345678",
+        "id": "DDCAA345678",
         "name": "Cosmopolitan",
         "ingredients": [
           "4 cl de vodka",
@@ -51,7 +51,7 @@
         "instructions": "Dans un shaker, mélangez la vodka, le Cointreau, le jus de citron et le jus de canneberge avec des glaçons. Secouez vigoureusement. Versez le mélange dans un verre à cocktail. Décorez avec un zeste d'orange."
       },
       {
-        "id": "DDCSA456789",
+        "id": "DDCAA456789",
         "name": "Mojito",
         "ingredients": [
           "6 cl de rhum blanc",
@@ -65,7 +65,7 @@
         "instructions": "Dans un verre, écrasez les feuilles de menthe avec le jus de citron vert et le sucre. Ajoutez des glaçons, puis versez le rhum blanc par-dessus. Remplissez le verre avec de l'eau gazeuse. Remuez délicatement. Décorez avec des tranches de citron vert et des brins de menthe."
       },
       {
-        "id": "DDCSA234567",
+        "id": "DDCAA234567",
         "name": "Old Fashioned",
         "ingredients": [
           "6 cl de bourbon",
@@ -78,7 +78,7 @@
         "instructions": "Dans un verre, mettez le morceau de sucre et ajoutez les traits d'Angostura Bitter et d'eau. Écrasez le sucre avec une cuillère. Ajoutez des glaçons et versez le bourbon par-dessus. Remuez délicatement. Décorez avec des tranches d'orange et des cerises."
       },
       {
-        "id": "DDCSA890123",
+        "id": "DDCAA890123",
         "name": "Whiskey Sour",
         "ingredients": [
           "6 cl de bourbon",
@@ -91,7 +91,7 @@
         "instructions": "Dans un shaker, mélangez le bourbon, le jus de citron et le sirop de sucre de canne avec des glaçons. Secouez vigoureusement. Versez le mélange dans un verre préparé avec des glaçons. Décorez avec des tranches de citron et une cerise au marasquin."
       },
       {
-        "id": "DDCSA567890",
+        "id": "DDCAA567890",
         "name": "Pina Colada",
         "ingredients": [
           "4 cl de rhum blanc",
@@ -103,7 +103,7 @@
         "instructions": "Dans un mixeur, mélangez le rhum blanc, le lait de coco et le jus d'ananas avec des glaçons jusqu'à obtenir un mélange crémeux. Versez le mélange dans un verre garni de glaçons. Décorez avec des tranches d'ananas et des cerises au marasquin."
       },
      {
-        "id": "DDCSA678901",
+        "id": "DDCAA678901",
         "name": "Negroni",
         "ingredients": [
           "3 cl de gin",
@@ -115,7 +115,7 @@
         "instructions": "Dans un verre à mélange rempli de glaçons, versez le gin, le Campari et le vermouth rouge. Remuez délicatement à l'aide d'une cuillère. Versez le mélange dans un verre à cocktail rempli de glaçons. Décorez avec des tranches d'orange."
       },
       {
-        "id": "DDCSA789012",
+        "id": "DDCAA789012",
         "name": "Sangria",
         "ingredients": [
           "1 bouteille de vin rouge",
@@ -131,7 +131,7 @@
         "instructions": "Dans une carafe, mélangez le vin rouge, le brandy et le sucre jusqu'à ce que le sucre soit dissout. Ajoutez les rondelles d'orange et de citron, les dés de pomme et les fraises. Réfrigérez pendant au moins 2 heures pour permettre aux saveurs de se mélanger. Servez dans des verres avec des glaçons et complétez avec de l'eau gazeuse."
       },
       {
-        "id": "DDCSA234567",
+        "id": "DDCAA234567",
         "name": "Moscow Mule",
         "ingredients": [
           "4,5 cl de vodka",
@@ -143,7 +143,7 @@
         "instructions": "Dans un verre à mule en cuivre rempli de glaçons, versez la vodka et le jus de citron vert. Complétez avec de la ginger beer. Remuez délicatement. Décorez avec des tranches de citron vert."
       },
       {
-        "id": "DDCSA345678",
+        "id": "DDCAA345678",
         "name": "Sex on the Beach",
         "ingredients": [
           "4 cl de vodka",
@@ -156,7 +156,7 @@
         "instructions": "Dans un shaker, mélangez la vodka, la crème de pêche, le jus d'orange et le jus de canneberge avec des glaçons. Secouez vigoureusement. Versez le mélange dans un verre préparé avec des glaçons. Décorez avec des tranches d'orange et des cerises."
       },
       {
-        "id": "DDCSA456789",
+        "id": "DDCAA456789",
         "name": "Mai Tai",
         "ingredients": [
           "4 cl de rhum blanc",
