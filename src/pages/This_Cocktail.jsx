@@ -42,7 +42,7 @@ function ThisCocktail() {
                 Revenir à la liste Sans alcools
               </NavLink>
               <NavLink className="App-Cocktail-link" to={"/"}>
-                Revenir à lAccueil
+                Revenir à l&#39;Accueil
               </NavLink>
               <NavLink className="App-Cocktail-link" to={"/cocktailAA"}>
                 Revenir à la liste Avec alcools
