@@ -29,8 +29,9 @@ function AppRoutes() {
                     <Route path="/cocktailSA" element={<CocktailSA />} />
                     <Route path="/cocktailAA" element={<CocktailAA />} />
                   
-                    <Route path="/this_cocktail" element={<ThisCocktail />} />
-                    <Route path="/this_cocktail" element={<ThisCocktail />} /> 
+                    {/* <Route path="/this_cocktail" element={<ThisCocktail />} />
+                    <Route path="/this_cocktail" element={<ThisCocktail />} />  */}
+                    <Route path="/this_cocktail/:cocktailId" element={<ThisCocktail />} />
 
 
                     {/* Tout les root non disponible */}
