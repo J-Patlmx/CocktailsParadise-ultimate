@@ -51,7 +51,9 @@ align-items: center;
 }
  
 
-
+.Home{
+margin-bottom: 128px;
+}
 
 //Home
 .h1-HomePage{
@@ -192,22 +194,21 @@ margin-bottom: 64px;
         p{
             padding-left: 32px;
             padding-right: 32px; 
-            color: crimson;
             display: flex;
             font-size: 20px;
 
         }
       .into-Cocktail-Selection{
-      border: 2px solid crimson;
+    //   border: 2px solid crimson;
       display: flex;
       justify-content: space-around;
       align-items: center;
 
       .App-Cocktail-link-TC{
-        color:  $color-gitano;
+        color:  $color-gitano-Hover;
         text-decoration: none;
                 &:hover{
-                        color: $color-gitano-Hover;
+                        color: $color-gitano;
                         font-style: oblique;
                     }
         }
@@ -249,6 +250,9 @@ margin-bottom: 64px;
 
 
 //Home
+.Home{
+    margin-bottom: 32px;
+    }
 .h1-HomePage{
     display: flex;
 text-align: center;
@@ -318,10 +322,10 @@ justify-content: space-around;
 align-items: center;
 
 .App-Cocktail-link-TC{
-color:  $color-gitano;
+color:  $color-gitano-Hover;
 text-decoration: none;
         &:hover{
-                color: $color-gitano-Hover;
+                color: $color-gitano;
                 font-style: oblique;
             }
 }
@@ -331,7 +335,11 @@ text-decoration: none;
 }
 
 
-
+//FOOTER STYLE
+.footer-Texte{
+    background-color: $bg-hover;
+    color: $color-gitano;
+}
 
 
 }

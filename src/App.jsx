@@ -4,7 +4,7 @@ import "./styles/styles.css"
 function App() {
  
   return (
-    <>
+    <div className="Home">
 
       <h1 className="h1-HomePage">Cocktails Paradise</h1>
       <div className="card">
@@ -31,7 +31,7 @@ function App() {
         </p>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

@@ -45,6 +45,10 @@ body {
   font-style: oblique;
 }
 
+.Home {
+  margin-bottom: 128px;
+}
+
 .h1-HomePage {
   text-align: center;
   color: hsl(39, 93%, 42%);
@@ -160,22 +164,20 @@ body {
 .This-Cocktail-Card p {
   padding-left: 32px;
   padding-right: 32px;
-  color: crimson;
   display: flex;
   font-size: 20px;
 }
 .This-Cocktail-Card .into-Cocktail-Selection {
-  border: 2px solid crimson;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC {
-  color: rgb(27, 164, 27);
+  color: hsl(39, 93%, 42%);
   text-decoration: none;
 }
 .This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC:hover {
-  color: hsl(39, 93%, 42%);
+  color: rgb(27, 164, 27);
   font-style: oblique;
 }
 
@@ -201,6 +203,9 @@ body {
   .Header .App-header-link {
     color: rgb(27, 164, 27);
     flex: 1;
+  }
+  .Home {
+    margin-bottom: 32px;
   }
   .h1-HomePage {
     display: flex;
@@ -256,11 +261,15 @@ body {
     align-items: center;
   }
   .This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC {
-    color: rgb(27, 164, 27);
+    color: hsl(39, 93%, 42%);
     text-decoration: none;
   }
   .This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC:hover {
-    color: hsl(39, 93%, 42%);
+    color: rgb(27, 164, 27);
     font-style: oblique;
+  }
+  .footer-Texte {
+    background-color: hsl(0, 28%, 10%);
+    color: rgb(27, 164, 27);
   }
 }/*# sourceMappingURL=styles.css.map */
