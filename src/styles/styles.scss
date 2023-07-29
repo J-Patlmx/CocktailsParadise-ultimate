@@ -199,7 +199,7 @@ margin-bottom: 64px;
 
         }
       .into-Cocktail-Selection{
-    //   border: 2px solid crimson;
+  
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -220,6 +220,7 @@ margin-bottom: 64px;
 @media (max-width: 850px) {
     body{
         background: $bg-hover;
+     
     }
 
 
@@ -316,10 +317,7 @@ p{
 
 }
 .into-Cocktail-Selection{
-border: 2px solid crimson;
-display: flex;
-justify-content: space-around;
-align-items: center;
+
 
 .App-Cocktail-link-TC{
 color:  $color-gitano-Hover;

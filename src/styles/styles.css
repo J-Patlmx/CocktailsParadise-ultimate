@@ -255,7 +255,6 @@ body {
     margin-bottom: 16px;
   }
   .This-Cocktail-Card .into-Cocktail-Selection {
-    border: 2px solid crimson;
     display: flex;
     justify-content: space-around;
     align-items: center;
