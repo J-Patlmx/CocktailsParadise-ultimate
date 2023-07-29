@@ -116,8 +116,6 @@ body {
   align-items: center;
   height: 100px;
   width: 100%;
-  position: absolute;
-  bottom: 0;
 }
 .footer-Texte:hover {
   color: hsl(39, 93%, 42%);
@@ -200,7 +198,8 @@ body {
     flex: 1;
   }
   .h1-HomePage {
-    display: none;
+    display: flex;
+    text-align: center;
   }
   .card .Home-P {
     color: rgb(255, 228, 196);
