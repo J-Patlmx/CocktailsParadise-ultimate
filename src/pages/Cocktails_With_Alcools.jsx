@@ -4,7 +4,7 @@ import cocktailsData from "../assets/temporaireData/CocktailsAvecAlcool.json";
 function Cocktails_With_Alcools() {
   return (
     <>
-      <h1>Cocktails_With_Alcools</h1>
+      <h1 className="cocktail-wa">Cocktails Avec Alcools</h1>
       <nav className="nav-CAA">
         {cocktailsData.cocktails.map(cocktail => (
           <NavLink

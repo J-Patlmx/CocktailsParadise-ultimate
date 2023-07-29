@@ -12,7 +12,7 @@ function Cocktails_Without_Alcools() {
 
   return (
     <>
-      <h1>Cocktails_Without_Alcools</h1>
+      <h1 className="cocktail-wa">Cocktails Sans Alcools</h1>
       <nav className="nav-CAA">
         {cocktails.map(cocktail => (
           <NavLink

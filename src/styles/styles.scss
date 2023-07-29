@@ -102,7 +102,11 @@ margin-bottom: 64px;
             }
 
         img{
-            height: 250px;
+           
+            height: 275px;
+            width: 300px;
+            object-fit: cover;
+            object-position: center;
             }
     }
 
@@ -172,8 +176,11 @@ margin-bottom: 64px;
                         align-items: center;
                         margin-bottom: 32px;
             img{
-            height: 225px;
-            max-width: 300px ;
+            height: 275px;
+            width: 300px;
+            object-fit: cover;
+            object-position: center;
+       
         }
         .list-ingredients{
             display: flex;
@@ -284,6 +291,7 @@ text-align: center;
 .This-Cocktail-Card{
     color: $color-gitano;
     line-height: 32px;
+    text-align: center;
 h1{
    color: $color-gitano-Hover;
    margin-bottom: 16px;
@@ -331,7 +339,11 @@ text-decoration: none;
 }
 
 }
-
+.cocktail-wa{
+    color: $color-gitano-Hover;
+    text-align: center;
+    margin-bottom: 32px;
+}
 
 //FOOTER STYLE
 .footer-Texte{

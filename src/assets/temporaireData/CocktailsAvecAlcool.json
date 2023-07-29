@@ -24,6 +24,8 @@
           "Tranches d'ananas et cerises au marasquin pour la décoration"
         ],
         "instructions": "Dans un mixeur, mélangez le rhum blanc, le lait de coco et le jus d'ananas avec des glaçons jusqu'à obtenir un mélange crémeux. Versez le mélange dans un verre garni de glaçons. Décorez avec des tranches d'ananas et des cerises au marasquin."
+        ,
+        "photo": "https://zupimages.net/up/23/30/cdq5.jpg"
       },
       {
         "id": "DDCAA789012D",
@@ -36,7 +38,8 @@
           "Tranches de citron vert pour la décoration"
         ],
         "instructions": "Dans un shaker, mélangez le rhum blanc, le jus de citron vert et le sirop de sucre de canne avec des glaçons. Secouez vigoureusement. Versez le mélange dans un verre préparé avec des glaçons. Décorez avec des tranches de citron vert."
-      },
+        ,
+        "photo": "https://zupimages.net/up/23/30/cdq5.jpg"},
       {
         "id": "DDCAA345678",
         "name": "Cosmopolitan",
@@ -49,7 +52,8 @@
           "Zeste d'orange pour la décoration"
         ],
         "instructions": "Dans un shaker, mélangez la vodka, le Cointreau, le jus de citron et le jus de canneberge avec des glaçons. Secouez vigoureusement. Versez le mélange dans un verre à cocktail. Décorez avec un zeste d'orange."
-      },
+        ,
+        "photo": "https://zupimages.net/up/23/30/cdq5.jpg"},
       {
         "id": "DDCAA456789MD",
         "name": "Mojito",
@@ -63,7 +67,8 @@
           "Tranches de citron vert et brins de menthe pour la décoration"
         ],
         "instructions": "Dans un verre, écrasez les feuilles de menthe avec le jus de citron vert et le sucre. Ajoutez des glaçons, puis versez le rhum blanc par-dessus. Remplissez le verre avec de l'eau gazeuse. Remuez délicatement. Décorez avec des tranches de citron vert et des brins de menthe."
-      },
+        ,
+        "photo": "https://zupimages.net/up/23/30/cdq5.jpg" },
       {
         "id": "DDCAA234567MO",
         "name": "Old Fashioned",
@@ -76,7 +81,8 @@
           "Tranches d'orange et cerises pour la décoration"
         ],
         "instructions": "Dans un verre, mettez le morceau de sucre et ajoutez les traits d'Angostura Bitter et d'eau. Écrasez le sucre avec une cuillère. Ajoutez des glaçons et versez le bourbon par-dessus. Remuez délicatement. Décorez avec des tranches d'orange et des cerises."
-      },
+        ,
+        "photo": "https://zupimages.net/up/23/30/cdq5.jpg"},
       {
         "id": "DDCAA890123",
         "name": "Whiskey Sour",
@@ -89,7 +95,8 @@
           "Cerise au marasquin pour la décoration"
         ],
         "instructions": "Dans un shaker, mélangez le bourbon, le jus de citron et le sirop de sucre de canne avec des glaçons. Secouez vigoureusement. Versez le mélange dans un verre préparé avec des glaçons. Décorez avec des tranches de citron et une cerise au marasquin."
-      },
+        ,
+        "photo": "https://zupimages.net/up/23/30/cdq5.jpg"},
       {
         "id": "DDCAA567890",
         "name": "Pina Colada",
@@ -101,7 +108,8 @@
           "Tranches d'ananas et cerises au marasquin pour la décoration"
         ],
         "instructions": "Dans un mixeur, mélangez le rhum blanc, le lait de coco et le jus d'ananas avec des glaçons jusqu'à obtenir un mélange crémeux. Versez le mélange dans un verre garni de glaçons. Décorez avec des tranches d'ananas et des cerises au marasquin."
-      },
+        ,
+        "photo": "https://zupimages.net/up/23/30/cdq5.jpg"},
      {
         "id": "DDCAA678901",
         "name": "Negroni",
@@ -129,7 +137,8 @@
           "Eau gazeuse"
         ],
         "instructions": "Dans une carafe, mélangez le vin rouge, le brandy et le sucre jusqu'à ce que le sucre soit dissout. Ajoutez les rondelles d'orange et de citron, les dés de pomme et les fraises. Réfrigérez pendant au moins 2 heures pour permettre aux saveurs de se mélanger. Servez dans des verres avec des glaçons et complétez avec de l'eau gazeuse."
-      },
+        ,
+        "photo": "https://zupimages.net/up/23/30/cdq5.jpg"},
       {
         "id": "DDCAA234567",
         "name": "Moscow Mule",
@@ -141,7 +150,8 @@
           "Tranches de citron vert pour la décoration"
         ],
         "instructions": "Dans un verre à mule en cuivre rempli de glaçons, versez la vodka et le jus de citron vert. Complétez avec de la ginger beer. Remuez délicatement. Décorez avec des tranches de citron vert."
-      },
+        ,
+        "photo": "https://zupimages.net/up/23/30/cdq5.jpg"},
       {
         "id": "DDCAA345678M",
         "name": "Sex on the Beach",
@@ -154,7 +164,8 @@
           "Tranches d'orange et cerises pour la décoration"
         ],
         "instructions": "Dans un shaker, mélangez la vodka, la crème de pêche, le jus d'orange et le jus de canneberge avec des glaçons. Secouez vigoureusement. Versez le mélange dans un verre préparé avec des glaçons. Décorez avec des tranches d'orange et des cerises."
-      },
+        ,
+        "photo": "https://zupimages.net/up/23/30/cdq5.jpg"},
       {
         "id": "DDCAA456789",
         "name": "Mai Tai",
@@ -168,7 +179,8 @@
           "Morceau d'ananas et cerise au marasquin pour la décoration"
         ],
         "instructions": "Dans un shaker, mélangez le rhum blanc, le rhum ambré, le triple sec, le sirop d'orgeat et le jus de citron vert avec des glaçons. Secouez vigoureusement. Versez le mélange dans un verre préparé avec des glaçons. Décorez avec un morceau d'ananas et une cerise au marasquin."
-      }
+        ,
+        "photo": "https://zupimages.net/up/23/30/cdq5.jpg"}
     ]
   }
   
