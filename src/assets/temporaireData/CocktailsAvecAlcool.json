@@ -12,7 +12,8 @@
           "Sel pour le bord du verre"
         ],
         "instructions": "Frottez le bord du verre avec une tranche de citron vert, puis trempez-le dans du sel pour créer un bord salé. Dans un shaker, mélangez la tequila, le jus de citron vert et le sirop d'agave avec des glaçons. Secouez vigoureusement. Versez le mélange dans le verre préparé avec des glaçons. Décorez avec une tranche de citron vert."
-      },
+        ,
+        "photo": "https://zupimages.net/up/23/30/cdq5.jpg"},
       {
         "id": "DDCAA654321",
         "name": "Piña Colada",
@@ -121,7 +122,8 @@
           "Tranches d'orange pour la décoration"
         ],
         "instructions": "Dans un verre à mélange rempli de glaçons, versez le gin, le Campari et le vermouth rouge. Remuez délicatement à l'aide d'une cuillère. Versez le mélange dans un verre à cocktail rempli de glaçons. Décorez avec des tranches d'orange."
-      },
+        ,
+        "photo": "https://zupimages.net/up/23/30/cdq5.jpg"},
       {
         "id": "DDCAA789012",
         "name": "Sangria",
