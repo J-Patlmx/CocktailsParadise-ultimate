@@ -219,4 +219,48 @@ body {
     flex-direction: column-reverse;
     width: 100%;
   }
+  .This-Cocktail-Card {
+    color: rgb(27, 164, 27);
+    line-height: 32px;
+  }
+  .This-Cocktail-Card h1 {
+    color: hsl(39, 93%, 42%);
+    margin-bottom: 16px;
+  }
+  .This-Cocktail-Card .Ingredients-et-Img {
+    flex-direction: column;
+  }
+  .This-Cocktail-Card .Ingredients-et-Img .list-ingredients img {
+    margin-bottom: 16px;
+  }
+  .This-Cocktail-Card .Ingredients-et-Img .list-ingredients h2 {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .This-Cocktail-Card .Ingredients-et-Img ul {
+    display: flex;
+    flex-direction: column;
+    list-style: circle;
+    line-height: 33px;
+  }
+  .This-Cocktail-Card .Ingredients-et-Img li {
+    color: rgb(255, 228, 196);
+  }
+  .This-Cocktail-Card p {
+    margin-bottom: 16px;
+  }
+  .This-Cocktail-Card .into-Cocktail-Selection {
+    border: 2px solid crimson;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC {
+    color: rgb(27, 164, 27);
+    text-decoration: none;
+  }
+  .This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC:hover {
+    color: hsl(39, 93%, 42%);
+    font-style: oblique;
+  }
 }/*# sourceMappingURL=styles.css.map */
