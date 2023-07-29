@@ -7,6 +7,7 @@
 body{
     background-color:$bg-body-color;
 
+
 }
 
 
@@ -73,12 +74,12 @@ align-items: center;
 }
 
 
-.nosCocktails{
+.Title-nosCocktails{
     text-align: center;
     margin-bottom: 32px;
         }
 .Cocktail-link-general{
-
+margin-bottom: 64px;
     .Cocktail-link{
         display: flex;
         justify-content: space-around;
@@ -138,16 +139,17 @@ align-items: center;
     padding: 0 24px;
 width: 100%;
  flex-wrap: wrap;
+
 }
 
 //FOOTER STYLE
 .footer-Texte{
     background-color: $bg-header-footer;
     color: $color-gitano;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
     height: 100px;
     width: 100%;
 
@@ -259,4 +261,22 @@ text-align: center;
 .card{
    .Home-P{ color: $bg-body-color;
 }}
+.Title-nosCocktails{
+  color: $color-gitano-Hover;
+        }
+
+.Cocktail-link-general{
+    .Cocktail-link{
+       flex-direction: column;
+      
+    }
+    .Cocktails-choise{
+        flex-direction: column-reverse;
+       width: 100%;
+            }
+
+       
+    }
+
+
 }

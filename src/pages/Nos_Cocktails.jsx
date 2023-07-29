@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom"
 
 function Nos_Cocktails() {
   return (<>
-      <h1 className="nosCocktails">Nos Cocktails</h1>
+      <h1 className="Title-nosCocktails">Nos Cocktails</h1>
   <div className="Cocktail-link-general">
     <nav className="Cocktail-link">
          {/* Utiliser l'attribut "to" pour spécifier l'URL de destination */}
