@@ -5,7 +5,7 @@ function Cocktails_With_Alcools() {
   return (
     <>
       <h1 className="cocktail-wa">Cocktails Avec Alcools</h1>
-      <nav className="nav-CAA">
+      <nav className="list-cocktail">
         {cocktailsData.cocktails.map(cocktail => (
           <NavLink
             key={cocktail.id}
@@ -13,6 +13,9 @@ function Cocktails_With_Alcools() {
             to={`/this_cocktail/${cocktail.id}`}
           >
             {cocktail.name}
+            <div>
+              <img src={cocktail.photo} alt={cocktail.name} />
+            </div>
           </NavLink>
         ))}
       </nav>

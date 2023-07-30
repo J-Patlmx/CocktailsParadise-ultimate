@@ -113,12 +113,16 @@ body {
   color: hsl(39, 93%, 42%);
 }
 
-.nav-CAA {
+.list-cocktail {
   display: flex;
   gap: 16px;
   padding: 0 24px;
   width: 100%;
   flex-wrap: wrap;
+}
+.list-cocktail img {
+  height: 275px;
+  width: 300px;
 }
 
 .footer-Texte {
@@ -280,5 +284,19 @@ body {
   .footer-Texte {
     background-color: hsl(0, 28%, 10%);
     color: rgb(27, 164, 27);
+  }
+  .list-cocktail {
+    flex-direction: column;
+  }
+  .list-cocktail img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 275px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
   }
 }/*# sourceMappingURL=styles.css.map */

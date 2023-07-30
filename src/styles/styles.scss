@@ -134,13 +134,17 @@ margin-bottom: 64px;
 
 
 
-.nav-CAA{
+.list-cocktail{
     display: flex;
     // flex-direction: column;
     gap: 16px;
     padding: 0 24px;
     width: 100%;
     flex-wrap: wrap;
+    img{
+        height: 275px;
+        width: 300px;
+    }
 
 }
 
@@ -349,6 +353,22 @@ text-decoration: none;
 .footer-Texte{
     background-color: $bg-hover;
     color: $color-gitano;
+}
+
+
+.list-cocktail{
+    flex-direction: column;
+    img{
+        display: flex;
+      align-items: center;
+      justify-content: center;
+        height: 275px;
+        // width: 300px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
 }
 
 
