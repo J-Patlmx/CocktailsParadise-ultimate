@@ -132,11 +132,16 @@ margin-bottom: 64px;
 }
 
 
-
+.cocktail-wa{
+    color: $color-gitano-Hover;
+    text-align: center;
+    margin-bottom: 32px;
+}
 
 .list-cocktail{
     display: flex;
-    // flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
     gap: 16px;
     padding: 0 24px;
     width: 100%;
@@ -343,11 +348,7 @@ text-decoration: none;
 }
 
 }
-.cocktail-wa{
-    color: $color-gitano-Hover;
-    text-align: center;
-    margin-bottom: 32px;
-}
+
 
 //FOOTER STYLE
 .footer-Texte{

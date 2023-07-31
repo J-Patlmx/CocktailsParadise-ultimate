@@ -113,8 +113,16 @@ body {
   color: hsl(39, 93%, 42%);
 }
 
+.cocktail-wa {
+  color: hsl(39, 93%, 42%);
+  text-align: center;
+  margin-bottom: 32px;
+}
+
 .list-cocktail {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   gap: 16px;
   padding: 0 24px;
   width: 100%;
@@ -275,11 +283,6 @@ body {
   .This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC:hover {
     color: rgb(27, 164, 27);
     font-style: oblique;
-  }
-  .cocktail-wa {
-    color: hsl(39, 93%, 42%);
-    text-align: center;
-    margin-bottom: 32px;
   }
   .footer-Texte {
     background-color: hsl(0, 28%, 10%);

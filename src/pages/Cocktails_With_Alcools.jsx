@@ -17,8 +17,10 @@ function Cocktails_With_Alcools() {
               <img src={cocktail.photo} alt={cocktail.name} />
             </div>
           </NavLink>
+         
         ))}
       </nav>
+      {/* <Pagination count={10} /> */}
     </>
   );
 }
