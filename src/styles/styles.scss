@@ -19,7 +19,8 @@ body{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 128px;
+    margin-bottom: 60px;
+ 
     &:hover{
         background-color: $bg-hover;
     }
@@ -176,8 +177,10 @@ margin-bottom: 64px;
 .This-Cocktail-Card{
             color: $color-gitano;
             line-height: 32px;
-        h1{
-           color: $color-black;
+        .Cocktail-name{
+            text-align: center;
+            color: $color-black;
+            margin-bottom: 32px;
         }
         .Ingredients-et-Img {
                         display: flex;
@@ -212,6 +215,7 @@ margin-bottom: 64px;
             padding-right: 32px; 
             display: flex;
             font-size: 20px;
+            margin-bottom: 32px;
 
         }
       .into-Cocktail-Selection{
@@ -223,6 +227,7 @@ margin-bottom: 64px;
       .App-Cocktail-link-TC{
         color:  $color-gitano-Hover;
         text-decoration: none;
+        margin-bottom: 32px;
                 &:hover{
                         color: $color-gitano;
                         font-style: oblique;

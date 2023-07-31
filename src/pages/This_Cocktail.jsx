@@ -22,7 +22,7 @@ function ThisCocktail() {
   return (
     <>
       <div className="This-Cocktail-Card">
-        <h1>{cocktail.name}</h1>
+        <h1 className="Cocktail-name">{cocktail.name}</h1>
         <div className="Ingredients-et-Img">
           <img src={cocktail.photo} alt={cocktail.name}/>
           <div className="list-ingredients">
