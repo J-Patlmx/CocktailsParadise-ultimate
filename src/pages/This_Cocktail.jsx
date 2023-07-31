@@ -42,6 +42,8 @@ function ThisCocktail() {
               <NavLink className="App-Cocktail-link-TC" to={"/"}>
                 Revenir à l&#39;Accueil
               </NavLink>
+              {/* TODO: cree une fonction qui repere si je suis en cocktail alcool ou sans alcool et remplacer
+              les rrevnir a la liste par un < remplacer egalement accueil par une icone home  */}
               <NavLink className="App-Cocktail-link-TC" to={"/cocktailAA"}>
                 Revenir à la liste Avec alcools
               </NavLink>
