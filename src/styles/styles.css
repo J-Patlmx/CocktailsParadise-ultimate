@@ -232,10 +232,6 @@ body {
   .Home {
     margin-bottom: 32px;
   }
-  .h1-HomePage {
-    display: flex;
-    text-align: center;
-  }
   .card .Home-P {
     color: rgb(255, 228, 196);
   }
