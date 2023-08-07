@@ -1,7 +1,7 @@
-
+import { Link } from "react-router-dom"
 function Footer() {
   return (
-    <div className="footer-Texte"> ©Cocktails Paradise par DevDread</div>
+    <Link className="Footerlink footer-Texte" to={"https://j-patlmx.github.io/businessCard-main/"} >©Cocktails Paradise par DevDread</Link>
   )
 }
 

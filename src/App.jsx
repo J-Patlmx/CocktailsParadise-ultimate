@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom"
 import "./styles/styles.css"
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
                 vers les autres.<br />
 
                 Nous ne sommes pas partenaires, mais ça va dans le bon sens.
-                <a id="lienCapuchon" href="https://drink-watch.com/produit/">DRINK WATCH</a> est un outil de prévention
+                <Link id="lienCapuchon" to="https://drink-watch.com/produit/">DRINK WATCH</Link> est un outil de prévention
                 et de dissuasion.<br />
 
 
