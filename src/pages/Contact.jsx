@@ -18,12 +18,12 @@ const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    if (!validateEmail(formData.email)) {
+    if (!validateEmail(formData.user_email)) {
       alert('Veuillez fournir une adresse e-mail valide.');
       return;
     }
 
-    if (!validateName(formData.firstName) || !validateName(formData.lastName)) {
+    if (!validateName(formData.user_name) || !validateName(formData.lastName)) {
       alert('Veuillez entrer un prénom et un nom valides.');
       return;
     }
@@ -45,14 +45,14 @@ const Contact = () => {
       });
   };
 
-  const validateEmail = (email) => {
-    const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    return re.test(email);
+  const validateEmail = (user_email) => {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(user_email);
   };
 
-  const validateName = (name) => {
+  const validateName = (user_name) => {
     const re = /^[A-Za-z\s]+$/;
-    return re.test(name);
+    return re.test(user_name);
   };
 
   return (
@@ -62,10 +62,10 @@ const Contact = () => {
         <input
   type="text"
   placeholder='Prénom'
-  name="firstName"
-  value={formData.firstName}
+  name="user_name"
+  value={formData.user_name}
   onChange={handleInputChange}
-  className={`form-control ${formData.firstName && validateName(formData.firstName) ? 'valid' : formData.firstName ? 'invalid' : ''}`}
+  className={`form-control ${formData.user_name && validateName(formData.user_name) ? 'valid' : formData.user_name ? 'invalid' : ''}`}
   required/>
       </div>
       <div className='form-group'>
@@ -84,10 +84,10 @@ const Contact = () => {
         <input
   type="text"
   placeholder='e-mail'
-  name="email"
-  value={formData.email}
+  name="user_email"
+  value={formData.user_email}
   onChange={handleInputChange}
-  className={`form-control ${formData.email && validateName(formData.email) ? 'valid' : formData.email ? 'invalid' : ''}`}
+  className={`form-control ${formData.user_email && validateName(formData.user_email) ? 'valid' : formData.user_email ? 'invalid' : ''}`}
   required/>     
 </div>
       <div className='form-group'>
@@ -100,7 +100,7 @@ const Contact = () => {
         className={`form-control ${formData.firstName && validateName(formData.firstName) ? 'valid' : 'invalid'}`} 
         required />
       </div>
-      <button type="submit">Envoyer</button>
+      <button type="submit" value="Send">Envoyer</button>
     </form>
   );
 };
