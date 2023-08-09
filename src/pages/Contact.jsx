@@ -33,7 +33,7 @@ const Contact = () => {
     }
 
     // Envoi du formulaire via emailjs
-    emailjs.sendForm('service_obdjjfq', 'template_rzlmwhp', formData, 'YOUR_USER_ID')
+    emailjs.send('service_p1iuzzr', 'template_rzlmwhp', formData, 'oK7n_taNIi7XvaWQc')
       .then((response) => {
         console.log('E-mail envoyé avec succès :', response);
         alert('Votre message a été envoyé avec succès !');
@@ -81,10 +81,10 @@ const Contact = () => {
         <label>E-mail :</label>
         <input
   type="text"
-  name="email"
-  value={formData.email}
+  name="mail"
+  value={formData.mail}
   onChange={handleInputChange}
-  className={`form-control ${formData.email && validateName(formData.email) ? 'valid' : formData.email ? 'invalid' : ''}`}
+  className={`form-control ${formData.mail && validateName(formData.mail) ? 'valid' : formData.mail ? 'invalid' : ''}`}
   required
 />      </div>
       <div className='form-group'>
