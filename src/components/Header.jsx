@@ -7,7 +7,9 @@ function Header() {
 <nav className="Header-link">
          {/* Utiliser l'attribut "to" pour spécifier l'URL de destination */}
             <NavLink className="App-header-link" to={"/home"} >Accueil</NavLink>
-            <NavLink className="App-header-link" to={"/cocktail"}>Nos cocktails </NavLink>
+            <NavLink className="App-header-link" to={"/cocktail"}>Cocktails </NavLink>
+            <NavLink className="App-header-link" to={"/Contact"}>Contact </NavLink>
+
 
           </nav>
 

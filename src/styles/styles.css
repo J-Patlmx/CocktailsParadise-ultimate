@@ -244,6 +244,9 @@ body {
 .contact-form button:hover {
   background-color: #0056b3;
 }
+.contact-form textarea {
+  height: 128px;
+}
 
 @media (max-width: 850px) {
   body {

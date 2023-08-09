@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
 
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     firstName: '',
@@ -45,7 +46,7 @@ const Contact = () => {
   };
 
   const validateEmail = (email) => {
-    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     return re.test(email);
   };
 
@@ -60,6 +61,7 @@ const Contact = () => {
         <label>Prénom :</label>
         <input
   type="text"
+  placeholder='Prénom'
   name="firstName"
   value={formData.firstName}
   onChange={handleInputChange}
@@ -70,6 +72,7 @@ const Contact = () => {
         <label>Nom :</label>
         <input
   type="text"
+  placeholder='Nom'
   name="lastName"
   value={formData.lastName}
   onChange={handleInputChange}
@@ -77,8 +80,10 @@ const Contact = () => {
   required/>      </div>
       <div className='form-group'>
         <label>E-mail :</label>
+  
         <input
   type="text"
+  placeholder='e-mail'
   name="email"
   value={formData.email}
   onChange={handleInputChange}
@@ -88,7 +93,12 @@ const Contact = () => {
       <div className='form-group'>
         <label>Votre demande :</label>
         
-        <textarea name="message" value={formData.message} onChange={handleInputChange}  className={`form-control ${formData.firstName && validateName(formData.firstName) ? 'valid' : 'invalid'}`} required />
+        <textarea name="message" 
+        placeholder='Votre message'
+        value={formData.message} 
+        onChange={handleInputChange}  
+        className={`form-control ${formData.firstName && validateName(formData.firstName) ? 'valid' : 'invalid'}`} 
+        required />
       </div>
       <button type="submit">Envoyer</button>
     </form>
