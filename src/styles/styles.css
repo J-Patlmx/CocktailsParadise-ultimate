@@ -206,9 +206,52 @@ body {
   font-style: oblique;
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+.contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.contact-form .form-group label {
+  margin-bottom: 0.5rem;
+}
+.contact-form .form-group .form-control {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s;
+}
+.contact-form .form-group .form-control.valid {
+  border-color: green;
+}
+.contact-form .form-group .form-control.invalid {
+  border-color: red;
+}
+.contact-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
 @media (max-width: 850px) {
   body {
     background: hsl(0, 28%, 10%);
+  }
+  .contact-form {
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .Header {
     flex-wrap: nowrap;

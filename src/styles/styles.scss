@@ -238,10 +238,68 @@ margin-bottom: 64px;
         
 }
 
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+  
+      label {
+        margin-bottom: 0.5rem;
+      }
+  
+      .form-control {
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        outline: none;
+        transition: border-color 0.3s;
+  
+        &.valid {
+          border-color: green;
+        }
+  
+        &.invalid {
+          border-color: red;
+        }
+      }
+    }
+  
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+  
+
+
+
 @media (max-width: 850px) {
     body{
         background: $bg-hover;
      
+    }
+
+
+    .contact-form{
+        padding-left: 16px;
+        padding-right: 16px;
+
     }
 
 
