@@ -33,7 +33,7 @@ const Contact = () => {
     }
 
     // Envoi du formulaire via emailjs
-    emailjs.send('service_p1iuzzr', 'template_rzlmwhp', formData, 'oK7n_taNIi7XvaWQc')
+    emailjs.send('service_p1iuzzr', 'template_kozi68r', formData, 'oK7n_taNIi7XvaWQc')
       .then((response) => {
         console.log('E-mail envoyé avec succès :', response);
         alert('Votre message a été envoyé avec succès !');
@@ -64,8 +64,7 @@ const Contact = () => {
   value={formData.firstName}
   onChange={handleInputChange}
   className={`form-control ${formData.firstName && validateName(formData.firstName) ? 'valid' : formData.firstName ? 'invalid' : ''}`}
-  required
-/>
+  required/>
       </div>
       <div className='form-group'>
         <label>Nom :</label>
@@ -75,18 +74,17 @@ const Contact = () => {
   value={formData.lastName}
   onChange={handleInputChange}
   className={`form-control ${formData.lastName && validateName(formData.lastName) ? 'valid' : formData.lastName ? 'invalid' : ''}`}
-  required
-/>      </div>
+  required/>      </div>
       <div className='form-group'>
         <label>E-mail :</label>
         <input
   type="text"
-  name="mail"
-  value={formData.mail}
+  name="email"
+  value={formData.email}
   onChange={handleInputChange}
-  className={`form-control ${formData.mail && validateName(formData.mail) ? 'valid' : formData.mail ? 'invalid' : ''}`}
-  required
-/>      </div>
+  className={`form-control ${formData.email && validateName(formData.email) ? 'valid' : formData.email ? 'invalid' : ''}`}
+  required/>     
+</div>
       <div className='form-group'>
         <label>Votre demande :</label>
         
