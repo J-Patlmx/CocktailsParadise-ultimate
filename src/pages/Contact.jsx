@@ -5,7 +5,7 @@ import emailjs from 'emailjs-com';
 const Contact = () => {
   const [formData, setFormData] = useState({
     user_name: '',
-    lastName: '',
+    user_lastname: '',
     user_email: '',
     message: '',
   });
@@ -24,10 +24,13 @@ const Contact = () => {
     }
 
     if (!validateName(formData.user_name) || !validateName(formData.lastName)) {
-      alert('Veuillez entrer un prénom et un nom valides.');
+      alert('Veuillez entrer un prénom valide.');
       return;
     }
-
+    if (!validateLastName(formData.user_lastname) || !validateName(formData.user_lastname)) {
+      alert('Veuillez entrer un nom valide.');
+      return;
+    }
     if (formData.message.includes('<script>')) {
       alert('Le message ne peut pas contenir de script externe.');
       return;
@@ -54,6 +57,10 @@ const Contact = () => {
     const re = /^[A-Za-z\s]+$/;
     return re.test(user_name);
   };
+  const validateLastName = (user_lastname) => {
+    const re = /^[A-Za-z\s]+$/;
+    return re.test(user_lastname);
+  };
 
   return (
     <form onSubmit={handleSubmit} className='contact-form'>
@@ -73,10 +80,10 @@ const Contact = () => {
         <input
   type="text"
   placeholder='Nom'
-  name="lastName"
-  value={formData.lastName}
+  name="user_lastname"
+  value={formData.user_lastname}
   onChange={handleInputChange}
-  className={`form-control ${formData.lastName && validateName(formData.lastName) ? 'valid' : formData.lastName ? 'invalid' : ''}`}
+  className={`form-control ${formData.user_lastname && validateLastName(formData.user_lastname) ? 'valid' : formData.user_lastname ? 'invalid' : ''}`}
   required/>      </div>
       <div className='form-group'>
         <label>E-mail :</label>
