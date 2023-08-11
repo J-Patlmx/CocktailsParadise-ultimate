@@ -36,16 +36,17 @@ body{
                     justify-content: flex-end;
                     gap: 32px;
                     font-size: 24px;
-                  }
+                    }
         .App-header-link{
-    display: flex;
-    justify-content: space-around;
-align-items: center;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
             color: $color-gitano;
+            text-decoration: none;
 
         &:hover{
                 color: $color-gitano-Hover;
-                font-style: oblique;
+                text-decoration:overline;
 
             }
         }
@@ -325,6 +326,8 @@ margin-bottom: 64px;
         .App-header-link{
             color: $color-gitano;
             flex: 1;
+            
+           
         }
 }
 

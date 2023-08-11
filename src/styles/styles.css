@@ -39,10 +39,11 @@ body {
   justify-content: space-around;
   align-items: center;
   color: rgb(27, 164, 27);
+  text-decoration: none;
 }
 .Header .App-header-link:hover {
   color: hsl(39, 93%, 42%);
-  font-style: oblique;
+  text-decoration: overline;
 }
 
 .Home {
