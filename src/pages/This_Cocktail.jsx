@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+
 import cocktailsDataAvecAlcool from "../assets/temporaireData/CocktailsAvecAlcool.json";
 import cocktailsDataSansAlcool from "../assets/temporaireData/CocktailsSansAlcool.json"; // Remplacez le chemin par le chemin correct vers votre fichier JSON pour les cocktails sans alcool
 
@@ -49,9 +50,10 @@ function ThisCocktail() {
               </NavLink>
        </nav>
       </div>
-
+    
     </>
   );
 }
+
 
 export default ThisCocktail;
