@@ -12,6 +12,7 @@ function Header() {
             <NavLink className="App-header-link" to={"/cocktail"}>Cocktails </NavLink>
             <NavLink className="App-header-link" to={"/Contact"}>Contact </NavLink>
           </nav>
+          {/* TODO: revoir le positionnement */}
           <MusicPlayer  />
   
     </div>
