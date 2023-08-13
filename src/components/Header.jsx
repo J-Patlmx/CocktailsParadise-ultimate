@@ -1,6 +1,6 @@
 import {NavLink} from "react-router-dom"
 import logo from "../assets/logo2.png"
-import MusicPlayer from "./audioplayer"
+import MusicPlayer  from "./audioplayer"
 
 function Header() {
   return (
@@ -12,7 +12,8 @@ function Header() {
             <NavLink className="App-header-link" to={"/cocktail"}>Cocktails </NavLink>
             <NavLink className="App-header-link" to={"/Contact"}>Contact </NavLink>
           </nav>
-          <MusicPlayer />
+          <MusicPlayer  />
+  
     </div>
   )
 }
