@@ -1,9 +1,11 @@
-// import React from 'react'
-
 function sliderComponent() {
   return (
-    <div>slider-Component</div>
+    <>
+{/* TODO: gerer le proble daffichage */}
+
+<p>hello jp</p>
+    </>
   )
 }
 
-export default sliderComponent;
+export default sliderComponent

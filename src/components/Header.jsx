@@ -1,5 +1,7 @@
 import {NavLink} from "react-router-dom"
 import logo from "../assets/logo2.png"
+import MusicPlayer from "./audioplayer"
+
 function Header() {
   return (
 <div className="Header">
@@ -9,10 +11,8 @@ function Header() {
             <NavLink className="App-header-link" to={"/home"} >Accueil</NavLink>
             <NavLink className="App-header-link" to={"/cocktail"}>Cocktails </NavLink>
             <NavLink className="App-header-link" to={"/Contact"}>Contact </NavLink>
-
-
           </nav>
-
+          <MusicPlayer />
     </div>
   )
 }

@@ -1,15 +1,15 @@
 
 import { Link } from "react-router-dom"
 import "./styles/styles.css"
-
+import SliderComponent from"./components/slider"
 function App() {
  
   return (
     <div className="Home">
-
+    <SliderComponent />
+     
       <h1 className="h1-HomePage">Cocktails Paradise</h1>
       <div className="card">
-
         <div>
         <p className="Home-P">
               Bienvenue sur Cocktails Paradise, ici, on peut apprendre a réalisé des cocktails grâce à des petits
