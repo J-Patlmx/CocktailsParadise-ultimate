@@ -6,6 +6,7 @@ function Header() {
   return (
 <div className="Header">
 <img src={logo} className="App-logo" alt="logo" />
+          <MusicPlayer  />
 <nav className="Header-link">
          {/* Utiliser l'attribut "to" pour spécifier l'URL de destination */}
             <NavLink className="App-header-link" to={"/home"} >Accueil</NavLink>
@@ -13,7 +14,6 @@ function Header() {
             <NavLink className="App-header-link" to={"/Contact"}>Contact </NavLink>
           </nav>
           {/* TODO: revoir le positionnement */}
-          <MusicPlayer  />
   
     </div>
   )
