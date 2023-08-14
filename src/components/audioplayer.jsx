@@ -34,13 +34,20 @@ class MusicPlayer  extends Component {
           <source src="http://latinareggaeton.ice.infomaniak.ch/latinareggaeton.mp3" type="audio/mpeg" />
           Votre navigateur ne prend pas en charge lélément audio.
         </audio>
-      
-        <button onClick={this.togglePlay}>
-          {this.state.isPlaying ? 'Pause' : 'Play'}
-        </button>
-        <button onClick={this.toggleMute}>
-        {this.state.isMuted ? 'Unmute' : 'Mute'}
-       </button>
+
+
+          <div className="button-player">
+                  <button className='playPause'
+                      onClick={this.togglePlay}>
+                      {this.state.isPlaying ? 'Pause' : 'Play'}
+                  </button>
+
+                  <button className='muteunmute' 
+                      onClick={this.toggleMute}>
+                      {this.state.isMuted ? 'Unmute' : 'Mute'}
+                  </button>
+          </div>
+
       </div>
     );
   }

@@ -8,6 +8,24 @@ body {
   background-color: rgb(255, 228, 196);
 }
 
+.App-Slider-link {
+  width: 100%;
+  display: flex;
+}
+.App-Slider-link .imgtestslider {
+  height: 250px;
+}
+
+.button-player {
+  background: #000;
+}
+.button-player .playPause {
+  color: red;
+}
+.button-player .muteunmute {
+  color: yellow;
+}
+
 .Header {
   background-color: hsl(0, 10%, 0%);
   color: rgb(27, 164, 27);

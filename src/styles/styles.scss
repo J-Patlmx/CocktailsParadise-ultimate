@@ -10,6 +10,26 @@ body{
 
 }
 
+.App-Slider-link{
+    width: 100%;
+    display: flex;
+
+    .imgtestslider{
+        height: 250px;
+    }
+}
+.button-player{
+    background: #000;
+
+    .playPause{
+        color: red;
+    }
+    .muteunmute{
+        color: yellow;
+    
+    }
+}
+
 //HEADER
 .Header{
     background-color: $bg-header-footer;
