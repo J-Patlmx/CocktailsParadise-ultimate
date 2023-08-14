@@ -273,6 +273,9 @@ body {
   body {
     background: hsl(0, 28%, 10%);
   }
+  .App-Slider-link {
+    display: none;
+  }
   .contact-form {
     padding-left: 16px;
     padding-right: 16px;
