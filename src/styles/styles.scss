@@ -10,26 +10,57 @@ body{
 
 }
 
-.App-Slider-link{
-    width: 100%;
-    display: flex;
-overflow: hidden;
+ .App-Slider-link{
+     width: 100%;
+     display: flex;
+    overflow: hidden;
+    
     .imgtestslider{
-        height: 250px;
-    }
-}
-.button-player{
-display: flex;
+        //  animation: AutoSlide 12s infinite ease-in-out;
+         height: 250px;
+     }
+ }
+//  . slideshow {
+//     position: relative;
+//     width: 700px;
+//     height: 600px;
+//     overflow: hidden;
+//     top: 30%;
+//     left: 25%;
+//     right: center auto;
+//   }
 
-gap: 16px;
-    .playPause{
-        color: red;
-    }
-    .muteunmute{
-        color: rgb(54, 86, 6);
-    }
-}
-
+//  @keyframes AutoSlide {
+//     0% {
+//       left: 0px;
+//     }
+//     10% {
+//       left: -75px;
+//     }
+//     20% {
+//       left: -150px;
+//     }
+//     35% {
+//       left: -150px;
+//     }
+//     50% {
+//       left: -300px;
+//     }
+//     65% {
+//       left: -300px; 
+//     }
+//     75% {
+//       left: -450px; 
+  
+//     }85% {
+//       left: -450px;
+//     }
+//     95% {
+//       left: -650px;
+//     }
+//     100% {
+//       left: 0px; 
+//     }}
 //HEADER
 .Header{
     background-color: $bg-header-footer;

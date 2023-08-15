@@ -17,17 +17,6 @@ body {
   height: 250px;
 }
 
-.button-player {
-  display: flex;
-  gap: 16px;
-}
-.button-player .playPause {
-  color: red;
-}
-.button-player .muteunmute {
-  color: rgb(54, 86, 6);
-}
-
 .Header {
   background-color: hsl(0, 10%, 0%);
   color: rgb(27, 164, 27);
