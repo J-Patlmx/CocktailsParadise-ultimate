@@ -8,6 +8,19 @@ body {
   background-color: rgb(255, 228, 196);
 }
 
+.button-player {
+  background: #000;
+  display: flex;
+  gap: 16px;
+}
+.button-player .playPause {
+  color: red;
+}
+.button-player .muteunmute {
+  color: yellow;
+  color: rgb(54, 86, 6);
+}
+
 .App-Slider-link {
   width: 100%;
   display: flex;
