@@ -35,6 +35,7 @@ function ThisCocktail() {
           </ul></div>
         </div>
         <p>{cocktail.instructions}</p>
+        <iframe>{cocktail.video}</iframe>
        {/* Navigations */}
        <nav className="into-Cocktail-Selection">
               <NavLink className="App-Cocktail-link-TC" to={"/cocktailSA"}>
