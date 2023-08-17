@@ -35,7 +35,16 @@ function ThisCocktail() {
           </ul></div>
         </div>
         <p>{cocktail.instructions}</p>
-        <iframe>{cocktail.video}</iframe>
+         {/* TODO gerer le positionnement et le lanceent de la video */}
+
+        <iframe
+                className="çanefonctionnepaspk"
+                title="recipes"
+                width="300"
+                height="200"
+                src={cocktail.video}>
+        </iframe>
+  
        {/* Navigations */}
        <nav className="into-Cocktail-Selection">
               <NavLink className="App-Cocktail-link-TC" to={"/cocktailSA"}>
