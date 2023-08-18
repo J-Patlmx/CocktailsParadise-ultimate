@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-
+import ReactPlayer from 'react-player/youtube'
 import cocktailsDataAvecAlcool from "../assets/temporaireData/CocktailsAvecAlcool.json";
 import cocktailsDataSansAlcool from "../assets/temporaireData/CocktailsSansAlcool.json"; // Remplacez le chemin par le chemin correct vers votre fichier JSON pour les cocktails sans alcool
 
@@ -37,14 +37,17 @@ function ThisCocktail() {
         <p>{cocktail.instructions}</p>
          {/* TODO gerer le positionnement et le lanceent de la video */}
 
-        <iframe
-                className="çanefonctionnepaspk"
-                title="recipes"
-                width="300"
-                height="200"
-                src={cocktail.video}>
-        </iframe>
-  
+         <div className="CentrageTemporaire">
+<>
+</>
+       <ReactPlayer
+        className="video-tuto"
+        url={cocktail.video}/>
+
+<>
+</>  
+</div>
+
        {/* Navigations */}
        <nav className="into-Cocktail-Selection">
               <NavLink className="App-Cocktail-link-TC" to={"/cocktailSA"}>
