@@ -7,7 +7,7 @@ import cocktailsDataSansAlcool from "../assets/temporaireData/CocktailsSansAlcoo
 function ThisCocktail() {
   const { cocktailId } = useParams();
   let cocktail;
-
+  window.scrollTo(0,0);
   // Chercher le cocktail correspondant à l'ID dans les données des cocktails avec alcool
   cocktail = cocktailsDataAvecAlcool.cocktails.find(cocktail => cocktail.id === cocktailId);
 
