@@ -28,12 +28,12 @@ body {
 }
 
 .App-Slider-link {
-  width: 100%;
   display: flex;
   overflow: hidden;
 }
 .App-Slider-link .imgtestslider {
   height: 250px;
+  width: 100%;
 }
 
 .Header {

@@ -35,13 +35,14 @@ gap: 16px;
 
 
  .App-Slider-link{
-     width: 100%;
+    //  width: 100% auto;
      display: flex;
     overflow: hidden;
     
     .imgtestslider{
         //  animation: AutoSlide 12s infinite ease-in-out;
          height: 250px;
+         width: 100%;
      }
  }
 //  . slideshow {
