@@ -1,0 +1,42 @@
+//HEADER
+.Header{
+    background-color: $bg-header-footer;
+    color: $color-gitano;
+    margin: auto;
+    padding-right: 32px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+ 
+    &:hover{
+        background-color: $bg-hover;
+    }
+                .App-logo{
+                    margin-right: auto;
+                    padding: 0 24px;
+                    width: 250px;
+                }
+                nav {
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    justify-content: flex-end;
+                    gap: 32px;
+                    font-size: 24px;
+                    }
+        .App-header-link{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: $color-gitano;
+            text-decoration: none;
+
+        &:hover{
+                color: $color-gitano-Hover;
+                text-decoration:overline;
+
+            }
+        }
+}
+ 

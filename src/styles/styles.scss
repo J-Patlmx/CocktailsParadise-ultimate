@@ -1,4 +1,17 @@
 @import "./variables";
+@import "./Header";
+@import "./AudioPlayer";
+@import "./Slider";
+@import "./Contact";
+@import "./PageNotFound";
+@import "./ThisCocktail";
+@import "./Footer";
+@import "./Global";
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -8,126 +21,7 @@ body{
     background-color:$bg-body-color;
 }
 
-// TODO gerer le positionnement et le lanceent de la video
-.CentrageTemporaire{
 
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-   
-}
-
-.button-player{
-    background: #000;
-display: flex;
-
-gap: 16px;
-    .playPause{
-        color: red;
-    }
-    .muteunmute{
-        color: yellow;
-
-        color: rgb(54, 86, 6);
-    }
-}
-
-
-
- .App-Slider-link{
-    //  width: 100% auto;
-     display: flex;
-    overflow: hidden;
-    
-    .imgtestslider{
-        //  animation: AutoSlide 12s infinite ease-in-out;
-         height: 250px;
-         width: 100%;
-     }
- }
-//  . slideshow {
-//     position: relative;
-//     width: 700px;
-//     height: 600px;
-//     overflow: hidden;
-//     top: 30%;
-//     left: 25%;
-//     right: center auto;
-//   }
-
-//  @keyframes AutoSlide {
-//     0% {
-//       left: 0px;
-//     }
-//     10% {
-//       left: -75px;
-//     }
-//     20% {
-//       left: -150px;
-//     }
-//     35% {
-//       left: -150px;
-//     }
-//     50% {
-//       left: -300px;
-//     }
-//     65% {
-//       left: -300px; 
-//     }
-//     75% {
-//       left: -450px; 
-  
-//     }85% {
-//       left: -450px;
-//     }
-//     95% {
-//       left: -650px;
-//     }
-//     100% {
-//       left: 0px; 
-//     }}
-//HEADER
-.Header{
-    background-color: $bg-header-footer;
-    color: $color-gitano;
-    margin: auto;
-    padding-right: 32px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 60px;
- 
-    &:hover{
-        background-color: $bg-hover;
-    }
-                .App-logo{
-                    margin-right: auto;
-                    padding: 0 24px;
-                    width: 250px;
-                }
-                nav {
-                    display: flex;
-                    align-items: center;
-                    flex-wrap: wrap;
-                    justify-content: flex-end;
-                    gap: 32px;
-                    font-size: 24px;
-                    }
-        .App-header-link{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            color: $color-gitano;
-            text-decoration: none;
-
-        &:hover{
-                color: $color-gitano-Hover;
-                text-decoration:overline;
-
-            }
-        }
-}
- 
 
 .Home{
 margin-bottom: 128px;
@@ -142,11 +36,11 @@ margin-bottom: 128px;
 
 }
 .card{
-.Home-P{
-    font-size: 22px;
-    color: $color-black;
-    text-align: center;
-}
+    .Home-P{
+        font-size: 22px;
+        color: $color-black;
+        text-align: center;
+    }
 }
 
 
@@ -155,7 +49,7 @@ margin-bottom: 128px;
     margin-bottom: 32px;
         }
 .Cocktail-link-general{
-margin-bottom: 64px;
+    margin-bottom: 64px;
     .Cocktail-link{
         display: flex;
         justify-content: space-around;
@@ -168,7 +62,7 @@ margin-bottom: 64px;
         flex-direction: column-reverse;
         justify-content: space-between;
         align-items: center;
-       
+
         .App-Cocktail-link{
             font-size: 32px;   
             color:  $color-gitano;
@@ -180,7 +74,6 @@ margin-bottom: 64px;
             }
 
         img{
-           
             height: 275px;
             width: 300px;
             object-fit: cover;
@@ -190,25 +83,6 @@ margin-bottom: 64px;
 
 
 }
-
-
-
-
-//404
-.Page-not-found{
-    color: $color-gitano;
-    text-align: center;
-    h1{ 
-    font-size: 300px;
-        }
-
-    p{
-    font-size:64px;
-    color: $color-gitano-Hover; 
-        }
-
-}
-
 
 .cocktail-wa{
     color: $color-gitano-Hover;
@@ -230,144 +104,6 @@ margin-bottom: 64px;
     }
 
 }
-
-//FOOTER STYLE
-.footer-Texte{
-    background-color: $bg-header-footer;
-    color: $color-gitano;
-     text-align: center;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-    height: 100px;
-    width: 100%;
-
-    &:hover{
-        color: $color-gitano-Hover;
-        background-color: $bg-hover;
-    }
-}
-
-
-
-// COCKTAIL CARD
-.This-Cocktail-Card{
-            color: $color-gitano;
-            line-height: 32px;
-        .Cocktail-name{
-            text-align: center;
-            color: $color-black;
-            margin-bottom: 32px;
-        }
-        .Ingredients-et-Img {
-                        display: flex;
-                        justify-content: space-evenly;
-                        align-items: center;
-                        margin-bottom: 32px;
-            img{
-            height: 275px;
-            width: 300px;
-            object-fit: cover;
-            object-position: center;
-       
-        }
-        .list-ingredients{
-            display: flex;
-            flex-direction: column;
-        }
-
-        ul{
-            display: flex;
-            flex-direction: column;
-            list-style: circle;
-            line-height: 33px;
-
-        }
-            li{
-            color: $color-black;
-            }
-    }
-        p{
-            padding-left: 32px;
-            padding-right: 32px; 
-            display: flex;
-            font-size: 20px;
-            margin-bottom: 32px;
-
-        }
-      .into-Cocktail-Selection{
-  
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-
-      .App-Cocktail-link-TC{
-        color:  $color-gitano-Hover;
-        text-decoration: none;
-        margin-bottom: 32px;
-                &:hover{
-                        color: $color-gitano;
-                        font-style: oblique;
-                    }
-        }
-
-      }
-        
-}
-
-
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: 0 auto;
-    margin-bottom: 32px;
-  
-    .form-group {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 1rem;
-  
-      label {
-        margin-bottom: 0.5rem;
-      }
-  
-      .form-control {
-        padding: 0.5rem;
-        border: 1px solid #ccc;
-        outline: none;
-        transition: border-color 0.3s;
-  
-        &.valid {
-          border-color: green;
-        }
-  
-        &.invalid {
-          border-color: red;
-        }
-      }
-    }
-  
-    button {
-      background-color: #007bff;
-      color: white;
-      border: none;
-      padding: 0.5rem 1rem;
-      cursor: pointer;
-      transition: background-color 0.3s;
-  
-      &:hover {
-        background-color: #0056b3;
-      }
-    }
-    textarea{
-        height: 128px;
-    }
-  }
-  
-
-
 
 @media (max-width: 850px) {
     body{

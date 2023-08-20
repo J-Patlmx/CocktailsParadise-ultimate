@@ -1,41 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: rgb(255, 228, 196);
-}
-
-.CentrageTemporaire {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-
-.button-player {
-  background: #000;
-  display: flex;
-  gap: 16px;
-}
-.button-player .playPause {
-  color: red;
-}
-.button-player .muteunmute {
-  color: yellow;
-  color: rgb(54, 86, 6);
-}
-
-.App-Slider-link {
-  display: flex;
-  overflow: hidden;
-}
-.App-Slider-link .imgtestslider {
-  height: 250px;
-  width: 100%;
-}
-
 .Header {
   background-color: hsl(0, 10%, 0%);
   color: rgb(27, 164, 27);
@@ -74,60 +36,68 @@ body {
   text-decoration: overline;
 }
 
-.Home {
-  margin-bottom: 128px;
-}
-
-.h1-HomePage {
-  text-align: center;
-  color: hsl(39, 93%, 42%);
-  margin-bottom: 32px;
-  font-size: 64px;
-}
-
-.card .Home-P {
-  font-size: 22px;
-  color: hsl(0, 28%, 10%);
-  text-align: center;
-}
-
-.Title-nosCocktails {
-  text-align: center;
-  margin-bottom: 32px;
-}
-
-.Cocktail-link-general {
-  margin-bottom: 64px;
-}
-.Cocktail-link-general .Cocktail-link {
+.button-player {
+  background: #000;
   display: flex;
-  justify-content: space-around;
-  font-size: 24px;
-  list-style: none;
   gap: 16px;
 }
-.Cocktail-link-general .Cocktails-choise {
+.button-player .playPause {
+  color: red;
+}
+.button-player .muteunmute {
+  color: yellow;
+  color: rgb(54, 86, 6);
+}
+
+.App-Slider-link {
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-between;
-  align-items: center;
+  overflow: hidden;
 }
-.Cocktail-link-general .Cocktails-choise .App-Cocktail-link {
-  font-size: 32px;
-  color: rgb(27, 164, 27);
-  text-decoration: none;
+.App-Slider-link .imgtestslider {
+  height: 250px;
+  width: 100%;
 }
-.Cocktail-link-general .Cocktails-choise .App-Cocktail-link:hover {
-  color: hsl(39, 93%, 42%);
-  font-style: oblique;
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 32px;
 }
-.Cocktail-link-general .Cocktails-choise img {
-  height: 275px;
-  width: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+.contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.contact-form .form-group label {
+  margin-bottom: 0.5rem;
+}
+.contact-form .form-group .form-control {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s;
+}
+.contact-form .form-group .form-control.valid {
+  border-color: green;
+}
+.contact-form .form-group .form-control.invalid {
+  border-color: red;
+}
+.contact-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+.contact-form textarea {
+  height: 128px;
 }
 
 .Page-not-found {
@@ -140,41 +110,6 @@ body {
 .Page-not-found p {
   font-size: 64px;
   color: hsl(39, 93%, 42%);
-}
-
-.cocktail-wa {
-  color: hsl(39, 93%, 42%);
-  text-align: center;
-  margin-bottom: 32px;
-}
-
-.list-cocktail {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 16px;
-  padding: 0 24px;
-  width: 100%;
-  flex-wrap: wrap;
-}
-.list-cocktail img {
-  height: 275px;
-  width: 300px;
-}
-
-.footer-Texte {
-  background-color: hsl(0, 10%, 0%);
-  color: rgb(27, 164, 27);
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  width: 100%;
-}
-.footer-Texte:hover {
-  color: hsl(39, 93%, 42%);
-  background-color: hsl(0, 28%, 10%);
 }
 
 .This-Cocktail-Card {
@@ -235,46 +170,111 @@ body {
   font-style: oblique;
 }
 
-.contact-form {
+.CentrageTemporaire {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  max-width: 400px;
-  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.footer-Texte {
+  background-color: hsl(0, 10%, 0%);
+  color: rgb(27, 164, 27);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+.footer-Texte:hover {
+  color: hsl(39, 93%, 42%);
+  background-color: hsl(0, 28%, 10%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 228, 196);
+}
+
+.Home {
+  margin-bottom: 128px;
+}
+
+.h1-HomePage {
+  text-align: center;
+  color: hsl(39, 93%, 42%);
+  margin-bottom: 32px;
+  font-size: 64px;
+}
+
+.card .Home-P {
+  font-size: 22px;
+  color: hsl(0, 28%, 10%);
+  text-align: center;
+}
+
+.Title-nosCocktails {
+  text-align: center;
   margin-bottom: 32px;
 }
-.contact-form .form-group {
+
+.Cocktail-link-general {
+  margin-bottom: 64px;
+}
+.Cocktail-link-general .Cocktail-link {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 1rem;
+  justify-content: space-around;
+  font-size: 24px;
+  list-style: none;
+  gap: 16px;
 }
-.contact-form .form-group label {
-  margin-bottom: 0.5rem;
+.Cocktail-link-general .Cocktails-choise {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
 }
-.contact-form .form-group .form-control {
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  outline: none;
-  transition: border-color 0.3s;
+.Cocktail-link-general .Cocktails-choise .App-Cocktail-link {
+  font-size: 32px;
+  color: rgb(27, 164, 27);
+  text-decoration: none;
 }
-.contact-form .form-group .form-control.valid {
-  border-color: green;
+.Cocktail-link-general .Cocktails-choise .App-Cocktail-link:hover {
+  color: hsl(39, 93%, 42%);
+  font-style: oblique;
 }
-.contact-form .form-group .form-control.invalid {
-  border-color: red;
+.Cocktail-link-general .Cocktails-choise img {
+  height: 275px;
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
-.contact-form button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
+
+.cocktail-wa {
+  color: hsl(39, 93%, 42%);
+  text-align: center;
+  margin-bottom: 32px;
 }
-.contact-form button:hover {
-  background-color: #0056b3;
+
+.list-cocktail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+  padding: 0 24px;
+  width: 100%;
+  flex-wrap: wrap;
 }
-.contact-form textarea {
-  height: 128px;
+.list-cocktail img {
+  height: 275px;
+  width: 300px;
 }
 
 @media (max-width: 850px) {

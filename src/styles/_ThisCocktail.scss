@@ -1,0 +1,79 @@
+// COCKTAIL CARD
+.This-Cocktail-Card {
+    color: $color-gitano;
+    line-height: 32px;
+
+    .Cocktail-name {
+        text-align: center;
+        color: $color-black;
+        margin-bottom: 32px;
+    }
+
+    .Ingredients-et-Img {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 32px;
+
+        img {
+            height: 275px;
+            width: 300px;
+            object-fit: cover;
+            object-position: center;
+
+        }
+
+        .list-ingredients {
+            display: flex;
+            flex-direction: column;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            list-style: circle;
+            line-height: 33px;
+
+        }
+
+        li {
+            color: $color-black;
+        }
+    }
+
+    p {
+        padding-left: 32px;
+        padding-right: 32px;
+        display: flex;
+        font-size: 20px;
+        margin-bottom: 32px;
+
+    }
+
+    .into-Cocktail-Selection {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .App-Cocktail-link-TC {
+            color: $color-gitano-Hover;
+            text-decoration: none;
+            margin-bottom: 32px;
+
+            &:hover {
+                color: $color-gitano;
+                font-style: oblique;
+            }
+        }
+
+    }
+
+}
+
+// TODO gerer le positionnement et le lanceent de la video
+.CentrageTemporaire {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
