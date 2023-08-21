@@ -36,6 +36,21 @@
   text-decoration: overline;
 }
 
+.Home {
+  margin-bottom: 128px;
+}
+.Home .h1-HomePage {
+  text-align: center;
+  color: hsl(39, 93%, 42%);
+  margin-bottom: 32px;
+  font-size: 64px;
+}
+.Home .card .Home-P {
+  font-size: 22px;
+  color: hsl(0, 28%, 10%);
+  text-align: center;
+}
+
 .button-player {
   background: #000;
   display: flex;
@@ -199,23 +214,6 @@
 
 body {
   background-color: rgb(255, 228, 196);
-}
-
-.Home {
-  margin-bottom: 128px;
-}
-
-.h1-HomePage {
-  text-align: center;
-  color: hsl(39, 93%, 42%);
-  margin-bottom: 32px;
-  font-size: 64px;
-}
-
-.card .Home-P {
-  font-size: 22px;
-  color: hsl(0, 28%, 10%);
-  text-align: center;
 }
 
 .Title-nosCocktails {

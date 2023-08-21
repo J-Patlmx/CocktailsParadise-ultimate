@@ -1,5 +1,6 @@
 @import "./variables";
 @import "./Header";
+@import "./Home";
 @import "./AudioPlayer";
 @import "./Slider";
 @import "./Contact";
@@ -22,26 +23,6 @@ body{
 }
 
 
-
-.Home{
-margin-bottom: 128px;
-}
-
-//Home
-.h1-HomePage{
-    text-align: center;
-    color:  $color-gitano-Hover;
-    margin-bottom: 32px;
-    font-size: 64px;
-
-}
-.card{
-    .Home-P{
-        font-size: 22px;
-        color: $color-black;
-        text-align: center;
-    }
-}
 
 
 .Title-nosCocktails{
