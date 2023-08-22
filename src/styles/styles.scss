@@ -24,17 +24,12 @@ body{
 }
 
 
-
-
-
-
-
 @media (max-width: 850px) {
     body{
         background: $bg-hover;
      
     }
-    .App-Slider-link{
+    .slider-container{
         display: none;
     }
 
@@ -64,6 +59,9 @@ body{
         .App-header-link{
             color: $color-gitano;
             flex: 1;
+            &:hover{
+               text-decoration: none;
+            }
             
            
         }
@@ -76,11 +74,13 @@ body{
 //Home
 .Home{
     margin-bottom: 32px;
+    
+    .card{
+        .Home-P
+        { color: $color-gitano;
+        }
     }
-
-.card{
-   .Home-P{ color: $bg-body-color;
-}}
+}
 .Title-nosCocktails{
   color: $color-gitano-Hover;
         }

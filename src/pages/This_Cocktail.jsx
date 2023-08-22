@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import ReactPlayer from 'react-player/youtube'
 import cocktailsDataAvecAlcool from "../assets/temporaireData/CocktailsAvecAlcool.json";
-import cocktailsDataSansAlcool from "../assets/temporaireData/CocktailsSansAlcool.json"; // Remplacez le chemin par le chemin correct vers votre fichier JSON pour les cocktails sans alcool
+import cocktailsDataSansAlcool from "../assets/temporaireData/CocktailsSansAlcool.json";
 
 function ThisCocktail() {
   const { cocktailId } = useParams();

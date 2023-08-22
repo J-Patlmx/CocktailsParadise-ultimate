@@ -64,13 +64,27 @@
   color: rgb(54, 86, 6);
 }
 
-.App-Slider-link {
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+.slider-container .slider {
+  display: flex;
+  transition: transform 0.5s infinite ease-in-out;
+}
+.slider-container .slider .slider-item {
+  flex: 0 0 100%;
+  width: 100%;
+}
+.slider-container .slider .App-Slider-link {
+  text-decoration: none;
+  width: 100% auto;
   display: flex;
   overflow: hidden;
 }
-.App-Slider-link .imgtestslider {
-  height: 250px;
+.slider-container .slider .App-Slider-link .imgtestslider {
   width: 100%;
+  height: 250px;
 }
 
 .contact-form {
@@ -118,12 +132,13 @@
 .Page-not-found {
   color: rgb(27, 164, 27);
   text-align: center;
+  margin-bottom: 32px;
 }
 .Page-not-found h1 {
-  font-size: 300px;
+  font-size: 250px;
 }
 .Page-not-found p {
-  font-size: 64px;
+  font-size: 48px;
   color: hsl(39, 93%, 42%);
 }
 
@@ -279,7 +294,7 @@ body {
   body {
     background: hsl(0, 28%, 10%);
   }
-  .App-Slider-link {
+  .slider-container {
     display: none;
   }
   .contact-form {
@@ -305,11 +320,14 @@ body {
     color: rgb(27, 164, 27);
     flex: 1;
   }
+  .Header .App-header-link:hover {
+    text-decoration: none;
+  }
   .Home {
     margin-bottom: 32px;
   }
-  .card .Home-P {
-    color: rgb(255, 228, 196);
+  .Home .card .Home-P {
+    color: rgb(27, 164, 27);
   }
   .Title-nosCocktails {
     color: hsl(39, 93%, 42%);
