@@ -1,0 +1,39 @@
+.Title-nosCocktails{
+    text-align: center;
+    margin-bottom: 32px;
+        }
+.Cocktail-link-general{
+    margin-bottom: 64px;
+    .Cocktail-link{
+        display: flex;
+        justify-content: space-around;
+        font-size: 24px;
+        list-style: none;
+        gap: 16px;
+    }
+    .Cocktails-choise{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+
+        .App-Cocktail-link{
+            font-size: 32px;   
+            color:  $color-gitano;
+            text-decoration: none;
+                    &:hover{
+                            color: $color-gitano-Hover;
+                            font-style: oblique;
+                        }
+            }
+
+        img{
+            height: 275px;
+            width: 300px;
+            object-fit: cover;
+            object-position: center;
+            }
+    }
+
+
+}
