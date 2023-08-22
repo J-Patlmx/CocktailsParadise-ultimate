@@ -10,10 +10,6 @@
 @import "./Footer";
 @import "./Global";
 
-
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -27,7 +23,6 @@ body{
 @media (max-width: 850px) {
     body{
         background: $bg-hover;
-     
     }
     .slider-container{
         display: none;
@@ -44,7 +39,7 @@ body{
 .Header{
     flex-wrap: nowrap;
     flex-direction: column;
-     padding-right: 0;
+    padding-right: 0;
     background-color: $bg-hover;
     margin-bottom: 32px;
     justify-content: space-around;
@@ -52,15 +47,15 @@ body{
         width: 100%;
     
     }
-                 .App-logo{
-               margin: auto;
-               align-items: center;
-                 }
+                .App-logo{
+                margin: auto;
+                align-items: center;
+                }
         .App-header-link{
             color: $color-gitano;
             flex: 1;
             &:hover{
-               text-decoration: none;
+                text-decoration: none;
             }
             
            
@@ -87,15 +82,14 @@ body{
 
 .Cocktail-link-general{
     .Cocktail-link{
-       flex-direction: column;
-      
+        flex-direction: column;
+
     }
     .Cocktails-choise{
         flex-direction: column-reverse;
-       width: 100%;
+        width: 100%;
             }
 
-       
     }
 
 
@@ -109,17 +103,16 @@ body{
      
     }
 .Ingredients-et-Img {
-              flex-direction: column;
-   
-.list-ingredients{
-    img{
-        margin-bottom: 16px;
+    flex-direction: column;
+    .list-ingredients{
+        img{
+            margin-bottom: 16px;
+        }
+    h2{
+        text-align: center;
+    margin-bottom: 16px;
     }
- h2{
-    text-align: center;
-margin-bottom: 16px;
-}
-}
+    }
 
 ul{
     display: flex;
@@ -133,7 +126,7 @@ ul{
     }
 }
 p{
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 
 }
 .into-Cocktail-Selection{
@@ -164,10 +157,9 @@ text-decoration: none;
     flex-direction: column;
     img{
         display: flex;
-      align-items: center;
-      justify-content: center;
+        align-items: center;
+        justify-content: center;
         height: 275px;
-        // width: 300px;
         width: 100%;
         object-fit: cover;
         object-position: center;

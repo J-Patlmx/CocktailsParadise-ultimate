@@ -85,6 +85,10 @@
 .slider-container .slider .App-Slider-link .imgtestslider {
   width: 100%;
   height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .contact-form {
