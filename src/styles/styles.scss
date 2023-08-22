@@ -28,26 +28,6 @@ body{
 
 
 
-.cocktail-wa{
-    color: $color-gitano-Hover;
-    text-align: center;
-    margin-bottom: 32px;
-}
-
-.list-cocktail{
-    display: flex;
-  justify-content: space-around;
-  align-items: center;
-    gap: 16px;
-    padding: 0 24px;
-    width: 100%;
-    flex-wrap: wrap;
-    img{
-        height: 275px;
-        width: 300px;
-    }
-
-}
 
 @media (max-width: 850px) {
     body{
