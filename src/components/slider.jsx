@@ -1,13 +1,11 @@
 import { useRef, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import cocktailsData from "../assets/temporaireData/CocktailsAvecAlcool.json";
+
 
 function SliderComponent() {
   const sliderRef = useRef(null);
-  const slides = [
-    "https://zupimages.net/up/23/30/cgpj.jpg",
-    "https://zupimages.net/up/23/30/hod4.jpg",
-   
-  ];
+  const slides = [];
 
   useEffect(() => {
     // Cloner le premier élément et l'ajouter à la fin pour un défilement continu
@@ -42,10 +40,17 @@ function SliderComponent() {
   return (
     <div className="slider-container">
       <div className="slider" ref={sliderRef}>
-        {slides.map((slide, index) => (
-          <div className="slider-item" key={index}>
-            <NavLink className="App-Slider-link" to="/Page404">
-              <img className="imgtestslider" src={slide} alt="un cocktail" />
+        {cocktailsData.cocktails.map(cocktail => (
+          <div className="slider-item" key={cocktail.id}>
+            <NavLink
+              key={cocktail.id}
+              className="App-Slider-link"
+              to={`/this_cocktail/${cocktail.id}`}
+            >
+
+              <div>
+                <img className="imgtestslider" src={cocktail.photo} alt={cocktail.name} />
+              </div>
             </NavLink>
           </div>
         ))}
@@ -55,31 +60,3 @@ function SliderComponent() {
 }
 
 export default SliderComponent;
-
-
-
-
-
-
-// import { NavLink } from "react-router-dom"
-
-// function sliderComponent() {
-//   return (
-//     <>
-// {/* TODO: gerer le proble daffichage */}
-// <NavLink className="App-Slider-link" to={"/Page404 "} >
-   
-      
-//         <img className="imgtestslider" src="https://zupimages.net/up/23/30/cgpj.jpg" alt="un cocktail" />
-//         <img className="imgtestslider" src="https://zupimages.net/up/23/30/hod4.jpg" alt="un cocktail" />
-//         <img className="imgtestslider" src="https://zupimages.net/up/23/30/cgpj.jpg" alt="un cocktail" />
-//         <img className="imgtestslider" src="https://zupimages.net/up/23/30/hod4.jpg" alt="un cocktail" />
-
-             
-// </NavLink>
-
-//     </>
-//   )
-// }
-
-// export default sliderComponent
