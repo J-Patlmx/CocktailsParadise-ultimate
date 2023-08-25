@@ -6,8 +6,8 @@ function Footer() {
   return (
     <>
     <Link className="Footerlink footer-Texte" to={"https://j-patlmx.github.io/businessCard-main/"} >©Cocktails Paradise par DevDread</Link>
-    <Link  to={"https://j-patlmx.github.io/businessCard-main/"}><img src={facebook}/></Link>
-    <img src={instagram} />
+    <Link  to={"https://www.facebook.com/officiel.Cocktails.Paradise/"}><img src={facebook}/></Link>
+    <Link  to={"https://www.instagram.com/cocktails_paradise/"}><img src={instagram}/></Link>
     </>
   )
 }
