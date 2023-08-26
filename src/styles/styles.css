@@ -269,8 +269,15 @@
   justify-content: space-around;
 }
 
-.footer-Texte {
+.Footerlink {
   background-color: hsl(0, 10%, 0%);
+  color: rgb(27, 164, 27);
+  text-align: center;
+}
+.Footerlink:hover {
+  background-color: hsl(0, 28%, 10%);
+}
+.Footerlink .footer-Texte {
   color: rgb(27, 164, 27);
   text-align: center;
   display: flex;
@@ -279,9 +286,8 @@
   height: 100px;
   width: 100%;
 }
-.footer-Texte:hover {
+.Footerlink .footer-Texte:hover {
   color: hsl(39, 93%, 42%);
-  background-color: hsl(0, 28%, 10%);
 }
 
 * {
