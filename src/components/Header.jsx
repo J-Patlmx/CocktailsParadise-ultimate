@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import logo from "../assets/logo2.png";
 import MusicPlayer from "./audioplayer";
 
+
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -10,23 +11,30 @@ function Header() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <div className={`Header ${isMenuOpen ? "open" : ""}`}>
       <img src={logo} className="App-logo" alt="logo" />
-      <MusicPlayer />
-      <button className="menu-button" onClick={toggleMenu}>
+      <button className={`menu-button ${isMenuOpen ? "open" : ""}`} onClick={toggleMenu}>
         ☰
       </button>
+      <button className={`close-button ${isMenuOpen ? "open" : ""}`} onClick={closeMenu}>
+        X
+      </button>
       <nav className={`Header-link ${isMenuOpen ? "open" : ""}`}>
-        <NavLink className="App-header-link" to={"/home"}>
+        <NavLink className="App-header-link" to={"/home"} onClick={closeMenu}>
           Accueil
         </NavLink>
-        <NavLink className="App-header-link" to={"/cocktail"}>
+        <NavLink className="App-header-link" to={"/cocktail"} onClick={closeMenu}>
           Cocktails
         </NavLink>
-        <NavLink className="App-header-link" to={"/Contact"}>
+        <NavLink className="App-header-link" to={"/Contact"} onClick={closeMenu}>
           Contact
         </NavLink>
+      <MusicPlayer />
       </nav>
     </div>
   );

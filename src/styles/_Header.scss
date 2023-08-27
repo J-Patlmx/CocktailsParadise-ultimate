@@ -9,19 +9,19 @@
     flex-wrap: wrap;
     margin-bottom: 60px;
 
-    &:hover {
-        background-color: $bg-hover;
-    }
-
     .App-logo {
         margin-right: auto;
         padding: 0 24px;
         width: 250px;
     }
 
-   .menu-button{
-    display: none;
-   }
+    .menu-button {
+        display: none;
+    }
+
+    .close-button {
+        display: none;
+    }
 
     nav {
         display: flex;
@@ -51,7 +51,7 @@
         }
     }
 
-    @media (max-width: 950px) {
+    @media (max-width: 850px) {
         .menu-button {
             color: aqua;
             background: none;
@@ -60,17 +60,39 @@
             cursor: pointer;
             margin-right: 16px;
             display: block;
-    
+
             &:focus {
                 outline: none;
             }
-    
+
             &.open {
                 display: none;
-                /* Masquer le bouton hamburger lorsque le menu est ouvert */
+
             }
         }
+
+        .close-button {
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            display: none;
+            color: red;
+
+            &:focus {
+                outline: none;
+            }
+
+            &.open {
+                display: block;
+                position: absolute;
+                top: 90px;
+                right: 50px;
+            }
+        }
+
         .Header-link {
+
             display: none;
             flex-direction: column;
             align-items: flex-start;
@@ -84,6 +106,10 @@
             .App-header-link {
                 margin-bottom: 16px;
 
+                &:hover {
+                    text-decoration: none;
+                }
+
                 &:last-child {
                     margin-bottom: 0;
                 }
@@ -91,47 +117,3 @@
         }
     }
 }
-
-
-
-// // HEADER
-// .Header{
-//     background-color: $bg-header-footer;
-//     color: $color-gitano;
-//     margin: auto;
-//     padding-right: 32px;
-//     display: flex;
-//     align-items: center;
-//     flex-wrap: wrap;
-//     margin-bottom: 60px;
-
-//     &:hover{
-//         background-color: $bg-hover;
-//     }
-//                 .App-logo{
-//                     margin-right: auto;
-//                     padding: 0 24px;
-//                     width: 250px;
-//                 }
-//                 nav {
-//                     display: flex;
-//                     align-items: center;
-//                     flex-wrap: wrap;
-//                     justify-content: flex-end;
-//                     gap: 32px;
-//                     font-size: 24px;
-//                     }
-//         .App-header-link{
-//             display: flex;
-//             justify-content: space-around;
-//             align-items: center;
-//             color: $color-gitano;
-//             text-decoration: none;
-
-//         &:hover{
-//                 color: $color-gitano-Hover;
-//                 text-decoration:overline;
-
-//             }
-//         }
-// }

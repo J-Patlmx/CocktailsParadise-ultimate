@@ -8,15 +8,15 @@
   flex-wrap: wrap;
   margin-bottom: 60px;
 }
-.Header:hover {
-  background-color: hsl(0, 28%, 10%);
-}
 .Header .App-logo {
   margin-right: auto;
   padding: 0 24px;
   width: 250px;
 }
 .Header .menu-button {
+  display: none;
+}
+.Header .close-button {
   display: none;
 }
 .Header nav {
@@ -41,7 +41,7 @@
 .Header.open .Header-link {
   display: flex;
 }
-@media (max-width: 950px) {
+@media (max-width: 850px) {
   .Header .menu-button {
     color: aqua;
     background: none;
@@ -56,7 +56,23 @@
   }
   .Header .menu-button.open {
     display: none;
-    /* Masquer le bouton hamburger lorsque le menu est ouvert */
+  }
+  .Header .close-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    color: red;
+  }
+  .Header .close-button:focus {
+    outline: none;
+  }
+  .Header .close-button.open {
+    display: block;
+    position: absolute;
+    top: 90px;
+    right: 50px;
   }
   .Header .Header-link {
     display: none;
@@ -70,6 +86,9 @@
   }
   .Header .Header-link .App-header-link {
     margin-bottom: 16px;
+  }
+  .Header .Header-link .App-header-link:hover {
+    text-decoration: none;
   }
   .Header .Header-link .App-header-link:last-child {
     margin-bottom: 0;
@@ -87,7 +106,7 @@
 }
 .Home .card .Home-P {
   font-size: 22px;
-  color: hsl(0, 28%, 10%);
+  color: hsl(0, 23%, 3%);
   text-align: center;
 }
 
@@ -251,7 +270,7 @@
 }
 .This-Cocktail-Card .Cocktail-name {
   text-align: center;
-  color: hsl(0, 28%, 10%);
+  color: hsl(0, 23%, 3%);
   margin-bottom: 32px;
 }
 .This-Cocktail-Card .Ingredients-et-Img {
@@ -279,7 +298,7 @@
   line-height: 33px;
 }
 .This-Cocktail-Card .Ingredients-et-Img li {
-  color: hsl(0, 28%, 10%);
+  color: hsl(0, 23%, 3%);
 }
 .This-Cocktail-Card p {
   padding-left: 32px;
@@ -314,9 +333,6 @@
   color: rgb(27, 164, 27);
   text-align: center;
 }
-.Footerlink:hover {
-  background-color: hsl(0, 28%, 10%);
-}
 .Footerlink .footer-Texte {
   color: rgb(27, 164, 27);
   text-align: center;
@@ -342,7 +358,7 @@ body {
 
 @media (max-width: 850px) {
   body {
-    background: hsl(0, 28%, 10%);
+    background: hsl(0, 23%, 3%);
   }
   .slider-container {
     display: none;
