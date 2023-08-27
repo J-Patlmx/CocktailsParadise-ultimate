@@ -7,17 +7,15 @@
         background-color: $bg-hover;
     }
     .footer-Texte{
-        // background-color: $bg-header-footer;
-       color: $color-gitano;
-         text-align: center;
-         display: flex;
-         justify-content: center;
-         align-items: center;
+        color: $color-gitano;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 100px;
         width: 100%;
         &:hover{
         color: $color-gitano-Hover;
-
         }
     
     }

@@ -24,6 +24,15 @@ body{
     body{
         background: $bg-hover;
     }
+
+
+
+
+
+
+
+
+    
     .slider-container{
         display: none;
     }
@@ -35,32 +44,32 @@ body{
     }
 
 
-//HEADER
-.Header{
-    flex-wrap: nowrap;
-    flex-direction: column;
-    padding-right: 0;
-    background-color: $bg-hover;
-    margin-bottom: 32px;
-    justify-content: space-around;
-    nav{
-        width: 100%;
+// //HEADER
+// .Header{
+//     flex-wrap: nowrap;
+//     flex-direction: column;
+//     padding-right: 0;
+//     background-color: $bg-hover;
+//     margin-bottom: 32px;
+//     justify-content: space-around;
+//     nav{
+//         width: 100%;
     
-    }
-                .App-logo{
-                margin: auto;
-                align-items: center;
-                }
-        .App-header-link{
-            color: $color-gitano;
-            flex: 1;
-            &:hover{
-                text-decoration: none;
-            }
+//     }
+//                 .App-logo{
+//                 margin: auto;
+//                 align-items: center;
+//                 }
+//         .App-header-link{
+//             color: $color-gitano;
+//             flex: 1;
+//             &:hover{
+//                 text-decoration: none;
+//             }
             
            
-        }
-}
+//         }
+// }
 
 
 
@@ -95,77 +104,79 @@ body{
 
 // COCKTAIL CARD
 .This-Cocktail-Card{
-    color: $color-gitano;
-    line-height: 32px;
-    text-align: center;
+        color: $color-gitano;
+        line-height: 32px;
+        text-align: center;
+        
     .Cocktail-name{
         color: $color-gitano-Hover;
-     
     }
-.Ingredients-et-Img {
-    flex-direction: column;
-    .list-ingredients{
-        img{
-            margin-bottom: 16px;
-        }
-    h2{
-        text-align: center;
-    margin-bottom: 16px;
-    }
-    }
-
-ul{
-    display: flex;
-    flex-direction: column;
-    list-style: circle;
-    line-height: 33px;
-
-}
-    li{
-    color: $bg-body-color;
-    }
-}
-p{
-    margin-bottom: 16px;
-
-}
-.into-Cocktail-Selection{
-
-
-.App-Cocktail-link-TC{
-color:  $color-gitano-Hover;
-text-decoration: none;
-        &:hover{
-                color: $color-gitano;
-                font-style: oblique;
+    .Ingredients-et-Img {
+        flex-direction: column;
+        .list-ingredients{
+            img{
+                margin-bottom: 16px;
             }
-}
+        h2{
+            text-align: center;
+        margin-bottom: 16px;
+        }
+        }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        list-style: circle;
+        line-height: 33px;
+
+    }
+        li{
+        color: $bg-body-color;
+        }
+    }
+    p{
+        margin-bottom: 16px;
+    }
+    .into-Cocktail-Selection{
+            .App-Cocktail-link-TC{
+            color:  $color-gitano-Hover;
+            text-decoration: none;
+                    &:hover{
+                            color: $color-gitano;
+                            font-style: oblique;
+                        }
+            }
+
+    }
 
 }
 
+
+    
+    .list-cocktail{
+        flex-direction: column;
+
+            img{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 275px;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+
 }
+
 
 
 //FOOTER STYLE
-.footer-Texte{
-    background-color: $bg-hover;
-    color: $color-gitano;
-}
-
-
-.list-cocktail{
-    flex-direction: column;
-    img{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 275px;
-        width: 100%;
-        object-fit: cover;
-        object-position: center;
+.Footerlink{
+    .footer-Texte{
+        
+        color: $color-gitano-Hover;
     }
-
+    
 }
-
 
 }

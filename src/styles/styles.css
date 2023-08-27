@@ -16,6 +16,9 @@
   padding: 0 24px;
   width: 250px;
 }
+.Header .menu-button {
+  display: none;
+}
 .Header nav {
   display: flex;
   align-items: center;
@@ -34,6 +37,43 @@
 .Header .App-header-link:hover {
   color: hsl(39, 93%, 42%);
   text-decoration: overline;
+}
+.Header.open .Header-link {
+  display: flex;
+}
+@media (max-width: 950px) {
+  .Header .menu-button {
+    color: aqua;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 16px;
+    display: block;
+  }
+  .Header .menu-button:focus {
+    outline: none;
+  }
+  .Header .menu-button.open {
+    display: none;
+    /* Masquer le bouton hamburger lorsque le menu est ouvert */
+  }
+  .Header .Header-link {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-top: 16px;
+  }
+  .Header .Header-link.open {
+    display: flex;
+  }
+  .Header .Header-link .App-header-link {
+    margin-bottom: 16px;
+  }
+  .Header .Header-link .App-header-link:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .Home {
@@ -311,28 +351,6 @@ body {
     padding-left: 16px;
     padding-right: 16px;
   }
-  .Header {
-    flex-wrap: nowrap;
-    flex-direction: column;
-    padding-right: 0;
-    background-color: hsl(0, 28%, 10%);
-    margin-bottom: 32px;
-    justify-content: space-around;
-  }
-  .Header nav {
-    width: 100%;
-  }
-  .Header .App-logo {
-    margin: auto;
-    align-items: center;
-  }
-  .Header .App-header-link {
-    color: rgb(27, 164, 27);
-    flex: 1;
-  }
-  .Header .App-header-link:hover {
-    text-decoration: none;
-  }
   .Home {
     margin-bottom: 32px;
   }
@@ -387,10 +405,6 @@ body {
     color: rgb(27, 164, 27);
     font-style: oblique;
   }
-  .footer-Texte {
-    background-color: hsl(0, 28%, 10%);
-    color: rgb(27, 164, 27);
-  }
   .list-cocktail {
     flex-direction: column;
   }
@@ -404,5 +418,8 @@ body {
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
+  }
+  .Footerlink .footer-Texte {
+    color: hsl(39, 93%, 42%);
   }
 }/*# sourceMappingURL=styles.css.map */
