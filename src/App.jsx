@@ -1,12 +1,13 @@
 
 import { Link } from "react-router-dom"
 import "./styles/styles.css"
-import SliderComponent from"./components/slider"
+// import SliderComponent from"./components/slider"
+// TODO: regler les probleme quaporte le slider
 function App() {
  
   return (
     <div className="Home">
-    <SliderComponent />
+    {/* <SliderComponent /> */}
      
       <h1 className="h1-HomePage">Cocktails Paradise</h1>
  

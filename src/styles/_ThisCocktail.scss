@@ -5,7 +5,7 @@
 
     .Cocktail-name {
         text-align: center;
-        color: $color-black;
+        color: $color-gitano-Hover;
         margin-bottom: 32px;
     }
 
@@ -33,11 +33,13 @@
             flex-direction: column;
             list-style: circle;
             line-height: 33px;
+            padding-left: 32px;
+            padding-right: 32px;
 
         }
 
         li {
-            color: $color-black;
+            color: $color-P;
         }
     }
 
@@ -47,6 +49,7 @@
         display: flex;
         font-size: 20px;
         margin-bottom: 32px;
+        
 
     }
 
@@ -63,7 +66,7 @@
 
             &:hover {
                 color: $color-gitano;
-                font-style: oblique;
+        
             }
         }
 
@@ -73,6 +76,8 @@
 
 // TODO gerer le positionnement et le lanceent de la video
 .CentrageTemporaire {
+    padding-left: 16px;
+    padding-right: 16px;
     width: 100%;
     display: flex;
     justify-content: space-around;

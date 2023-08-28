@@ -52,15 +52,12 @@
     }
 
     @media (max-width: 850px) {
-        // .Header{ margin-bottom:250px;
-       
-        // }
-
+     
         .menu-button {
-            color: $color-gitano;
+            color: $color-gitano-Variante;
             background: none;
             border: none;
-            font-size: 24px;
+            font-size: 48px;
             cursor: pointer;
             margin-right: 16px;
             display: block;
@@ -75,13 +72,20 @@
             }
         }
 
+
+    nav {
+      
+        font-size: 32px;
+    }
+
+
         .close-button {
             background: none;
             border: none;
-            font-size: 24px;
+            font-size: 48px;
             cursor: pointer;
             display: none;
-            color: red;
+            color: $color-red;
 
             &:focus {
                 outline: none;

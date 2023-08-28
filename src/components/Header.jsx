@@ -17,7 +17,7 @@ function Header() {
 
   return (
     <div className={`Header ${isMenuOpen ? "open" : ""}`}>
-      <img src={logo} className="App-logo" alt="logo" />
+      <img src={logo} className="App-logo" alt="un palmier vert un verre de cocktail jaune et une note de musique rouge" />
       <button className={`menu-button ${isMenuOpen ? "open" : ""}`} onClick={toggleMenu}>
         ☰
       </button>

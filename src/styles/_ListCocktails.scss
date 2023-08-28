@@ -1,9 +1,14 @@
 //COCKTAILS COLLECTION
 .Title-nosCocktails{
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 64px;
+    color: $color-gitano-Hover;
+    font-size: 48px;
+
         }
 .Cocktail-link-general{
+    font-size: 48px;
+
     margin-bottom: 64px;
     .Cocktail-link{
         display: flex;
@@ -13,22 +18,22 @@
         gap: 16px;
     }
     .Cocktails-choise{
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-between;
-        align-items: center;
-
+        
         .App-Cocktail-link{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
             font-size: 32px;   
             color:  $color-gitano;
             text-decoration: none;
                     &:hover{
                             color: $color-gitano-Hover;
-                            font-style: oblique;
                         }
             }
 
         img{
+            margin-top: 32px;
             height: 275px;
             width: 300px;
             object-fit: cover;
@@ -46,6 +51,8 @@
     color: $color-gitano-Hover;
     text-align: center;
     margin-bottom: 32px;
+    font-size: 48px;
+
 }
 
 .list-cocktail{
@@ -56,6 +63,15 @@
     padding: 0 24px;
     width: 100%;
     flex-wrap: wrap;
+
+    .App-Recipe-Link{
+        color: yellowgreen;
+        text-decoration: none;
+        &:hover{
+            color: $color-gitano-Hover;
+        }
+    }
+
     img{
         height: 275px;
         width: 300px;

@@ -12,6 +12,9 @@
   
       label {
         margin-bottom: 0.5rem;
+        color: $color-gitano;
+        font-size: 20px;
+
       }
   
       .form-control {
@@ -21,25 +24,26 @@
         transition: border-color 0.3s;
   
         &.valid {
-          border-color: green;
+          border-color: $color-gitano;
         }
   
         &.invalid {
-          border-color: red;
+          border-color: $color-red;
         }
       }
     }
   
     button {
       background-color: #007bff;
-      color: white;
+      color: $color-P;
+
       border: none;
       padding: 0.5rem 1rem;
       cursor: pointer;
       transition: background-color 0.3s;
   
       &:hover {
-        background-color: #0056b3;
+        background-color: $button-color;
       }
     }
     textarea{

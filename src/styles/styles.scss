@@ -73,7 +73,7 @@ body{
 
 // COCKTAIL CARD
 .This-Cocktail-Card{
-        color: $color-gitano;
+
         line-height: 32px;
         text-align: center;
         
@@ -95,16 +95,20 @@ body{
     ul{
         display: flex;
         flex-direction: column;
-        list-style: circle;
+        list-style: none;
         line-height: 33px;
+        text-align: justify;
+    
 
     }
-        li{
-        color: $bg-body-color;
-        }
+        // li{
+        // color: $bg-body-color;
+        // }
     }
     p{
         margin-bottom: 16px;
+        text-align: justify;
+
     }
     .into-Cocktail-Selection{
             .App-Cocktail-link-TC{

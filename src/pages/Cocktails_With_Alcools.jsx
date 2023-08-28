@@ -9,7 +9,7 @@ function Cocktails_With_Alcools() {
         {cocktailsData.cocktails.map(cocktail => (
           <NavLink
             key={cocktail.id}
-            className="App-CocktailsAA-link"
+            className="App-Recipe-Link"
             to={`/this_cocktail/${cocktail.id}`}
           >
             {cocktail.name}

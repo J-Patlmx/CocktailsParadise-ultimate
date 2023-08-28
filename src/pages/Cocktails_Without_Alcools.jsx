@@ -17,7 +17,7 @@ function Cocktails_Without_Alcools() {
         {cocktails.map(cocktail => (
           <NavLink
             key={cocktail.id}
-            className="App-CocktailsSA-link"
+            className="App-Recipe-Link"
             to={`/this_cocktail/${cocktail.id}`} // Ajouter l'ID du cocktail dans l'URL
           >
             {cocktail.name}

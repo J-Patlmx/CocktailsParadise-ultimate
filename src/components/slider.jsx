@@ -8,7 +8,7 @@ function SliderComponent() {
   const slides = [];
 
   useEffect(() => {
-    // Cloner le premier élément et l'ajouter à la fin pour un défilement continu
+    // Clone le premier élément et l'ajoute à la fin pour un défilement continu
     const firstSlide = sliderRef.current.children[0];
     const clone = firstSlide.cloneNode(true);
     sliderRef.current.appendChild(clone);

@@ -1,6 +1,6 @@
 .Header {
   background-color: hsl(0, 10%, 0%);
-  color: rgb(27, 164, 27);
+  color: rgb(66, 179, 18);
   margin: auto;
   padding-right: 32px;
   display: flex;
@@ -31,11 +31,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: rgb(27, 164, 27);
+  color: rgb(66, 179, 18);
   text-decoration: none;
 }
 .Header .App-header-link:hover {
-  color: hsl(39, 73%, 51%);
+  color: rgb(232, 196, 14);
   text-decoration: overline;
 }
 .Header.open .Header-link {
@@ -43,10 +43,10 @@
 }
 @media (max-width: 850px) {
   .Header .menu-button {
-    color: rgb(27, 164, 27);
+    color: rgb(50, 135, 14);
     background: none;
     border: none;
-    font-size: 24px;
+    font-size: 48px;
     cursor: pointer;
     margin-right: 16px;
     display: block;
@@ -57,13 +57,16 @@
   .Header .menu-button.open {
     display: none;
   }
+  .Header nav {
+    font-size: 32px;
+  }
   .Header .close-button {
     background: none;
     border: none;
-    font-size: 24px;
+    font-size: 48px;
     cursor: pointer;
     display: none;
-    color: red;
+    color: rgb(207, 23, 23);
   }
   .Header .close-button:focus {
     outline: none;
@@ -100,13 +103,13 @@
 }
 .Home .h1-HomePage {
   text-align: center;
-  color: hsl(39, 73%, 51%);
+  color: rgb(232, 196, 14);
   margin-bottom: 32px;
   font-size: 64px;
 }
 .Home .P-HomePage {
   font-size: 22px;
-  color: hsl(0, 23%, 3%);
+  color: whitesmoke;
   text-align: center;
   padding-left: 16px;
   padding-right: 16px;
@@ -166,6 +169,8 @@
 }
 .contact-form .form-group label {
   margin-bottom: 0.5rem;
+  color: rgb(66, 179, 18);
+  font-size: 20px;
 }
 .contact-form .form-group .form-control {
   padding: 0.5rem;
@@ -174,28 +179,28 @@
   transition: border-color 0.3s;
 }
 .contact-form .form-group .form-control.valid {
-  border-color: green;
+  border-color: rgb(66, 179, 18);
 }
 .contact-form .form-group .form-control.invalid {
-  border-color: red;
+  border-color: rgb(207, 23, 23);
 }
 .contact-form button {
   background-color: #007bff;
-  color: white;
+  color: whitesmoke;
   border: none;
   padding: 0.5rem 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 .contact-form button:hover {
-  background-color: #0056b3;
+  background-color: blue;
 }
 .contact-form textarea {
   height: 128px;
 }
 
 .Page-not-found {
-  color: rgb(27, 164, 27);
+  color: rgb(66, 179, 18);
   text-align: center;
   margin-bottom: 32px;
 }
@@ -204,15 +209,18 @@
 }
 .Page-not-found p {
   font-size: 48px;
-  color: hsl(39, 73%, 51%);
+  color: rgb(232, 196, 14);
 }
 
 .Title-nosCocktails {
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 64px;
+  color: rgb(232, 196, 14);
+  font-size: 48px;
 }
 
 .Cocktail-link-general {
+  font-size: 48px;
   margin-bottom: 64px;
 }
 .Cocktail-link-general .Cocktail-link {
@@ -222,22 +230,20 @@
   list-style: none;
   gap: 16px;
 }
-.Cocktail-link-general .Cocktails-choise {
+.Cocktail-link-general .Cocktails-choise .App-Cocktail-link {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-}
-.Cocktail-link-general .Cocktails-choise .App-Cocktail-link {
   font-size: 32px;
-  color: rgb(27, 164, 27);
+  color: rgb(66, 179, 18);
   text-decoration: none;
 }
 .Cocktail-link-general .Cocktails-choise .App-Cocktail-link:hover {
-  color: hsl(39, 73%, 51%);
-  font-style: oblique;
+  color: rgb(232, 196, 14);
 }
 .Cocktail-link-general .Cocktails-choise img {
+  margin-top: 32px;
   height: 275px;
   width: 300px;
   -o-object-fit: cover;
@@ -247,9 +253,10 @@
 }
 
 .cocktail-wa {
-  color: hsl(39, 73%, 51%);
+  color: rgb(232, 196, 14);
   text-align: center;
   margin-bottom: 32px;
+  font-size: 48px;
 }
 
 .list-cocktail {
@@ -261,18 +268,25 @@
   width: 100%;
   flex-wrap: wrap;
 }
+.list-cocktail .App-Recipe-Link {
+  color: yellowgreen;
+  text-decoration: none;
+}
+.list-cocktail .App-Recipe-Link:hover {
+  color: rgb(232, 196, 14);
+}
 .list-cocktail img {
   height: 275px;
   width: 300px;
 }
 
 .This-Cocktail-Card {
-  color: rgb(27, 164, 27);
+  color: rgb(66, 179, 18);
   line-height: 32px;
 }
 .This-Cocktail-Card .Cocktail-name {
   text-align: center;
-  color: hsl(0, 23%, 3%);
+  color: rgb(232, 196, 14);
   margin-bottom: 32px;
 }
 .This-Cocktail-Card .Ingredients-et-Img {
@@ -298,9 +312,11 @@
   flex-direction: column;
   list-style: circle;
   line-height: 33px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 .This-Cocktail-Card .Ingredients-et-Img li {
-  color: hsl(0, 23%, 3%);
+  color: whitesmoke;
 }
 .This-Cocktail-Card p {
   padding-left: 32px;
@@ -315,16 +331,17 @@
   align-items: center;
 }
 .This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC {
-  color: hsl(39, 73%, 51%);
+  color: rgb(232, 196, 14);
   text-decoration: none;
   margin-bottom: 32px;
 }
 .This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC:hover {
-  color: rgb(27, 164, 27);
-  font-style: oblique;
+  color: rgb(66, 179, 18);
 }
 
 .CentrageTemporaire {
+  padding-left: 16px;
+  padding-right: 16px;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -332,11 +349,11 @@
 
 .Footerlink {
   background-color: hsl(0, 10%, 0%);
-  color: rgb(27, 164, 27);
+  color: rgb(66, 179, 18);
   text-align: center;
 }
 .Footerlink .footer-Texte {
-  color: rgb(27, 164, 27);
+  color: rgb(66, 179, 18);
   text-align: center;
   display: flex;
   justify-content: center;
@@ -345,7 +362,7 @@
   width: 100%;
 }
 .Footerlink .footer-Texte:hover {
-  color: hsl(39, 73%, 51%);
+  color: rgb(232, 196, 14);
 }
 
 * {
@@ -359,7 +376,7 @@ html {
 }
 
 body {
-  background-color: rgb(255, 228, 196);
+  background-color: rgb(9, 6, 6);
 }
 
 @media (max-width: 850px) {
@@ -377,10 +394,10 @@ body {
     margin-bottom: 32px;
   }
   .Home .P-HomePage {
-    color: rgb(27, 164, 27);
+    color: rgb(66, 179, 18);
   }
   .Title-nosCocktails {
-    color: hsl(39, 73%, 51%);
+    color: rgb(232, 196, 14);
   }
   .Cocktail-link-general .Cocktail-link {
     flex-direction: column;
@@ -390,12 +407,11 @@ body {
     width: 100%;
   }
   .This-Cocktail-Card {
-    color: rgb(27, 164, 27);
     line-height: 32px;
     text-align: center;
   }
   .This-Cocktail-Card .Cocktail-name {
-    color: hsl(39, 73%, 51%);
+    color: rgb(232, 196, 14);
   }
   .This-Cocktail-Card .Ingredients-et-Img {
     flex-direction: column;
@@ -410,21 +426,20 @@ body {
   .This-Cocktail-Card .Ingredients-et-Img ul {
     display: flex;
     flex-direction: column;
-    list-style: circle;
+    list-style: none;
     line-height: 33px;
-  }
-  .This-Cocktail-Card .Ingredients-et-Img li {
-    color: rgb(255, 228, 196);
+    text-align: justify;
   }
   .This-Cocktail-Card p {
     margin-bottom: 16px;
+    text-align: justify;
   }
   .This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC {
-    color: hsl(39, 73%, 51%);
+    color: rgb(232, 196, 14);
     text-decoration: none;
   }
   .This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC:hover {
-    color: rgb(27, 164, 27);
+    color: rgb(66, 179, 18);
     font-style: oblique;
   }
   .list-cocktail {
@@ -442,6 +457,6 @@ body {
        object-position: center;
   }
   .Footerlink .footer-Texte {
-    color: hsl(39, 73%, 51%);
+    color: rgb(232, 196, 14);
   }
 }/*# sourceMappingURL=styles.css.map */

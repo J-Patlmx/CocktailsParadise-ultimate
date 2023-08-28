@@ -31,7 +31,7 @@ class MusicPlayer  extends Component {
     return (
       <div>
         <audio ref={this.audioRef}>
-          <source src="http://latinareggaeton.ice.infomaniak.ch/latinareggaeton.mp3" type="audio/mpeg" />
+          <source src="https://latinareggaeton.ice.infomaniak.ch/latinareggaeton.mp3" type="audio/mpeg" />
           Votre navigateur ne prend pas en charge lélément audio.
         </audio>
 
