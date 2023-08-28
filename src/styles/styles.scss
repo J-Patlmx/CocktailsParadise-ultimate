@@ -15,6 +15,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: "Playfair Display", serif;
+    
+}
 body{
     background-color:$bg-body-color;
 }
@@ -45,12 +49,10 @@ body{
 //Home
 .Home{
     margin-bottom: 32px;
-    
-    .card{
-        .Home-P
+        .P-HomePage
         { color: $color-gitano;
         }
-    }
+   
 }
 .Title-nosCocktails{
   color: $color-gitano-Hover;

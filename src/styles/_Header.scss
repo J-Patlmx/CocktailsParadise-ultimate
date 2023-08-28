@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 60px;
+    margin-bottom: 32px;
 
     .App-logo {
         margin-right: auto;
@@ -52,7 +52,9 @@
     }
 
     @media (max-width: 850px) {
-        .Header{ margin-bottom: 0;}
+        // .Header{ margin-bottom:250px;
+       
+        // }
 
         .menu-button {
             color: $color-gitano;

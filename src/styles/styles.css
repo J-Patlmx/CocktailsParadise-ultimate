@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 60px;
+  margin-bottom: 32px;
 }
 .Header .App-logo {
   margin-right: auto;
@@ -35,16 +35,13 @@
   text-decoration: none;
 }
 .Header .App-header-link:hover {
-  color: hsl(39, 93%, 42%);
+  color: hsl(39, 73%, 51%);
   text-decoration: overline;
 }
 .Header.open .Header-link {
   display: flex;
 }
 @media (max-width: 850px) {
-  .Header .Header {
-    margin-bottom: 0;
-  }
   .Header .menu-button {
     color: rgb(27, 164, 27);
     background: none;
@@ -99,18 +96,20 @@
 }
 
 .Home {
-  margin-bottom: 128px;
+  margin-bottom: 32px;
 }
 .Home .h1-HomePage {
   text-align: center;
-  color: hsl(39, 93%, 42%);
+  color: hsl(39, 73%, 51%);
   margin-bottom: 32px;
   font-size: 64px;
 }
-.Home .card .Home-P {
+.Home .P-HomePage {
   font-size: 22px;
   color: hsl(0, 23%, 3%);
   text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .button-player {
@@ -205,7 +204,7 @@
 }
 .Page-not-found p {
   font-size: 48px;
-  color: hsl(39, 93%, 42%);
+  color: hsl(39, 73%, 51%);
 }
 
 .Title-nosCocktails {
@@ -235,7 +234,7 @@
   text-decoration: none;
 }
 .Cocktail-link-general .Cocktails-choise .App-Cocktail-link:hover {
-  color: hsl(39, 93%, 42%);
+  color: hsl(39, 73%, 51%);
   font-style: oblique;
 }
 .Cocktail-link-general .Cocktails-choise img {
@@ -248,7 +247,7 @@
 }
 
 .cocktail-wa {
-  color: hsl(39, 93%, 42%);
+  color: hsl(39, 73%, 51%);
   text-align: center;
   margin-bottom: 32px;
 }
@@ -316,7 +315,7 @@
   align-items: center;
 }
 .This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC {
-  color: hsl(39, 93%, 42%);
+  color: hsl(39, 73%, 51%);
   text-decoration: none;
   margin-bottom: 32px;
 }
@@ -346,13 +345,17 @@
   width: 100%;
 }
 .Footerlink .footer-Texte:hover {
-  color: hsl(39, 93%, 42%);
+  color: hsl(39, 73%, 51%);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-family: "Playfair Display", serif;
 }
 
 body {
@@ -373,11 +376,11 @@ body {
   .Home {
     margin-bottom: 32px;
   }
-  .Home .card .Home-P {
+  .Home .P-HomePage {
     color: rgb(27, 164, 27);
   }
   .Title-nosCocktails {
-    color: hsl(39, 93%, 42%);
+    color: hsl(39, 73%, 51%);
   }
   .Cocktail-link-general .Cocktail-link {
     flex-direction: column;
@@ -392,7 +395,7 @@ body {
     text-align: center;
   }
   .This-Cocktail-Card .Cocktail-name {
-    color: hsl(39, 93%, 42%);
+    color: hsl(39, 73%, 51%);
   }
   .This-Cocktail-Card .Ingredients-et-Img {
     flex-direction: column;
@@ -417,7 +420,7 @@ body {
     margin-bottom: 16px;
   }
   .This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC {
-    color: hsl(39, 93%, 42%);
+    color: hsl(39, 73%, 51%);
     text-decoration: none;
   }
   .This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC:hover {
@@ -439,6 +442,6 @@ body {
        object-position: center;
   }
   .Footerlink .footer-Texte {
-    color: hsl(39, 93%, 42%);
+    color: hsl(39, 73%, 51%);
   }
 }/*# sourceMappingURL=styles.css.map */

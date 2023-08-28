@@ -1,20 +1,21 @@
 
 //Home
 .Home{
-    margin-bottom: 128px;
+    margin-bottom: 32px;
+    
     .h1-HomePage{
         text-align: center;
         color:  $color-gitano-Hover;
         margin-bottom: 32px;
         font-size: 64px;
     }
-    .card{
-        .Home-P{
+    .P-HomePage{
             font-size: 22px;
             color: $color-black;
             text-align: center;
+            padding-left: 16px;
+            padding-right: 16px;
         }
-    }
 
     }
     

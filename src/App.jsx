@@ -9,9 +9,9 @@ function App() {
     <SliderComponent />
      
       <h1 className="h1-HomePage">Cocktails Paradise</h1>
-      <div className="card">
-        <div>
-        <p className="Home-P">
+ 
+     <>
+        <p className="P-HomePage">
               Bienvenue sur Cocktails Paradise, ici, on peut apprendre a réalisé des cocktails grâce à des petits
                 tutos vidéo,<br /> alors on n&#39;hésite pas à tips le barman.
                 L&#39;alcool se consomme avec modération. Même sil y a des fruits ! <br />
@@ -29,10 +29,10 @@ function App() {
 
                 Ne laissez jamais votre verre sans surveillance. <br />
                 Bonne dégustation et comme on dit chez moi <q>yer&#39;mat</q>.
-        </p>
-        </div>
+          </p>
+        </>
       </div>
-    </div>
+  
   )
 }
 
