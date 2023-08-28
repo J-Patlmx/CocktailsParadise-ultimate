@@ -22,7 +22,7 @@ function Header() {
         ☰
       </button>
       <button className={`close-button ${isMenuOpen ? "open" : ""}`} onClick={closeMenu}>
-        X
+        x
       </button>
       <nav className={`Header-link ${isMenuOpen ? "open" : ""}`}>
         <NavLink className="App-header-link" to={"/home"} onClick={closeMenu}>

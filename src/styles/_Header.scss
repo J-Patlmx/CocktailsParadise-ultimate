@@ -55,7 +55,7 @@
     @media (max-width: 850px) {
      
         .menu-button {
-            color: $color-gitano-Variante;
+          color: $color-gitano;
             background: none;
             border: none;
             font-size: 40px;
@@ -95,8 +95,9 @@
             &.open {
                 display: block;
                 position: absolute;
-                top: 90px;
+                top: 100px;
                 right: 50px;
+            
             }
         }
       
@@ -105,8 +106,7 @@
             display: none;
             flex-direction: column;
             align-items: center;
-            width: 100%;
-            padding-top: 16px;
+            width: 100%;           
 
             &.open {
                 display: flex;
