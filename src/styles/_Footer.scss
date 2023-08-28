@@ -1,19 +1,19 @@
 //FOOTER STYLE
 .Footerlink{
     background-color: $bg-header-footer;
-    color: $color-gitano;
     text-align: center;
- 
     .footer-Texte{
-        color: $color-gitano;
+        color: $color-gitano-Hover;
+        text-decoration: none;
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100px;
         width: 100%;
+        font-size: 20px;
         &:hover{
-        color: $color-gitano-Hover;
+            color: $color-gitano;
         }
     
     }

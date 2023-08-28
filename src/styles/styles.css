@@ -11,7 +11,8 @@
 .Header .App-logo {
   margin-right: auto;
   padding: 0 24px;
-  width: 250px;
+  width: 300px;
+  height: 250px;
 }
 .Header .menu-button {
   display: none;
@@ -349,20 +350,21 @@
 
 .Footerlink {
   background-color: hsl(0, 10%, 0%);
-  color: rgb(66, 179, 18);
   text-align: center;
 }
 .Footerlink .footer-Texte {
-  color: rgb(66, 179, 18);
+  color: rgb(232, 196, 14);
+  text-decoration: none;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100px;
   width: 100%;
+  font-size: 20px;
 }
 .Footerlink .footer-Texte:hover {
-  color: rgb(232, 196, 14);
+  color: rgb(66, 179, 18);
 }
 
 * {
@@ -392,9 +394,6 @@ body {
   }
   .Home {
     margin-bottom: 32px;
-  }
-  .Home .P-HomePage {
-    color: rgb(66, 179, 18);
   }
   .Title-nosCocktails {
     color: rgb(232, 196, 14);
@@ -440,7 +439,6 @@ body {
   }
   .This-Cocktail-Card .into-Cocktail-Selection .App-Cocktail-link-TC:hover {
     color: rgb(66, 179, 18);
-    font-style: oblique;
   }
   .list-cocktail {
     flex-direction: column;
@@ -455,8 +453,5 @@ body {
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
-  }
-  .Footerlink .footer-Texte {
-    color: rgb(232, 196, 14);
   }
 }/*# sourceMappingURL=styles.css.map */

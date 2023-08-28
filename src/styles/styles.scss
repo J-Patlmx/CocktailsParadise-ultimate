@@ -49,10 +49,7 @@ body{
 //Home
 .Home{
     margin-bottom: 32px;
-        .P-HomePage
-        { color: $color-gitano;
-        }
-   
+
 }
 .Title-nosCocktails{
   color: $color-gitano-Hover;
@@ -116,7 +113,7 @@ body{
             text-decoration: none;
                     &:hover{
                             color: $color-gitano;
-                            font-style: oblique;
+                         
                         }
             }
 
@@ -142,14 +139,5 @@ body{
 }
 
 
-
-//FOOTER STYLE
-.Footerlink{
-    .footer-Texte{
-        
-        color: $color-gitano-Hover;
-    }
-    
-}
 
 }
