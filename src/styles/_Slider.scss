@@ -6,7 +6,7 @@
     
     .slider {
         display: flex;
-        transition: transform 0.5s infinite ease-in-out;
+        //transition: transform 0.5s infinite ease-in-out;
         
         .slider-item {
             flex: 0 0 100%;
@@ -15,7 +15,7 @@
         
         .App-Slider-link {
             text-decoration: none;
-            width: 100% auto;
+            //width: 100% auto;
             display: flex;
             overflow: hidden;
             

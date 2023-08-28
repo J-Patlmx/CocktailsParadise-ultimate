@@ -154,7 +154,6 @@
 }
 .slider-container .slider {
   display: flex;
-  transition: transform 0.5s infinite ease-in-out;
 }
 .slider-container .slider .slider-item {
   flex: 0 0 100%;
@@ -162,7 +161,6 @@
 }
 .slider-container .slider .App-Slider-link {
   text-decoration: none;
-  width: 100% auto;
   display: flex;
   overflow: hidden;
 }
@@ -266,10 +264,6 @@
   margin-top: 32px;
   height: 275px;
   width: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
 }
 
 .cocktail-wa {
@@ -318,10 +312,6 @@
 .This-Cocktail-Card .Ingredients-et-Img img {
   height: 275px;
   width: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
 }
 .This-Cocktail-Card .Ingredients-et-Img .list-ingredients {
   display: flex;
@@ -468,9 +458,5 @@ body {
     justify-content: center;
     height: 275px;
     width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: center;
-       object-position: center;
   }
 }/*# sourceMappingURL=styles.css.map */
