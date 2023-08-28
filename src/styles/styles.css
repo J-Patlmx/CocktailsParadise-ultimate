@@ -38,6 +38,7 @@
 .Header .App-header-link:hover {
   color: rgb(232, 196, 14);
   text-decoration: overline;
+  transform: scale(1.1);
 }
 .Header.open .Header-link {
   display: flex;
@@ -123,16 +124,28 @@
 }
 
 .button-player {
-  background: #000;
   display: flex;
   gap: 16px;
 }
 .button-player .playPause {
-  color: red;
+  background-color: hsl(0, 23%, 3%);
+  color: rgb(207, 23, 23);
+  border: 1px solid red;
+  padding: 10px;
+  cursor: pointer;
+}
+.button-player .playPause:hover {
+  transform: scale(1.1);
 }
 .button-player .muteunmute {
+  background-color: hsl(0, 23%, 3%);
   color: yellow;
-  color: rgb(54, 86, 6);
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid yellow;
+}
+.button-player .muteunmute:hover {
+  transform: scale(1.1);
 }
 
 .slider-container {

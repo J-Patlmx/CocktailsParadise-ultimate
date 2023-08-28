@@ -1,13 +1,26 @@
 //AUDIO PLAYER
 .button-player{
-    background: #000;
     display: flex;
     gap: 16px;
         .playPause{
-            color: red;
+            background-color: $color-black;
+            color: $color-red;
+            border: 1px solid red;
+            padding: 10px;
+            cursor: pointer;
+            &:hover{
+                transform: scale(1.1);}
         }
         .muteunmute{
+            background-color: $color-black;
             color: yellow;
-            color: rgb(54, 86, 6);
+            padding: 10px;
+            cursor: pointer;
+            border: 1px solid yellow;
+
+
+            &:hover{
+                transform: scale(1.1) ;
+            }
         }
 }
