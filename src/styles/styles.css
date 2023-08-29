@@ -35,6 +35,11 @@
   color: rgb(66, 179, 18);
   text-decoration: none;
 }
+.Header .App-header-link .fa-envelope,
+.Header .App-header-link .fa-martini-glass,
+.Header .App-header-link .fa-house {
+  display: none;
+}
 .Header .App-header-link:hover {
   color: rgb(232, 196, 14);
   text-decoration: overline;
@@ -44,6 +49,15 @@
   display: flex;
 }
 @media (max-width: 850px) {
+  .Header .fa-envelope {
+    color: rgb(66, 179, 18);
+  }
+  .Header .fa-martini-glass {
+    color: rgb(232, 196, 14);
+  }
+  .Header .fa-house {
+    color: rgb(207, 23, 23);
+  }
   .Header .menu-button {
     color: rgb(66, 179, 18);
     background: none;
@@ -61,6 +75,14 @@
   }
   .Header nav {
     font-size: 28px;
+  }
+  .Header nav .App-header-link {
+    gap: 16px;
+  }
+  .Header nav .App-header-link .fa-envelope,
+  .Header nav .App-header-link .fa-martini-glass,
+  .Header nav .App-header-link .fa-house {
+    display: block;
   }
   .Header .close-button {
     background: none;
@@ -140,8 +162,12 @@
 .button-player .playPause {
   background-color: hsl(0, 23%, 3%);
   color: rgb(207, 23, 23);
-  border: 1px solid red;
+  font-size: 32px;
+  width: 50px;
+  height: 50px;
+  border: 0;
   padding: 10px;
+  text-align: center;
   cursor: pointer;
 }
 .button-player .playPause:hover {
@@ -152,7 +178,10 @@
   color: yellow;
   padding: 10px;
   cursor: pointer;
-  border: 1px solid yellow;
+  border: 0;
+  font-size: 32px;
+  width: 50px;
+  height: 50px;
 }
 .button-player .muteunmute:hover {
   transform: scale(1.1);
@@ -384,6 +413,10 @@
 }
 .Footerlink .footer-Texte:hover {
   color: rgb(66, 179, 18);
+}
+.Footerlink .Img-Footer-Rs {
+  width: 50px;
+  height: 50px;
 }
 
 * {

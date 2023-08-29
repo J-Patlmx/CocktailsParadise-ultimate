@@ -26,13 +26,13 @@ function Header() {
       </button>
       <nav className={`Header-link ${isMenuOpen ? "open" : ""}`}>
         <NavLink className="App-header-link" to={"/home"} onClick={closeMenu}>
-          Accueil
+        <i className="fa-solid fa-house"></i> Accueil
         </NavLink>
         <NavLink className="App-header-link" to={"/cocktail"} onClick={closeMenu}>
-          Cocktails
+        <i className="fa-solid fa-martini-glass"></i>Cocktails
         </NavLink>
         <NavLink className="App-header-link" to={"/Contact"} onClick={closeMenu}>
-          Contact
+        <i className="fa-regular fa-envelope"></i>Contact
         </NavLink>
       <MusicPlayer />
       </nav>

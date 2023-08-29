@@ -1,5 +1,6 @@
 // Header
 .Header {
+    
     background-color: $bg-header-footer;
     color: $color-gitano;
     margin: auto;
@@ -40,6 +41,11 @@
         align-items: center;
         color: $color-gitano;
         text-decoration: none;
+        .fa-envelope, 
+    .fa-martini-glass, 
+    .fa-house{
+        display: none;
+    }
 
         &:hover {
             color: $color-gitano-Hover;
@@ -55,7 +61,18 @@
     }
 
     @media (max-width: 850px) {
-     
+        .fa-envelope{
+            color: $color-gitano;
+          
+        }
+        .fa-martini-glass{
+            color: $color-gitano-Hover;
+        
+        }
+        .fa-house{
+            color: $color-red;
+        
+        }
         .menu-button {
           color: $color-gitano;
             background: none;
@@ -77,8 +94,17 @@
 
 
     nav {
-      
+    
         font-size: 28px;
+        .App-header-link{
+            gap: 16px;
+            
+            .fa-envelope, 
+            .fa-martini-glass, 
+            .fa-house{
+                display: block;
+            }
+        }
     }
 
 
@@ -108,7 +134,8 @@
             display: none;
             flex-direction: column;
             align-items: center;
-            width: 100%;           
+            width:100%;  
+                
 
             &.open {
                 display: flex;
@@ -116,6 +143,7 @@
 
             .App-header-link {
                 margin-bottom: 16px;
+               
 
                 &:hover {
                     text-decoration: none;}
@@ -131,9 +159,9 @@
                 .App-logo {
                     padding: 0 10px;
                     width: 250px;
-                   height: 230px;}
+                    height: 230px;}
                 .menu-button {
-                
+
                     font-size: 23px;
                 
         }}

@@ -39,12 +39,12 @@ class MusicPlayer  extends Component {
           <div className="button-player">
                   <button className='playPause'
                       onClick={this.togglePlay}>
-                      {this.state.isPlaying ? 'Pause' : 'Play'}
+                      {this.state.isPlaying ? '⏸️' : '▶️'}
                   </button>
 
                   <button className='muteunmute' 
                       onClick={this.toggleMute}>
-                      {this.state.isMuted ? 'Unmute' : 'Mute'}
+                      {this.state.isMuted ? '🔈' : '🔇'}
                   </button>
           </div>
 
