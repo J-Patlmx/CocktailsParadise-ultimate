@@ -10,9 +10,9 @@
 }
 .Header .App-logo {
   margin-right: auto;
-  padding: 0 24px;
-  width: 250px;
-  height: 220px;
+  padding: 0 20px;
+  width: 270px;
+  height: 240px;
 }
 .Header .menu-button {
   display: none;
@@ -48,7 +48,7 @@
     color: rgb(66, 179, 18);
     background: none;
     border: none;
-    font-size: 40px;
+    font-size: 30px;
     cursor: pointer;
     margin-right: 16px;
     display: block;
@@ -65,7 +65,7 @@
   .Header .close-button {
     background: none;
     border: none;
-    font-size: 40px;
+    font-size: 30px;
     cursor: pointer;
     display: none;
     color: rgb(207, 23, 23);
@@ -96,6 +96,16 @@
   }
   .Header .Header-link .App-header-link:last-child {
     margin-bottom: 0;
+  }
+}
+@media (max-width: 320px) {
+  .Header .App-logo {
+    padding: 0 10px;
+    width: 250px;
+    height: 230px;
+  }
+  .Header .menu-button {
+    font-size: 23px;
   }
 }
 

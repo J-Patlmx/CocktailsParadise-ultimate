@@ -11,10 +11,10 @@
 
     .App-logo {
         margin-right: auto;
-        padding: 0 24px;
-        width: 250px;
-        height: 220px;
-        // TODO gerer limage pour screen max 370px
+        padding: 0 20px;
+        width: 270px;
+       height: 240px;
+  
     }
 
     .menu-button {
@@ -60,7 +60,7 @@
           color: $color-gitano;
             background: none;
             border: none;
-            font-size: 40px;
+            font-size: 30px;
             cursor: pointer;
             margin-right: 16px;
             display: block;
@@ -85,7 +85,7 @@
         .close-button {
             background: none;
             border: none;
-            font-size: 40px;
+            font-size: 30px;
             cursor: pointer;
             display: none;
             color: $color-red;
@@ -127,4 +127,15 @@
             }
         }
     }
+            @media (max-width: 320px) {
+                .App-logo {
+                    padding: 0 10px;
+                    width: 250px;
+                   height: 230px;}
+                .menu-button {
+                
+                    font-size: 23px;
+                
+        }}
+    
 }
