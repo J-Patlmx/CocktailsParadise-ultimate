@@ -13,8 +13,8 @@
     .App-logo {
         margin-right: auto;
         padding: 0 20px;
-        width: 270px;
-       height: 240px;
+        width: 250px;
+        height: 230px;
   
     }
 
@@ -97,6 +97,7 @@
     
         font-size: 28px;
         .App-header-link{
+
             gap: 16px;
             
             .fa-envelope, 
@@ -134,24 +135,25 @@
             display: none;
             flex-direction: column;
             align-items: center;
-            width:100%;  
+            // justify-content: left;
+            width:100vw;  
                 
 
             &.open {
                 display: flex;
+                
             }
-
+            
             .App-header-link {
                 margin-bottom: 16px;
-               
-
                 &:hover {
                     text-decoration: none;}
                 
 
-                &:last-child {
-                    margin-bottom: 0;
-                }
+            //    &:last-child {
+            //        margin-bottom:0;
+            //        border: 1px solid brown;
+            //    }
             }
         }
     }

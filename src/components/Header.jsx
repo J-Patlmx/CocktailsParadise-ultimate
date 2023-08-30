@@ -26,7 +26,7 @@ function Header() {
       </button>
       <nav className={`Header-link ${isMenuOpen ? "open" : ""}`}>
         <NavLink className="App-header-link" to={"/home"} onClick={closeMenu}>
-        <i className="fa-solid fa-house"></i> Accueil
+        <i className="fa-solid fa-house"></i>Accueil
         </NavLink>
         <NavLink className="App-header-link" to={"/cocktail"} onClick={closeMenu}>
         <i className="fa-solid fa-martini-glass"></i>Cocktails
