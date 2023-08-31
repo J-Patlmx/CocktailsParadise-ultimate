@@ -67,6 +67,7 @@
         }
         .fa-martini-glass{
             color: $color-gitano-Hover;
+            padding-left: 16px;
         
         }
         .fa-house{
@@ -94,16 +95,20 @@
 
 
     nav {
-    
+       
         font-size: 28px;
         .App-header-link{
 
             gap: 16px;
-            
+                &:active{
+                    color:aqua;
+                }
+               
             .fa-envelope, 
             .fa-martini-glass, 
             .fa-house{
                 display: block;
+                
             }
         }
     }
@@ -135,7 +140,6 @@
             display: none;
             flex-direction: column;
             align-items: center;
-            // justify-content: left;
             width:100vw;  
                 
 
@@ -146,14 +150,10 @@
             
             .App-header-link {
                 margin-bottom: 16px;
+            
                 &:hover {
                     text-decoration: none;}
                 
-
-            //    &:last-child {
-            //        margin-bottom:0;
-            //        border: 1px solid brown;
-            //    }
             }
         }
     }

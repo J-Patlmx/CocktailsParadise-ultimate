@@ -55,6 +55,7 @@
   }
   .Header .fa-martini-glass {
     color: rgb(232, 196, 14);
+    padding-left: 16px;
   }
   .Header .fa-house {
     color: rgb(207, 23, 23);
@@ -79,6 +80,9 @@
   }
   .Header nav .App-header-link {
     gap: 16px;
+  }
+  .Header nav .App-header-link:active {
+    color: aqua;
   }
   .Header nav .App-header-link .fa-envelope,
   .Header nav .App-header-link .fa-martini-glass,

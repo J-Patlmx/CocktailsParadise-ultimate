@@ -28,7 +28,7 @@ function Header() {
         <NavLink className="App-header-link" to={"/home"} onClick={closeMenu}>
         <i className="fa-solid fa-house"></i>Accueil
         </NavLink>
-        <NavLink className="App-header-link" to={"/cocktail"} onClick={closeMenu}>
+        <NavLink className="App-header-link " to={"/cocktail"} onClick={closeMenu}>
         <i className="fa-solid fa-martini-glass"></i>Cocktails
         </NavLink>
         <NavLink className="App-header-link" to={"/Contact"} onClick={closeMenu}>
