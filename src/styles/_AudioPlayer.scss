@@ -1,6 +1,9 @@
 //AUDIO PLAYER
 .button-player{
+    // padding: 32px;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     gap: 16px;
         .playPause{
             background-color: $color-black;

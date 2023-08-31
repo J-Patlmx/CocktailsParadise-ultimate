@@ -95,7 +95,7 @@
 
 
     nav {
-       
+      
         font-size: 28px;
         .App-header-link{
 
@@ -108,11 +108,23 @@
             .fa-martini-glass, 
             .fa-house{
                 display: block;
+              
                 
             }
         }
     }
+// TODO: cree un beau lecteur radio
 
+    .radiolecteur{
+    outline: 1px solid $bg-hover;
+padding: 16px;
+border-radius: 16px;
+box-shadow: 2px 0 2px 2px $bg-hover;
+        h6{
+            color: $color-gitano-Hover;
+        }
+
+    }
 
         .close-button {
             background: none;

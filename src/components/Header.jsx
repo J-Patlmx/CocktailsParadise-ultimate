@@ -34,7 +34,10 @@ function Header() {
         <NavLink className="App-header-link" to={"/Contact"} onClick={closeMenu}>
         <i className="fa-regular fa-envelope"></i>Contact
         </NavLink>
+        <div className="radiolecteur">
+        <h6>Lecteur Radio</h6>
       <MusicPlayer />
+        </div>
       </nav>
     </div>
   );

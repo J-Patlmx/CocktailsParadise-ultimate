@@ -89,6 +89,15 @@
   .Header nav .App-header-link .fa-house {
     display: block;
   }
+  .Header .radiolecteur {
+    outline: 1px solid hsl(0, 28%, 10%);
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 2px 0 2px 2px hsl(0, 28%, 10%);
+  }
+  .Header .radiolecteur h6 {
+    color: rgb(232, 196, 14);
+  }
   .Header .close-button {
     background: none;
     border: none;
@@ -159,6 +168,8 @@
 
 .button-player {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   gap: 16px;
 }
 .button-player .playPause {
