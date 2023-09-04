@@ -142,3 +142,10 @@ body{
 
 
 }
+
+@media (prefers-color-scheme: dark) {
+    body{
+        color:aquamarine;
+        background: red;
+    }
+}

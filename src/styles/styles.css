@@ -515,4 +515,10 @@ body {
     height: 275px;
     width: 100%;
   }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    color: aquamarine;
+    background: red;
+  }
 }/*# sourceMappingURL=styles.css.map */
