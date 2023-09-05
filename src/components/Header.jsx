@@ -35,7 +35,7 @@ function Header() {
         <i className="fa-regular fa-envelope"></i>Contact
         </NavLink>
         <div className="radiolecteur">
-        {/* <h6>Lecteur Radio</h6> */}
+        
       <MusicPlayer />
         </div>
       </nav>
