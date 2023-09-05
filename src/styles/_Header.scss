@@ -116,13 +116,14 @@
 // TODO: cree un beau lecteur radio
 
     .radiolecteur{
-    outline: 1px solid $bg-hover;
-padding: 16px;
-border-radius: 16px;
-box-shadow: 2px 0 2px 2px $bg-hover;
-        h6{
-            color: $color-gitano-Hover;
-        }
+        margin-bottom: 16px;
+        outline: 1px solid $bg-hover;
+        padding: 16px;
+        border-radius: 16px;
+        box-shadow: 2px 0 2px 2px $bg-hover;
+            h6{
+                color: $color-gitano-Hover;
+            }
 
     }
 

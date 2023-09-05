@@ -90,6 +90,7 @@
     display: block;
   }
   .Header .radiolecteur {
+    margin-bottom: 16px;
     outline: 1px solid hsl(0, 28%, 10%);
     padding: 16px;
     border-radius: 16px;
@@ -174,7 +175,6 @@
 }
 .button-player .playPause {
   background-color: hsl(0, 23%, 3%);
-  color: rgb(207, 23, 23);
   font-size: 32px;
   width: 50px;
   height: 50px;
@@ -188,7 +188,6 @@
 }
 .button-player .muteunmute {
   background-color: hsl(0, 23%, 3%);
-  color: yellow;
   padding: 10px;
   cursor: pointer;
   border: 0;
@@ -514,11 +513,5 @@ body {
     justify-content: center;
     height: 275px;
     width: 100%;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  body {
-    color: aquamarine;
-    background: red;
   }
 }/*# sourceMappingURL=styles.css.map */
