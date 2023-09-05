@@ -24,10 +24,23 @@ body{
     background-color:$bg-body-color;
 }
 
+@media (max-width: 500px) {
+    .Page-not-found{
+        h1{
+   font-size: 128px;
 
+
+        }
+        p{
+        //  font-size:32px;
+         width: 100vw;
+        }
+          }
+}
 @media (max-width: 850px) {
     body{
         background: $color-black;
+  
     }
 
 
@@ -40,7 +53,7 @@ body{
         padding-right: 16px;
 
     }
-
+  
 
 
 
