@@ -23,8 +23,8 @@ function App() {
                 L&#39;alcoolisme est une maladie alors on ne rigole pas avec ça et on reste tous bien veillant les uns en
                 vers les autres.<br />
 
-                Nous ne sommes pas partenaires, mais ça va dans le bon sens. 
-                <Link className="lienCapuchon" to="https://drink-watch.com/produit/">DRINK WATCH</Link> est un outil de prévention
+                Nous ne sommes pas partenaires, mais ça va dans le bon sens. le 
+                <Link className="lienCapuchon" to="https://drink-watch.com/produit/">  DRINK WATCH</Link> est un outil de prévention
                 et de dissuasion.<br />
 
 

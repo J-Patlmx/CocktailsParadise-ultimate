@@ -152,10 +152,10 @@
 .Home .P-HomePage {
   font-size: 24px;
   color: whitesmoke;
-  text-align: center;
   padding-left: 32px;
   padding-right: 32px;
   width: 100%;
+  text-align: left;
 }
 .Home .P-HomePage .lienCapuchon {
   color: rgb(50, 135, 14);
@@ -194,6 +194,14 @@
 }
 .button-player .muteunmute:hover {
   transform: scale(1.1);
+}
+
+.radiolecteur {
+  margin-bottom: 16px;
+  outline: 1px solid hsl(0, 28%, 10%);
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 2px 0 2px 2px hsl(0, 28%, 10%);
 }
 
 .slider-container {

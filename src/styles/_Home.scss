@@ -2,20 +2,20 @@
 //Home
 .Home{
     margin-bottom: 32px;
-    
-    .h1-HomePage{
-        text-align: center;
-        color:  $color-gitano-Hover;
-        margin-bottom: 32px;
-        font-size: 64px;
-    }
-    .P-HomePage{
+        .h1-HomePage{
+            text-align: center;
+            color:  $color-gitano-Hover;
+            margin-bottom: 32px;
+            font-size: 64px;
+        }
+        .P-HomePage{
             font-size: 24px;
             color: $color-P;
-            text-align: center;
             padding-left: 32px;
             padding-right: 32px;
             width: 100%;
+            text-align: left;
+
             .lienCapuchon{
                 color: $color-gitano-Variante;
                 font-weight: 600;
