@@ -26,93 +26,71 @@ body{
 
 @media (max-width: 500px) {
     .Page-not-found{
-        h1{
-   font-size: 128px;
-
-
-        }
-        p{
-        //  font-size:32px;
-         width: 100vw;
-        }
-          }
+            h1{
+                font-size: 128px;
+            }
+            
+            p{
+                width: 100vw;
+            }
+    }
 }
 @media (max-width: 850px) {
     body{
         background: $color-black;
-  
+
     }
-
-
     .slider-container{
         display: none;
     }
-
     .contact-form{
         padding-left: 16px;
         padding-right: 16px;
-
     }
   
-
-
-
-
-
 
 //Home
 .Home{
     margin-bottom: 32px;
-
-}
+    }
 .Title-nosCocktails{
-  color: $color-gitano-Hover;
+        color: $color-gitano-Hover;
         }
-
 .Cocktail-link-general{
     .Cocktail-link{
         flex-direction: column;
-
     }
     .Cocktails-choise{
         flex-direction: column-reverse;
         width: 100%;
             }
-
     }
-
 
 // COCKTAIL CARD
 .This-Cocktail-Card{
-
         line-height: 32px;
         text-align: center;
-        
     .Cocktail-name{
         color: $color-gitano-Hover;
     }
     .Ingredients-et-Img {
         flex-direction: column;
-        .list-ingredients{
-            img{
-                margin-bottom: 16px;
-            }
-        h2{
-            text-align: center;
-        margin-bottom: 16px;
-        }
-        }
-
-    ul{
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-        line-height: 33px;
-        text-align: justify;
-    
-
-    }
-
+                .list-ingredients{
+                    img{
+                        margin-bottom: 16px;
+                    }
+                    h2{
+                        text-align: center;
+                    margin-bottom: 16px;
+                    }
+                }
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        list-style: none;
+                        line-height: 33px;
+                        text-align: justify;
+                    }
     }
     p{
         margin-bottom: 16px;
@@ -125,31 +103,21 @@ body{
             text-decoration: none;
                     &:hover{
                             color: $color-gitano;
-
                         }
             }
-
     }
-
 }
 
-
-    
     .list-cocktail{
         flex-direction: column;
-
-            img{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                height: 275px;
-                width: 100%;
-            
-            }
-
-}
-
-
+                    img{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 275px;
+                        width: 100%;
+                    }
+                }
 
 }
 
