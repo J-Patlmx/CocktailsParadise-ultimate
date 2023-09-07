@@ -15,7 +15,6 @@
         padding: 0 20px;
         width: 250px;
         height: 230px;
-  
     }
 
     .menu-button {
@@ -51,7 +50,6 @@
             color: $color-gitano-Hover;
             text-decoration: overline;
             transform: scale(1.1) ;
-         
     }}
 
     &.open {
@@ -63,7 +61,6 @@
     @media (max-width: 850px) {
         .fa-envelope{
             color: $color-gitano;
-          
         }
         .fa-martini-glass{
             color: $color-gitano-Hover;
@@ -75,7 +72,7 @@
         
         }
         .menu-button {
-          color: $color-gitano;
+            color: $color-gitano;
             background: none;
             border: none;
             font-size: 30px;
@@ -86,10 +83,8 @@
             &:focus {
                 outline: none;
             }
-            
             &.open {
                 display: none;
-
             }
         }
 
@@ -158,14 +153,14 @@
         }
     }
             @media (max-width: 320px) {
-                .App-logo {
-                    padding: 0 10px;
-                    width: 250px;
-                    height: 230px;}
-                .menu-button {
-
-                    font-size: 23px;
-                
-        }}
+                    .App-logo {
+                        padding: 0 10px;
+                        width: 250px;
+                        height: 230px;
+                    }
+                    .menu-button {
+                        font-size: 23px;
+                    }
+    }
     
 }
