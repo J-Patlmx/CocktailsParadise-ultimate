@@ -1,11 +1,15 @@
+// @import  "./mixins";
 //Home
 .Home{
+
     margin-bottom: 32px;
         .h1-HomePage{
             text-align: center;
             color:  $color-gitano-Hover;
             margin-bottom: 32px;
-            font-size: 64px;
+            // font-size: 64px;
+            @include test;
+
         }
         .P-HomePage{
             font-size: 24px;
