@@ -3,15 +3,15 @@
     flex-direction: column;
     max-width: 400px;
     margin: 0 auto;
-    margin-bottom: 32px;
+    @include mb32;
   
     .form-group {
       display: flex;
       flex-direction: column;
-      margin-bottom: 1rem;
+      @include mb16;
   
       label {
-        margin-bottom: 0.5rem;
+       @include mb16;
         color: $color-gitano;
         font-size: 20px;
 

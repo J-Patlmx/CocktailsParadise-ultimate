@@ -1,3 +1,9 @@
 @mixin test {
     font-size: 70px;
 }
+@mixin mb16{
+    margin-bottom: 16px;
+}
+@mixin mb32{
+    margin-bottom: 32px;
+}

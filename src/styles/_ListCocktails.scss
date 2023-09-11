@@ -1,7 +1,7 @@
 //COCKTAILS COLLECTION
 .Title-nosCocktails{
     text-align: center;
-    margin-bottom: 64px;
+    @include mb16;
     color: $color-gitano-Hover;
     font-size: 48px;
 
@@ -9,7 +9,7 @@
 .Cocktail-link-general{
     font-size: 48px;
 
-    margin-bottom: 64px;
+     @include mb16;
     .Cocktail-link{
         display: flex;
         justify-content: space-around;
@@ -48,7 +48,7 @@
 .cocktail-wa{
     color: $color-gitano-Hover;
     text-align: center;
-    margin-bottom: 32px;
+    @include mb16;
     font-size: 48px;
 
 }

@@ -79,11 +79,11 @@ body{
         flex-direction: column;
                 .list-ingredients{
                     img{
-                        margin-bottom: 16px;
+                        @include mb16;
                     }
                     h2{
                         text-align: center;
-                    margin-bottom: 16px;
+                    @include mb16;
                     }
                 }
                     ul{
@@ -95,7 +95,7 @@ body{
                     }
     }
     p{
-        margin-bottom: 16px;
+        @include mb16;
         text-align: justify;
 
     }

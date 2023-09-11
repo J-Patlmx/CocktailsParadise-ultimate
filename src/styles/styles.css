@@ -134,7 +134,7 @@
 }
 
 .Home {
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 .Home .h1-HomePage {
   text-align: center;
@@ -145,8 +145,8 @@
 .Home .P-HomePage {
   font-size: 24px;
   color: whitesmoke;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
   width: 100%;
   text-align: left;
 }
@@ -232,10 +232,10 @@
 .contact-form .form-group {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 .contact-form .form-group label {
-  margin-bottom: 0.5rem;
+  margin-bottom: 16px;
   color: rgb(66, 179, 18);
   font-size: 20px;
 }
@@ -281,14 +281,14 @@
 
 .Title-nosCocktails {
   text-align: center;
-  margin-bottom: 64px;
+  margin-bottom: 16px;
   color: rgb(232, 196, 14);
   font-size: 48px;
 }
 
 .Cocktail-link-general {
   font-size: 48px;
-  margin-bottom: 64px;
+  margin-bottom: 16px;
 }
 .Cocktail-link-general .Cocktail-link {
   display: flex;
@@ -318,7 +318,7 @@
 .cocktail-wa {
   color: rgb(232, 196, 14);
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   font-size: 48px;
 }
 
@@ -380,7 +380,6 @@
 .This-Cocktail-Card p {
   padding-left: 32px;
   padding-right: 32px;
-  display: flex;
   font-size: 20px;
   margin-bottom: 32px;
 }

@@ -10,6 +10,6 @@
     font-size:48px;
     color: $color-gitano-Hover; 
         }
-    margin-bottom: 32px;
+    @include mb32;
 }
 
