@@ -133,7 +133,8 @@
         .Header-link {
 
             display: none;
-            flex-direction: column;
+            @include column;
+
             align-items: center;
             width:100vw;  
                 

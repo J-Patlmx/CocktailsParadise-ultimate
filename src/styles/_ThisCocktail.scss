@@ -21,13 +21,15 @@
         }
 
         .list-ingredients {
-            display: flex;
-            flex-direction: column;
+            @include flexColumn;
+
+
         }
 
         ul {
-            display: flex;
-            flex-direction: column;
+            @include flexColumn;
+
+
             list-style: circle;
             line-height: 33px;
             padding-left: 32px;

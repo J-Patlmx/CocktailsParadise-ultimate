@@ -7,3 +7,11 @@
 @mixin mb32{
     margin-bottom: 32px;
 }
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+@mixin column{
+    flex-direction: column;
+
+}

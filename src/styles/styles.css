@@ -223,16 +223,15 @@
 }
 
 .contact-form {
-  display: flex;
   flex-direction: column;
   max-width: 400px;
   margin: 0 auto;
   margin-bottom: 32px;
 }
 .contact-form .form-group {
+  margin-bottom: 16px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
 }
 .contact-form .form-group label {
   margin-bottom: 16px;
@@ -298,7 +297,6 @@
   gap: 16px;
 }
 .Cocktail-link-general .Cocktails-choise .App-Cocktail-link {
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;

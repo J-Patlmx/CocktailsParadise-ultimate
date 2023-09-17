@@ -1,15 +1,16 @@
 .contact-form {
-    display: flex;
-    flex-direction: column;
+  @include column;
+
     max-width: 400px;
     margin: 0 auto;
     @include mb32;
   
     .form-group {
-      display: flex;
-      flex-direction: column;
+      
       @include mb16;
-  
+      @include flexColumn;
+
+      
       label {
        @include mb16;
         color: $color-gitano;

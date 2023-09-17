@@ -60,7 +60,8 @@ body{
         }
 .Cocktail-link-general{
     .Cocktail-link{
-        flex-direction: column;
+              @include column;
+
     }
     .Cocktails-choise{
         flex-direction: column-reverse;
@@ -76,7 +77,8 @@ body{
         color: $color-gitano-Hover;
     }
     .Ingredients-et-Img {
-        flex-direction: column;
+              @include column;
+
                 .list-ingredients{
                     img{
                         @include mb16;
@@ -87,8 +89,9 @@ body{
                     }
                 }
                     ul{
-                        display: flex;
-                        flex-direction: column;
+                        @include flexColumn;
+
+
                         list-style: none;
                         line-height: 33px;
                         text-align: justify;
@@ -111,7 +114,8 @@ body{
 }
 
     .list-cocktail{
-        flex-direction: column;
+              @include column;
+
                     img{
                         display: flex;
                         align-items: center;

@@ -20,8 +20,8 @@
     .Cocktails-choise{
         
         .App-Cocktail-link{
-            display: flex;
-            flex-direction: column;
+            @include column;
+
             justify-content: space-between;
             align-items: center;
             font-size: 32px;   
