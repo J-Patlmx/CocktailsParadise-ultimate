@@ -298,6 +298,8 @@
 }
 .Cocktail-link-general .Cocktails-choise .App-Cocktail-link {
   flex-direction: column;
+  display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   font-size: 32px;

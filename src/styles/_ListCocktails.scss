@@ -18,10 +18,11 @@
         gap: 16px;
     }
     .Cocktails-choise{
-        
+      
         .App-Cocktail-link{
-            @include column;
-
+           @include column;
+           display: flex;
+           flex-wrap: nowrap;
             justify-content: space-between;
             align-items: center;
             font-size: 32px;   
@@ -29,6 +30,7 @@
             text-decoration: none;
                     &:hover{
                             color: $color-gitano-Hover;
+                     
                         }
             }
 
