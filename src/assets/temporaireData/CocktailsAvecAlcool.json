@@ -3,7 +3,7 @@
       {
         "id": "DDCAA123456",
         "name": "Margarita",
-        "video":"https://www.youtube.com/watch?v=VRLuazR3-Gc",
+        "video":"https://www.youtube.com/watch?v=4vHUvjdYBew&pp=ygUSY29ja3RhaWwgbWFyZ2FyaXRh",
         "ingredients": [
           "4,5 cl de tequila",
           "3 cl de jus de citron vert frais",
@@ -18,7 +18,7 @@
       {
         "id": "DDCAA654321",
         "name": "Piña Colada",
-        "video":"https://www.youtube.com/watch?v=VRLuazR3-Gc",
+        "video":"https://www.youtube.com/watch?v=W9W-JjxcIJU&pp=ygUUY29ja3RhaWwgcGluYSBjb2xhZGE%3D",
         "ingredients": [
           "4 cl de rhum blanc",
           "12 cl de lait de coco",
@@ -33,7 +33,7 @@
       {
         "id": "DDCAA789012D",
         "name": "Daiquiri",
-        "video":"https://www.youtube.com/watch?v=VRLuazR3-Gc",
+        "video":"https://www.youtube.com/watch?v=F9bty0r0BrI&pp=ygURY29ja3RhaWwgZGFpcXVpcmk%3D",
         "ingredients": [
           "6 cl de rhum blanc",
           "2 cl de jus de citron vert frais",
@@ -47,6 +47,7 @@
       {
         "id": "DDCAA345678",
         "name": "Cosmopolitan",
+        "video":"https://www.youtube.com/watch?v=MWvX4hlhfiY&pp=ygUVY29ja3RhaWwgY29zbW9wb2xpdGFu",
         "ingredients": [
           "4 cl de vodka",
           "2 cl de Cointreau",
@@ -77,7 +78,7 @@
       {
         "id": "DDCAA234567MO",
         "name": "Old Fashioned",
-        "video":"https://www.youtube.com/watch?v=VRLuazR3-Gc",
+        "video":"https://www.youtube.com/watch?v=FipbVbKMVZw&pp=ygUXY29ja3RhaWwgb2xkIGZhc2hpb25uZWQ%3D",
         "ingredients": [
           "6 cl de bourbon",
           "1 morceau de sucre",
@@ -121,7 +122,7 @@
      {
         "id": "DDCAA678901",
         "name": "Negroni",
-        "video":"https://www.youtube.com/watch?v=VRLuazR3-Gc",
+        "video":"https://www.youtube.com/watch?v=UbCSAm303RA&pp=ygURY29ja3RhaWwgbmVncm9ubmk%3D",
         "ingredients": [
           "3 cl de gin",
           "3 cl de Campari",
@@ -135,7 +136,7 @@
       {
         "id": "DDCAA789012",
         "name": "Sangria",
-        "video":"https://www.youtube.com/watch?v=VRLuazR3-Gc",
+        "video":"https://www.youtube.com/watch?v=eQTI8bJCV6Y&pp=ugMICgJmchABGAHKBRBjb2NrdGFpbCBzYW5ncmlh",
         "ingredients": [
           "1 bouteille de vin rouge",
           "6 cl de brandy",
@@ -153,7 +154,7 @@
       {
         "id": "DDCAA234567",
         "name": "Moscow Mule",
-        "video":"https://www.youtube.com/watch?v=VRLuazR3-Gc",
+        "video":"https://www.youtube.com/watch?v=RrkwhCwTA1g&pp=ygUUY29ja3RhaWwgbW9zY293IG11bGU%3D",
         "ingredients": [
           "4,5 cl de vodka",
           "12 cl de ginger beer",
