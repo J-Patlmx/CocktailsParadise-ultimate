@@ -18,7 +18,7 @@
       {
         "id": "DDCSA654321",
         "name": "Smoothie Piña Colada",
-        "video":"https://www.youtube.com/watch?v=VRLuazR3-Gc",
+        "video":"https://www.youtube.com/watch?v=k5FjKE9LNsA&pp=ygUUc21vb3RoaWUgcGluYSBjb2xhZGE%3D",
         "ingredients": [
           "1 tasse de morceaux d'ananas congelés",
           "12,5 cl de lait de coco",
@@ -34,7 +34,7 @@
       {
         "id": "DDCSA789012",
         "name": "Citronnade aux Fraises",
-        "video":"https://www.youtube.com/watch?v=VRLuazR3-Gc",
+        "video":"https://www.youtube.com/watch?v=s4lh9J-rNjU&pp=ygUXY2l0cm9uYWRlIGZyYWlzZSBjaXRyb24%3D",
         "ingredients": [
           "1 tasse de fraises fraîches",
           "6 cl de jus de citron fraîchement pressé",
@@ -49,7 +49,7 @@
       {
         "id": "DDCSA345678",
         "name": "Cocktail Concombre Menthe",
-        "video":"https://www.youtube.com/watch?v=VRLuazR3-Gc",
+        "video":"https://www.youtube.com/watch?v=zYRGQO44vBE&pp=ygUZY29ja3RhaWwgY29tY29tYnJlIG1lbnRoZQ%3D%3D",
         "ingredients": [
           "1 tasse de concombre, pelé et coupé en morceaux",
           "12,5 cl de jus de citron vert frais",
@@ -64,18 +64,18 @@
       },
       {
         "id": "DDCSA456789",
-        "name": "Cocktail Pastèque Basilic",
-        "video":"https://www.youtube.com/watch?v=VRLuazR3-Gc",
+        "name": "Cocktail Pastèque Menthe",
+        "video":"https://www.youtube.com/watch?v=W_aj_k4iIVQ&pp=ygUmY29ja3RhaWwgc2FucyBhbGNvb2wgIHBhc3RlcXVlIGJhc2lsaWM%3D",
         "ingredients": [
           "2 tasses de pastèque coupée en dés",
           "25 cl de jus de citron vert frais",
           "2 cuillères à soupe de miel",
-          "4 à 6 feuilles de basilic frais",
+          "4 à 6 feuilles de Menthe fraiches",
           "25 cl d'eau gazeuse",
           "Glaçons",
-          "Morceaux de pastèque et feuilles de basilic pour la décoration"
+          "Morceaux de pastèque et feuilles de Menthe pour la décoration"
         ],
-        "instructions": "Dans un mixeur, réduisez en purée la pastèque, le jus de citron vert, le miel et les feuilles de basilic jusqu'à obtenir une consistance lisse. Passez le mélange au tamis dans un verre rempli de glaçons. Ajoutez l'eau gazeuse par-dessus et remuez délicatement. Décorez avec des morceaux de pastèque et des feuilles de basilic.",
+        "instructions": "Dans un mixeur, réduisez en purée la pastèque, le jus de citron vert, le miel et les feuilles de Menthe jusqu'à obtenir une consistance lisse. Passez le mélange au tamis dans un verre rempli de glaçons. Ajoutez l'eau gazeuse par-dessus et remuez délicatement. Décorez avec des morceaux de pastèque et des feuilles de Menthe.",
         "photo": "https://zupimages.net/up/23/30/cdq5.jpg"
       },
       {
